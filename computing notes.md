@@ -43,10 +43,11 @@ Exemple of a batch job script to run the bismark test data set
 ```
 see <https://docs.csc.fi/computing/running/creating-job-scripts-puhti/>
 
+to run: `sbatch bismark_test1.sh`
 
+to check the jobs done or running: `sacct --format=jobid,partition,ncpus,ntasks,state,reqmem,systemcpu,maxrss,elapsed`
 
-
-
+to check the memory efficiency: `seff [jobID]`
 
 
 
