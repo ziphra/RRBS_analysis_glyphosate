@@ -1,12 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name=1_12_G
+#SBATCH --job-name=ffgctest
 #SBATCH --account=project_2003821
-#SBATCH --output=1_12_G_output.txt
-#SBATCH --error=1_12_G_ouput.txt
-#SBATCH --time=20:00:00
+#SBATCH --output=ffgctest_output.txt
+#SBATCH --error=ffgctest_error.txt
+#SBATCH --time=06:00:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=5
-#SBATCH --mem-per-cpu=6G
+#SBATCH --mem-per-cpu=2G
 #SBATCH --partition=small
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
@@ -29,16 +29,17 @@ sed 's/......$//' samples_raw${x} > samples${x}
 for sample in `cat samples${x}`
 do
     #fastqc raw data
-    fastqc -o ./output_quality_raw${x}/${sample} ./data${x}/${sample}.fastq
+    mkdir ./output_quality_raw${x}/fastqc_${sample}
+    fastqc -o ./output_quality_raw${x}/fastqc_${sample} ./data${x}/${sample}.fastq
     
     trim_galore -rrbs --illumina -o trimmed_${sample} -fastqc ./data${x}/${sample}.fastq
     
     # bismark
     # alignment
-    bismark -q --un --ambiguous -o ./bismark_output${x}/ ./refgen/ ./trimmed_${sample}/${sample}_trimmed.fq
+    bismark -q --un --ambiguous -o ./bismark_output${x}/ ../refgen/ ./trimmed_${sample}/${sample}_trimmed.fq
 
     # Extract methylated sites
-    bismark_methylation_extractor -s --bedGraph --counts --cytosine_report --zero_based --genome_folder ./refgen --output ./meth${x}/ ./bismark_output${x}/${sample}_trimmed_bismark_bt2.bam
+    bismark_methylation_extractor -s --bedGraph --counts --cytosine_report --zero_based --genome_folder ../refgen/ --output ./meth${x}/ ./bismark_output${x}/${sample}_trimmed_bismark_bt2.bam
 
 done
 

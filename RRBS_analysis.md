@@ -1,7 +1,7 @@
-# RRBS analysis - testings 
+# RRBS analysis 
 
-## test data 
-see [Bismark user guide](https://rawgit.com/FelixKrueger/Bismark/master/Docs/Bismark_User_Guide.html#appendix-iii-bismark-methylation-extracto)
+## test 
+see [Bismark user guide](https://rawgit.com/FelixKrueger/Bismark/master/Docs/Bismark_User_Guide.html#appendix-iii-bismark-methylation-extracto) 
 
 Import all the recquired dependencies (samtools, bamstool, cutadapt, fastqc... will be store in the PATH):  
 `module load biokit`
@@ -81,13 +81,25 @@ bismark_methylation_extractor
 - `--zero_based `: Uses 0-based genomic coordinates instead of 1-based coordinates. Default: OFF.
 
 
+
+
+
+-----------------------------------
+
+
+
+
+
+
 ## Test on Suvi's data 
 
 ### RRBS analysis loop 
 - `data` = a folder containing rrbs fastq files such as: "200022\_81\_B1_0\_S1\_L002\_R1\_001.fastq" 
 - `ls data > samples_raw` will put all the files name contained in data in a .txt file `samples_raw`.
 - `sed 's/......$//' samples_raw > samples` will delete the 6 last caracters of each line (".fastq"), and redirect the output into a txt file `samples`.
-- loop syntax: 
+- loop syntax:
+ 
+see script.
 
 ```bash
 for sample in `cat sample.txt`
@@ -104,12 +116,12 @@ done
 - unzip with `gzip -d` 
 - Change .fna to .fa
 
-Don't need to redo the `genome_preparation` for others analysis: `cp -r refgen path/to/newdir`
+Re run the `genome_preparation` for others analysis is not necesseray once it has been done: `cp -r refgen path/to/newdir`
 
 
 #### Memory and time allocated for 2 samples
 
-`seff` for 2 samples, with no `genome_preparation`: 4.30 GB used. Ran for 04:09 hours. The 2 samples size were 5,5Gb + 5,5Gb = 11Mb. 
+`seff` for 2 samples, with no `genome_preparation`: 4.30 GB used. Ran for 04:09 hours. The 2 samples size were 5,5Gb + 5,5Gb = 11Gb. 
 
 ```
 [servante@puhti-login2 ~]$ seff 4596077
@@ -189,9 +201,90 @@ export b=`basename $a`
 export x=_$b
 ```
 
-- `${x}` will then give back the last working directory path component and be replaced according to the working directory. 
+- `${x}` will then give back the last working directory path component: `echo data_${x}` print `data_1_12_G` when in the `1_12_G` directory. 
 
-- run the script in the directory of interest
+- Before running the script on all of the subsets, unzip all by `find . -name "*fastq.gz" -exec gzip -d {} \;`
 
-## The Bismark HTML Processing Report
+#### Time used to run bismark on the data 
+I used 3GB per core, but 1 is largely sufficient.
+
+```
+  JobID  Partition      NCPUS   NTasks      State     ReqMem  SystemCPU     MaxRSS    Elapsed 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- ---------- 
+4648497           small          5           COMPLETED        3Gc   02:46:17              16:03:28 
+4648497.bat+                     5        1  COMPLETED        3Gc   02:46:17   3237914K   16:03:28 
+4648497.ext+                     5        1  COMPLETED        3Gc   00:00:00       113K   16:03:28 
+4648498           small          5           COMPLETED        3Gc   03:41:10              21:13:55 
+4648498.bat+                     5        1  COMPLETED        3Gc   03:41:10   3237783K   21:13:55 
+4648498.ext+                     5        1  COMPLETED        3Gc   00:00:00       120K   21:13:55 
+4648499           small          5           COMPLETED        3Gc   04:33:41            1-00:37:09 
+4648499.bat+                     5        1  COMPLETED        3Gc   04:33:41   3237750K 1-00:37:09 
+4648499.ext+                     5        1  COMPLETED        3Gc   00:00:00       107K 1-00:37:09 
+4648500           small          5           COMPLETED        3Gc   03:50:16              21:52:16 
+4648500.bat+                     5        1  COMPLETED        3Gc   03:50:16   3238091K   21:52:16 
+4648500.ext+                     5        1  COMPLETED        3Gc   00:00:00       116K   21:52:16 
+4648501           small          5           COMPLETED        3Gc   03:39:59              19:48:08 
+4648501.bat+                     5        1  COMPLETED        3Gc   03:39:59   3237750K   19:48:08 
+4648501.ext+                     5        1  COMPLETED        3Gc   00:00:00       103K   19:48:08 
+4648502           small          5           COMPLETED        3Gc   03:34:28              21:02:19 
+4648502.bat+                     5        1  COMPLETED        3Gc   03:34:28   3237854K   21:02:19 
+4648502.ext+                     5        1  COMPLETED        3Gc   00:00:00       112K   21:02:19 
+4648503           small          5           COMPLETED        3Gc   03:22:10              22:31:28 
+4648503.bat+                     5        1  COMPLETED        3Gc   03:22:10   3237908K   22:31:28 
+4648503.ext+                     5        1  COMPLETED        3Gc   00:00:00       117K   22:31:28 
+4648504           small          5           COMPLETED        3Gc   03:46:56              21:59:14 
+4648504.bat+                     5        1  COMPLETED        3Gc   03:46:56   3237688K   21:59:14 
+4648504.ext+                     5        1  COMPLETED        3Gc   00:00:00       110K   21:59:14 
+4648505           small          5           COMPLETED        3Gc   03:02:40              18:17:48 
+4648505.bat+                     5        1  COMPLETED        3Gc   03:02:40   3237802K   18:17:48 
+4648505.ext+                     5        1  COMPLETED        3Gc   00:00:00       115K   18:17:48 
+4648506           small          5           COMPLETED        3Gc   04:03:24              23:18:08 
+4648506.bat+                     5        1  COMPLETED        3Gc   04:03:24   3237823K   23:18:08 
+4648506.ext+                     5        1  COMPLETED        3Gc   00:00:00       118K   23:18:08 
+4648507           small          5           COMPLETED        3Gc   03:46:20              22:58:43 
+4648507.bat+                     5        1  COMPLETED        3Gc   03:46:20   3238019K   22:58:43 
+4648507.ext+                     5        1  COMPLETED        3Gc   00:00:00       110K   22:58:43 
+4648508           small          5           COMPLETED        3Gc   03:28:25              21:36:26 
+4648508.bat+                     5        1  COMPLETED        3Gc   03:28:25   3237651K   21:36:26 
+4648508.ext+                     5        1  COMPLETED        3Gc   00:00:00       110K   21:36:26 
+4648509           small          5           COMPLETED        3Gc   02:51:52              19:37:44 
+4648509.bat+                     5        1  COMPLETED        3Gc   02:51:52   3237642K   19:37:44 
+4648509.ext+                     5        1  COMPLETED        3Gc   00:00:00       116K   19:37:44 
+4648510           small          5           COMPLETED        3Gc   03:12:45              21:23:50 
+4648510.bat+                     5        1  COMPLETED        3Gc   03:12:45   3237518K   21:23:50 
+4648510.ext+                     5        1  COMPLETED        3Gc   00:00:00        94K   21:23:50 
+4648511           small          5           COMPLETED        3Gc   03:37:41              22:36:38 
+4648511.bat+                     5        1  COMPLETED        3Gc   03:37:41   3237838K   22:36:38 
+4648511.ext+                     5        1  COMPLETED        3Gc   00:00:00       108K   22:36:38 
+```
+
+
+### The Bismark HTML Processing Report
+
+### multiqc 
+Gives a nice [html report](./multiqc_report.html) of bismark outputs
+
+- activate the venv where multiqc is installed: `source /scratch/project_2003821/RGQMA/my_venv/bin/activate`
+- Resolve the UTF8 problem by `export LC_ALL=en_US.utf8` & `export LANG=en_US.utf8` 
+
+Everything seems normal, accordind to the [multiqc html report](./multiqc_report.html). A high duplication level is normal. 
+
+## methylKit 
+methylKit is an R package for analysis and annotation of DNA methylation information obtained by high-throughput bisulfite sequencing. See [user guide](https://bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html#22_Reading_the_methylation_call_files_and_store_them_as_flat_file_database)
+
+### Data preparation 
+- First I need to get all the `zero.cov` files in the `meth` directories (the methylation extraction output directory), and store their names and all associated information (batch number, age, control or glyphosate) in a tab file for later use in methylKit. See the script to do that [here](./cov_tab.sh). I get a tab file (sampleID.csv) with `<name>	<cond>	<age>` and added a last column `<batch>` through Numbers.
+
+The coverage output looks like this:
+`<chromosome> <start position> <end position> <methylation percentage> <count methylated> <count unmethylated>`
+
+- File names and samples ID must be different
+	- I used the function TEXTBETWEEN in Numbers to get rid of the identical left and right parts of each file names, and saved the file as csv for later use in R. Now the csv file is composed of 5 colums `<file>	<cond>	<age>	<name>	<sex>` (the colum 5 is being built, as I have to add the sex of each samples manually).
+
+
+
+
+
+
+
 
