@@ -304,8 +304,8 @@ See Rscript
 		
 	4. **PCA analysis** on samples (see `PCA_screeplot_12_7.pdf`, 
 	`PCA_scatter_plot_12_7.pdf`,`PCA_meth_plot.pdf`). PCA is an unsupervised method used to explore the data variance structure by reducing its dimensions to a few principal components (PC) that explain the greatest variation in the data.
-	![](img/PCA_screeplot_12_7.pdf)
-	![](img/PCA_meth_plot_12_7.pdf)
+	![](img/PCA_screeplot_12_7.png)
+	![](img/PCA_scatter_plot_12_7.png)
 
 	5. **Batch effect**: check which one of the principal components are statistically associated with a potential batch effects. Can also be used to see if an other variable has an effect on the methylation.
 
@@ -388,8 +388,8 @@ summary of distances to the nearest TSS:
   0.58   0.06 
 ```
 
-![](img/DifferentialMethAnnot1.pdf) 
-![](img/DifferentialMethAnnot2.pdf)
+![](img/annot_gen_plot.png) 
+![](img/annot_islands_plot.png)
 
 
 
