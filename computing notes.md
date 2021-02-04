@@ -84,6 +84,9 @@ Or save workspace image...
 - `export LANG=en_US.utf8`
 
 
+## Interactive job in puhti 
+`sinteractive --account project_2003821 --time 48:00:00 --mem 30000 --tmp 400 -c 4`
+
 
 
 
