@@ -17,24 +17,24 @@ do
     for filename in `cat zerocovlist.txt`
     do
 
-        echo -e -n "\n `basename $filename`" >> allcov2.txt
+        echo -e -n "\n `basename $filename`" >> allcov3.txt
         
         if [[ "$folder" =~ "G" ]]
         then
-            echo -e -n "\t 2" >> allcov2.txt
+            echo -e -n "\t 2" >> allcov3.txt
         
         elif [[ "$folder" =~ "K" ]]
             then
-            echo -e -n "\t 1" >> allcov2.txt
+            echo -e -n "\t 1" >> allcov3.txt
         fi
      
         if [[ "$folder" =~ "12" ]]
         then
-            echo -e -n "\t 12" >> allcov2.txt
+            echo -e -n "\t 12" >> allcov3.txt
             
         elif [[ "$folder" =~ "7" ]]
         then
-            echo -e -n "\t 7" >> allcov2.txt
+            echo -e -n "\t 7" >> allcov3.txt
         fi
         
     done

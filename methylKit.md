@@ -2,26 +2,26 @@
 methylKit is an R package for analysis and annotation of DNA methylation information obtained by high-throughput bisulfite sequencing. See [user guide](https://bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html#22_Reading_the_methylation_call_files_and_store_them_as_flat_file_database)
 
 ### Data preparation 
-- First I need to get all the `zero.cov` files in the `meth` directories (the methylation extraction output directory), and store their names and all associated information (batch number, age, control or glyphosate) in a tab file for later use in methylKit. See the script to do that [here](./cov_tab.sh). I get a tab file (sampleID.csv) with `<name>	<cond>	<age>` and added a last column `<batch>` through Numbers.
+- First I need to get all the `zero.cov` files in the `meth` directories (the methylation extraction output directory) with ```for folder in `cat allfolders.txt`; do cp ./${folder}/meth_${folder}/*zero.cov cov_files;done```, and store their names and all associated information (batch number, age, control or glyphosate) in a tab file for later use in methylKit. See the script to do so [here](./cov_tab.sh). I get a tab file (sampleID.csv) with `<file>	<cond>	<age>` and added a last column `<batch>` by hands through Numbers.
 
 The coverage output looks like this:
 `<chromosome> <start position> <end position> <methylation percentage> <count methylated> <count unmethylated>`
 
 - File names and samples ID must be different
 	- I used the function TEXTBETWEEN in Numbers to get rid of the identical left and right parts of each file names, and saved the file as csv for later use in R. Now the csv file is composed of 5 colums `<file>	<cond>	<age>	<name>	<sex>`.
-	- To add the sex of each samples in my csv, using Suvi's excel sheet, see [script](nameToSex).
+	- To add the sex of each samples in my csv, using Suvi's excel sheet, see python [script](nameToSex).
 
 
-Follow the same process after having concatenated the 2 differents lanes of each samples in batch 5. 
+Followed the same process after having concatenated the 2 differents lanes of each samples in batch 5. 
 
-### See Rscript.
+### See pipeline Rscript.
 `/scratch/project_2003821/RGQMA/methylkit/methyl_kit_pipeline.R`
 
 
 ### Workflow summary
 
 1. **Basic**
-	1. Read the methylation call (.cov files obtained through bismark methylation extraction) and make a db 
+	1. Read the methylation call (.cov files obtained through bismark methylation extraction) and make a flat db 
 
 	2. Filtering samples based on read coverage: discard base with low coverage, to get rid of PCR mistakes, but also discard bases with very high coverage that could result from PCR bias. 
 
@@ -88,7 +88,7 @@ $diffMeth.all
 1                        67                    0.03482093                       29                   0.01507175
 ```
 	
-3. **Annotating differentially methylated regions/bases based on gene annotation:** the gene annotations can be read for a bed12 file. A GFF3 can be convert to a bed12 with the two scripts gtfToGenePred and genePredToBed from <http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/>. See [notes](<https://hgdownload.soe.ucsc.edu/downloads.html>) about 'permission denied' error
+3. **Annotating differentially methylated regions/bases based on gene annotation:** the gene annotations can be read from a bed12 file. A GFF3 can be convert to a bed12 with the two scripts gtfToGenePred and genePredToBed from <http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/>. See [notes](<https://hgdownload.soe.ucsc.edu/downloads.html>) about 'permission denied' error
 
 
 ``` 

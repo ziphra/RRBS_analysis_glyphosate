@@ -1,10 +1,10 @@
 # Bismark 
  
 
-## functions 
+## Preparation and usage 
 see [Bismark user guide](https://rawgit.com/FelixKrueger/Bismark/master/Docs/Bismark_User_Guide.html#appendix-iii-bismark-methylation-extracto) 
 
-Import all the recquired dependencies (samtools, bamstool, cutadapt, fastqc... will be store in the PATH):  
+First, import all the recquired dependencies (samtools, bamstool, cutadapt, fastqc... will be store in the PATH):  
 `module load biokit`
 
 set the PATH variables:  
@@ -13,16 +13,16 @@ set the PATH variables:
 dont start the path by `users/servante`!
 
 ### quality control - fastQC
-Quality control is done using FastQC, before the trimming to check the raw data. It identifies biases in base composition, read duplication, base quality, read length etc. and. 
-
+Quality control is done using FastQC, before the trimming to check the raw data. It identifies biases in base composition, read duplication, base quality, read length etc. 
 `fastqc -o ./data/output_quality_raw/ ./data/test_data.fastq`
 
-The output directory need to be created prior the fastqc! `mkdir quality_control_raw` 
+The output directory need to be created prior the fastqc! 
+`mkdir quality_control_raw` 
 
-It provides an htlm document in which to inspect the output, which contains: 
+It provides an htlm document in which to inspect the output, and contains: 
 
 - **Basic stats**
-- **Per base sequence quality**: ften, the quality of - especially very long - reads deteriorates towards later cycles.
+- **Per base sequence quality**: Often, the quality of - especially very long - reads deteriorates towards later cycles.
 - **Quality per tile**: Encoded in these is the flowcell tile from which each read came. The graph allows you to look at the quality scores from each tile across all of your bases to see if there was a loss in quality associated with only one part of the flowcell.
 - **Per sequence quality scores**
 - **Base composition plots**: allows to detect if the bisulfite conversion has worked. Typical BS- Seq experiments in mammals tend to have an average cytosine content of ~1-2% throughout the entire sequence length.
@@ -32,10 +32,9 @@ It provides an htlm document in which to inspect the output, which contains:
 
 ### trimming - TrimGalore
 Trimming of raw reads is done to remove low quality segments (Phred score of 20 or lower) from reads prior to analysis and the 2 extra bases due to RRBS and the illumina adapters.
-
 `for fastq in data/*.fastq trim_galore --rrbs --illumina -o ./trimmed_data --fastqc `
 
-- `rrbs`: identifies adapters, removes another 2 bp from the 3' end of Read 1, and for paired-end libraries also the first 2 bp of Read 2 (o avoid that the filled-in cytosine position close to the second MspI site in a sequence is used for methylation calls). Sequences trimmed because of poor quality will not be shortened any further.
+- `rrbs`: identifies adapters, removes another 2 bp from the 3' end of Read 1, and for paired-end libraries also the first 2 bp of Read 2 (to avoid that the filled-in cytosine position close to the second MspI site in a sequence is used for methylation calls). Sequences trimmed because of poor quality will not be shortened any further.
 - `illumina`: trim the first 13bp of the illumina universal adapter.
 - `fastqc`: check the quality on the trimmed sequences just as previously with the raw data
 
@@ -193,7 +192,10 @@ Mem BU: 1.48
 - refgen
 
 ```
-- This script allows to store the last component of the working directory path into the variable `x`. See [full script](./RRBS_analysis_RGQMA1.sh).
+
+**In order to run the analysis on all the data contained in the subset directories, in different batch job:**
+
+- These commands allow to store the last component of the working directory path into the variable `x`. See [full script](./RRBS_analysis_RGQMA1.sh).
 
 ```
 export a=`pwd`
@@ -201,11 +203,11 @@ export b=`basename $a`
 export x=_$b
 ```
 
-- `${x}` will then give back the last working directory path component: `echo data_${x}` print `data_1_12_G` when in the `1_12_G` directory. 
+- `${x}` will return the last working directory path component: `echo data_${x}` returns `data_1_12_G` when in the `1_12_G` directory. 
 
 - Before running the script on all of the subsets, unzip all by `find . -name "*fastq.gz" -exec gzip -d {} \;`
 
-- the `foldertorun.sh` script allows to run a sbatch job in all of the folders contained in `foldertorun.txt`, so all of the batches can be sent runnning all at once, without worrying about the working directory. 
+- the `foldertorun.sh` script allows to run a sbatch job in all of the folders listed in `foldertorun.txt`, so all of the batches can be sent runnning all at once, without worrying about the working directory. 
 
 #### Time used to run bismark on the data 
 I used 3GB per core, but 1 is largely sufficient.
@@ -269,7 +271,7 @@ Gives a nice [html report](./multiqc_report.html) of bismark outputs
 - activate the venv where multiqc is installed: `source /scratch/project_2003821/RGQMA/my_venv/bin/activate`
 - Resolve the UTF8 problem by `export LC_ALL=en_US.utf8` & `export LANG=en_US.utf8` 
 
-Everything seems normal, accordind to the [multiqc html report](./multiqc_report.html). A high duplication level is normal. 
+Everything seems normal, accordind to the [multiqc html report](./multiqc_report.html). A high duplication level is normal, and can't be differentiated from PCR bias. 
 
 
 
