@@ -63,7 +63,7 @@ This will produce 2 files: 1 report, and 1 `test_dataset_bismark_bt2.bam`
 #### Extract methylated sites 
 Extracts the methylation call for every single C analysed. The position of every single C will be written out to a new output file, depending on its context (CpG, CHG or CHH), whereby methylated Cs will be labelled as forward reads (+), non-methylated Cs as reverse reads (-)
 
-```unix
+```
 bismark_methylation_extractor 
 				-s 
 				--bedGraph
