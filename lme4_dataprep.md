@@ -63,10 +63,18 @@ done
 ### Create a data table sampleID\_name\_file_sex\_fam
 To add the parent ID to the table, since we only have the ParentID number for the ID7: 
 
-- Copy the 7 weeks ID column with corresponding 12 months ID from the Ruuskanen\_glypho\_quail\_methyl\_samplelist\_7wk_12mo\_20200319 file and parent ID  from Glypho_quail_parentID (by sorting the columns so individuals come in the same order). Thus, we have a 3 columns file ID7/ID12/ParentID. 
+- Copy the 7 weeks ID column with corresponding 12 months ID from the Ruuskanen\_glypho\_quail\_methyl\_samplelist\_7wk\_12mo\_20200319 file and parent ID  from Glypho\_quail\_parentID (by sorting the columns so individuals come in the same order). Thus, we have a 3 columns file ID7/ID12/ParentID. 
 - Retrieve ID from the cov file names in the table, with TEXTBETWEEN functions. 
 - Divide the table in 2, one for 7 weeks, one for 12 months. 
 - Sort the ID columns the same way 
 - Copy and paste the ParentID column
 
 ### Create a siblings matrix  
+
+### From wide, to long
+To pivot the data from wide to long, using the `file` column, since `pivot_longer` from tidy R seems to not be able to handle large dataset, as it takes forever, I used `dt_pivot_longer` from the package `tidyfast` which the goal is "to provide fast and efficient alternatives to some tidyr (and a few dplyr) functions using data.table under the hood".
+
+From a 440 977 rows table, and 101 columns, we end with 44 097 700 rows (=observations) and 3 columns (=variables).
+
+`merge` will allow to combine the other observations from the `sampleID_name_file_sex_fam` table to the new "long" table. 
+

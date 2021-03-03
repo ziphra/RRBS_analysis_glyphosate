@@ -75,9 +75,31 @@ Consider effects with rigorous a priori consideration of the system under study.
 ### How complex should my global model be?
 
 
+## Quantifying GLMM fit and performance
+The global model is usually the best. 
+
+Model fit and model adequacy are two separate but equally important traits that must be assessed and reported.
+
+### Inspection of residuals and linear model assumptions
+
+**Examine plots of residuals versus fitted values for the entire model, as well as model residuals versus all explanatory variables to look for patterns:**  
+`plot(glmer.model)`
 
 
+**Assumption of normality of deviations of the conditional means of the random effects from the global intercept:**   
+`qqnorm(resid(glmer.model))`
 
+### Overdispersion
+For generalized mixed models (GLMMs)(e.g. Poisson, Binomial), the variance of the data can be greater than predicted by the error structure of the model: it suggests the model is a bad fit. It can increases type I errors because standard errors are underestimated. See script and R package Squid. 
 
+### R<sup>2</sup>
+In a linear modelling context, R2 gives a measure of the proportion of explained variance in the model, and is an intuitive metric for assessing model fit. But not for GLMM 
 
+### Stability of variance components and testing significance of random effects
 
+## Model selection 
+### Stepwise selection 
+It is the comparaison of a candidate model to a *null model* and test the null-hypothesis significance.
+
+### Information-theory and multi-model inference 
+Difference among models in AIC should be representative in relative differences in KLD (a measure of the relative amount of information lost when a given model approximates the true data-generating process), and the model with the lowest AIC should lose the least information and be the best model in that it optimises the trade-off between fit and complexity.
