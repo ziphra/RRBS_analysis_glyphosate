@@ -1,0 +1,142 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ./data_4_12_K/200022_67_G1_0_S28_L002_R1_001.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.6
+Cutadapt version: 2.7
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+File was specified to be an MspI-digested RRBS sample. Read 1 sequences with adapter contamination will be trimmed a further 2 bp from their 3' end, and Read 2 sequences will be trimmed by 2 bp from their 5' end to remove potential methylation-biased bases from the end-repair reaction
+Running FastQC on the data once trimming has completed
+
+
+This is cutadapt 2.7 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -O 1 -a AGATCGGAAGAGC /scratch/project_2003821/RGQMA/RGQMA1/4_12_K/trimmed_200022_67_G1_0_S28_L002_R1_001/200022_67_G1_0_S28_L002_R1_001.fastq_qual_trimmed.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 252.81 s (8 us/read; 7.38 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              31,102,873
+Reads with adapters:                 4,044,277 (13.0%)
+Reads written (passing filters):    31,102,873 (100.0%)
+
+Total basepairs processed: 3,020,694,054 bp
+Total written (filtered):  3,013,453,759 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 4044277 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 51.9%
+  C: 0.3%
+  G: 15.9%
+  T: 31.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3260788	7775718.2	0	3260788
+2	231586	1943929.6	0	231586
+3	297769	485982.4	0	297769
+4	54028	121495.6	0	54028
+5	1063	30373.9	0	1063
+6	4631	7593.5	0	4631
+7	60	1898.4	0	60
+8	36	474.6	0	36
+9	94	118.6	0	92 2
+10	3094	29.7	1	91 3003
+11	153973	7.4	1	229 153744
+12	24561	1.9	1	3 24558
+13	63	0.5	1	5 58
+14	1013	0.5	1	15 998
+15	270	0.5	1	18 252
+16	1694	0.5	1	120 1574
+17	701	0.5	1	96 605
+18	604	0.5	1	169 435
+19	473	0.5	1	121 352
+20	87	0.5	1	11 76
+21	125	0.5	1	21 104
+22	100	0.5	1	23 77
+23	185	0.5	1	40 145
+24	703	0.5	1	193 510
+25	237	0.5	1	81 156
+26	200	0.5	1	51 149
+27	329	0.5	1	98 231
+28	690	0.5	1	183 507
+29	211	0.5	1	62 149
+30	50	0.5	1	19 31
+31	300	0.5	1	52 248
+32	222	0.5	1	59 163
+33	406	0.5	1	93 313
+34	340	0.5	1	88 252
+35	433	0.5	1	100 333
+36	110	0.5	1	35 75
+37	976	0.5	1	252 724
+38	154	0.5	1	38 116
+39	81	0.5	1	16 65
+40	142	0.5	1	30 112
+41	95	0.5	1	29 66
+42	186	0.5	1	24 162
+43	365	0.5	1	90 275
+44	113	0.5	1	20 93
+45	62	0.5	1	21 41
+46	85	0.5	1	20 65
+47	48	0.5	1	14 34
+48	28	0.5	1	9 19
+49	18	0.5	1	3 15
+50	8	0.5	1	1 7
+51	15	0.5	1	3 12
+52	41	0.5	1	9 32
+53	14	0.5	1	2 12
+54	41	0.5	1	9 32
+55	29	0.5	1	11 18
+56	41	0.5	1	7 34
+57	13	0.5	1	5 8
+58	27	0.5	1	1 26
+59	11	0.5	1	2 9
+61	4	0.5	1	0 4
+62	57	0.5	1	5 52
+63	35	0.5	1	1 34
+64	3	0.5	1	0 3
+65	58	0.5	1	6 52
+66	37	0.5	1	8 29
+67	125	0.5	1	22 103
+68	14	0.5	1	3 11
+69	8	0.5	1	1 7
+70	3	0.5	1	1 2
+71	1	0.5	1	1
+72	2	0.5	1	1 1
+73	3	0.5	1	0 3
+74	4	0.5	1	0 4
+75	10	0.5	1	2 8
+76	2	0.5	1	0 2
+77	4	0.5	1	1 3
+78	7	0.5	1	3 4
+79	2	0.5	1	0 2
+84	1	0.5	1	0 1
+85	2	0.5	1	0 2
+89	5	0.5	1	0 5
+93	11	0.5	1	0 11
+95	6	0.5	1	0 6
+96	3	0.5	1	0 3
+97	42	0.5	1	0 42
+101	6	0.5	1	0 6
+
+RUN STATISTICS FOR INPUT FILE: ./data_4_12_K/200022_67_G1_0_S28_L002_R1_001.fastq
+=============================================
+31102873 sequences processed in total
+Sequences were truncated to a varying degree because of deteriorating qualities (Phred score quality cutoff: 20):	914846 (2.9%)
+Sequences removed because they became shorter than the length cutoff of 20 bp:	19962 (0.1%)
+RRBS reads trimmed by additional 2 bp when adapter contamination was detected:	4044269 (13.0%)
+

@@ -1,0 +1,147 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ./data_3_12_G/200022_49_G8_0_S9_L001_R1_001.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.6
+Cutadapt version: 2.7
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+File was specified to be an MspI-digested RRBS sample. Read 1 sequences with adapter contamination will be trimmed a further 2 bp from their 3' end, and Read 2 sequences will be trimmed by 2 bp from their 5' end to remove potential methylation-biased bases from the end-repair reaction
+Running FastQC on the data once trimming has completed
+
+
+This is cutadapt 2.7 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -O 1 -a AGATCGGAAGAGC /scratch/project_2003821/RGQMA/RGQMA1/3_12_G/trimmed_200022_49_G8_0_S9_L001_R1_001/200022_49_G8_0_S9_L001_R1_001.fastq_qual_trimmed.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 361.48 s (8 us/read; 7.50 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              45,157,029
+Reads with adapters:                 5,604,225 (12.4%)
+Reads written (passing filters):    45,157,029 (100.0%)
+
+Total basepairs processed: 4,434,844,864 bp
+Total written (filtered):  4,424,542,962 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 5604225 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 50.5%
+  C: 0.2%
+  G: 14.8%
+  T: 34.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4441004	11289257.2	0	4441004
+2	340355	2822314.3	0	340355
+3	442282	705578.6	0	442282
+4	77905	176394.6	0	77905
+5	1108	44098.7	0	1108
+6	4786	11024.7	0	4786
+7	43	2756.2	0	43
+8	34	689.0	0	34
+9	97	172.3	0	94 3
+10	3479	43.1	1	71 3408
+11	235441	10.8	1	160 235281
+12	47061	2.7	1	4 47057
+13	67	0.7	1	13 54
+14	652	0.7	1	15 637
+15	248	0.7	1	17 231
+16	1200	0.7	1	147 1053
+17	620	0.7	1	104 516
+18	463	0.7	1	178 285
+19	376	0.7	1	121 255
+20	75	0.7	1	8 67
+21	72	0.7	1	14 58
+22	92	0.7	1	31 61
+23	184	0.7	1	55 129
+24	614	0.7	1	161 453
+25	206	0.7	1	66 140
+26	118	0.7	1	25 93
+27	227	0.7	1	63 164
+28	599	0.7	1	146 453
+29	145	0.7	1	44 101
+30	41	0.7	1	17 24
+31	238	0.7	1	22 216
+32	129	0.7	1	43 86
+33	199	0.7	1	42 157
+34	117	0.7	1	37 80
+35	760	0.7	1	204 556
+36	340	0.7	1	66 274
+37	760	0.7	1	202 558
+38	218	0.7	1	52 166
+39	101	0.7	1	23 78
+40	87	0.7	1	23 64
+41	17	0.7	1	5 12
+42	252	0.7	1	12 240
+43	331	0.7	1	92 239
+44	94	0.7	1	20 74
+45	64	0.7	1	17 47
+46	107	0.7	1	24 83
+47	45	0.7	1	15 30
+48	33	0.7	1	13 20
+49	21	0.7	1	6 15
+50	17	0.7	1	5 12
+51	14	0.7	1	4 10
+52	21	0.7	1	5 16
+53	6	0.7	1	0 6
+54	25	0.7	1	2 23
+55	12	0.7	1	1 11
+56	25	0.7	1	6 19
+57	5	0.7	1	1 4
+58	13	0.7	1	1 12
+59	8	0.7	1	2 6
+60	4	0.7	1	0 4
+61	4	0.7	1	2 2
+62	37	0.7	1	3 34
+63	43	0.7	1	2 41
+64	12	0.7	1	1 11
+65	72	0.7	1	20 52
+66	108	0.7	1	37 71
+67	73	0.7	1	16 57
+68	8	0.7	1	2 6
+69	6	0.7	1	2 4
+70	5	0.7	1	0 5
+71	7	0.7	1	2 5
+72	3	0.7	1	2 1
+73	3	0.7	1	2 1
+74	10	0.7	1	0 10
+75	8	0.7	1	1 7
+76	1	0.7	1	1
+77	4	0.7	1	2 2
+78	14	0.7	1	4 10
+79	2	0.7	1	1 1
+83	2	0.7	1	0 2
+84	2	0.7	1	0 2
+88	2	0.7	1	2
+89	1	0.7	1	0 1
+91	1	0.7	1	0 1
+92	3	0.7	1	0 3
+93	28	0.7	1	0 28
+95	11	0.7	1	3 8
+96	1	0.7	1	0 1
+97	78	0.7	1	0 78
+100	1	0.7	1	0 1
+101	18	0.7	1	0 18
+
+RUN STATISTICS FOR INPUT FILE: ./data_3_12_G/200022_49_G8_0_S9_L001_R1_001.fastq
+=============================================
+45157029 sequences processed in total
+Sequences were truncated to a varying degree because of deteriorating qualities (Phred score quality cutoff: 20):	1258442 (2.8%)
+Sequences removed because they became shorter than the length cutoff of 20 bp:	72337 (0.2%)
+RRBS reads trimmed by additional 2 bp when adapter contamination was detected:	5604204 (12.4%)
+

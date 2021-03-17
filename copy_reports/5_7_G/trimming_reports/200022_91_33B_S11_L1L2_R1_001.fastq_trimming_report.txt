@@ -1,0 +1,149 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ./concatenated/200022_91_33B_S11_L1L2_R1_001.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.6
+Cutadapt version: 2.7
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+File was specified to be an MspI-digested RRBS sample. Read 1 sequences with adapter contamination will be trimmed a further 2 bp from their 3' end, and Read 2 sequences will be trimmed by 2 bp from their 5' end to remove potential methylation-biased bases from the end-repair reaction
+Running FastQC on the data once trimming has completed
+
+
+This is cutadapt 2.7 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -O 1 -a AGATCGGAAGAGC /scratch/project_2003821/RGQMA/RGQMA1/5_7_G/trimmed_200022_91_33B_S11_L1L2_R1_001/200022_91_33B_S11_L1L2_R1_001.fastq_qual_trimmed.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 387.04 s (9 us/read; 7.05 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              45,453,475
+Reads with adapters:                 5,982,639 (13.2%)
+Reads written (passing filters):    45,453,475 (100.0%)
+
+Total basepairs processed: 4,429,908,459 bp
+Total written (filtered):  4,418,455,251 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 5982639 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 52.2%
+  C: 0.2%
+  G: 14.2%
+  T: 33.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4773004	11363368.8	0	4773004
+2	359310	2840842.2	0	359310
+3	384448	710210.5	0	384448
+4	81855	177552.6	0	81855
+5	1924	44388.2	0	1924
+6	6180	11097.0	0	6180
+7	71	2774.3	0	71
+8	36	693.6	0	36
+9	139	173.4	0	130 9
+10	5011	43.3	1	57 4954
+11	303023	10.8	1	395 302628
+12	53355	2.7	1	7 53348
+13	88	0.7	1	13 75
+14	1396	0.7	1	9 1387
+15	346	0.7	1	21 325
+16	1932	0.7	1	147 1785
+17	737	0.7	1	157 580
+18	766	0.7	1	287 479
+19	480	0.7	1	159 321
+20	89	0.7	1	16 73
+21	120	0.7	1	23 97
+22	106	0.7	1	35 71
+23	203	0.7	1	51 152
+24	770	0.7	1	235 535
+25	223	0.7	1	72 151
+26	229	0.7	1	61 168
+27	312	0.7	1	89 223
+28	648	0.7	1	162 486
+29	173	0.7	1	46 127
+30	46	0.7	1	15 31
+31	264	0.7	1	55 209
+32	93	0.7	1	21 72
+33	225	0.7	1	48 177
+34	239	0.7	1	57 182
+35	147	0.7	1	36 111
+36	365	0.7	1	92 273
+37	1366	0.7	1	338 1028
+38	487	0.7	1	98 389
+39	105	0.7	1	21 84
+40	178	0.7	1	36 142
+41	125	0.7	1	33 92
+42	362	0.7	1	30 332
+43	254	0.7	1	52 202
+44	79	0.7	1	17 62
+45	46	0.7	1	12 34
+46	77	0.7	1	19 58
+47	69	0.7	1	31 38
+48	56	0.7	1	12 44
+49	44	0.7	1	14 30
+50	21	0.7	1	2 19
+51	30	0.7	1	7 23
+52	26	0.7	1	4 22
+53	39	0.7	1	2 37
+54	50	0.7	1	10 40
+55	23	0.7	1	8 15
+56	56	0.7	1	19 37
+57	69	0.7	1	15 54
+58	40	0.7	1	4 36
+59	35	0.7	1	11 24
+60	4	0.7	1	0 4
+61	18	0.7	1	5 13
+62	60	0.7	1	7 53
+63	68	0.7	1	4 64
+64	10	0.7	1	3 7
+65	54	0.7	1	9 45
+66	33	0.7	1	7 26
+67	132	0.7	1	28 104
+68	17	0.7	1	4 13
+69	11	0.7	1	4 7
+70	14	0.7	1	6 8
+71	4	0.7	1	0 4
+72	3	0.7	1	1 2
+73	7	0.7	1	2 5
+74	10	0.7	1	0 10
+75	23	0.7	1	6 17
+76	4	0.7	1	0 4
+77	11	0.7	1	2 9
+78	48	0.7	1	12 36
+79	6	0.7	1	1 5
+80	1	0.7	1	0 1
+81	1	0.7	1	0 1
+83	5	0.7	1	3 2
+84	2	0.7	1	1 1
+88	2	0.7	1	0 2
+89	5	0.7	1	1 4
+91	1	0.7	1	0 1
+93	22	0.7	1	0 22
+94	5	0.7	1	0 5
+95	7	0.7	1	0 7
+96	2	0.7	1	0 2
+97	46	0.7	1	0 46
+99	1	0.7	1	0 1
+101	12	0.7	1	0 12
+
+RUN STATISTICS FOR INPUT FILE: ./concatenated/200022_91_33B_S11_L1L2_R1_001.fastq
+=============================================
+45453475 sequences processed in total
+Sequences were truncated to a varying degree because of deteriorating qualities (Phred score quality cutoff: 20):	1493857 (3.3%)
+Sequences removed because they became shorter than the length cutoff of 20 bp:	44928 (0.1%)
+RRBS reads trimmed by additional 2 bp when adapter contamination was detected:	5982625 (13.2%)
+
