@@ -25,7 +25,8 @@ Save the p values as a tab file in R:
 
 First, fix the chr names, then add a end columns, and sort. 
 ```
-sed 's/"//g' pv_fullF.txt | awk '{sub(/\_/," ",$1)};1' |sed -E -e 's/^.{2}/&_/' | awk '{print $1,$2,$2+1, $3}' OFS="\t" | sort -k1,1 -k2,2n >../bed/ fF.bed ```
+sed 's/"//g' pv_fullF.txt | awk '{sub(/\_/," ",$1)};1' |sed -E -e 's/^.{2}/&_/' | awk '{print $1,$2,$2+1, $3}' OFS="\t" | sort -k1,1 -k2,2n >../bed/ fF.bed 
+```
 
 Add header chrom/start/end/p-value mannually 
 
