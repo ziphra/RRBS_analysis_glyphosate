@@ -107,7 +107,7 @@ AAAS = 0005654
 
 To make the custom annotations files,
 
-- get the GO annotation of the gene_id we got with [g:Profiler converter](https://biit.cs.ut.ee/gprofiler/convert) and download the csv file.     
+- get the GO annotation of the gene_id we get with [g:Profiler converter](https://biit.cs.ut.ee/gprofiler/convert) and download the csv file.     
 - In numbers, keep the 2 columns of interest (gene id and GO id), add "=" between them, with `TEXTAFTER` delete `GO:` before each identifiers, and save as .tsv and then change the extension to .txt (to preserve leading 0!).
 - manually delete the `GO:` remaining alone, used for `TEXTAFTER`
 - `awk '{ print $1,$2,$4 }' FS="\t" refset.tsv > BINGO_annotations.txt` (will save the file as a space separated file)
@@ -117,7 +117,7 @@ To make the custom annotations files,
 
 ## Gene Ontology 
 see [article](doi: 10.1111/mec.12309)
-### G:profiler
+### g:Profiler
 
 GO provides a largely species-neutral source of information on the molecular function, biological role and cellular location of tens of thousands of gene products.
 
@@ -125,10 +125,14 @@ GO provides a largely species-neutral source of information on the molecular fun
 Make the GO enrichment analysis against all the sites tested for differential methylation (22k sites) that are in promoters. 
 
 - To use a custom GMT, see **reference set** in BiNGO above. Keep the columns gene id and GO id from the csv from g:Convert in `goids_annotations.txt`. WARNING: the gene `PES1` is replace with `"PES 1"`: manually modify it. 
-- Then: `sort -k2,2 goids_annotations.txt  | awk '{if($2!=prev) {printf("%s%s\tNA\t%s",(NR==1?"":"\n"),$2,$1);prev=$2;next;} else printf(" %s",$1);} END{printf("\n");}'`
+- Then: `sort -k2,2 goids_annotations.txt  | awk '{if($2!=prev) {printf("%s%s\t\t%s",(NR==1?"":"\n"),$2,$1);prev=$2;next;} else printf(" %s",$1);} END{printf("\n");}'`
 - `cat annotations1.GMT | tr " " "\t" > annotations.GMT` will replace the space between genes with \t 
 
-Can also test sites of interest against all CpGs with 10x coverage (440k sites). Retreives gene ID and GO annotations just like it has been done above. 
+Can also test sites of interest against all CpGs with 10x coverage (440k sites). Retreive gene ID and GO annotations just like it has been done above. 
 
-          
-            
+### g:Profiler, second try 
+- Make a second costum file WITH the terms names
+```
+sort -k2,2 gProfiler_cjaponica.txt| awk '{if($2!=prev) {printf("%s%s\t"$4"\t%s",(NR==1?"":"\n"),$2,$1);prev=$2;next;} else printf("\t%s",$1);} END{printf("\n");}' FS="\t" > goidsannotations_terms.txt      
+```
+-
