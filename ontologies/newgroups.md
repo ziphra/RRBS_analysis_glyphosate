@@ -8,6 +8,7 @@ Same thing than with goatools, except that we don't look for match in the groupe
 - Find mygoids.txt present in `key_obo.txt `: `gawk -v ORS="\n\n" 'BEGIN {IGNORECASE = 1; RS="\n\n"} /MY/ || /GOIDS/ {print}' key_obo.txt > file.txt`
 - Copy results in number. 
 
+grouping.sh 
 
 ## Putative effects of Glyphosate and keywords
 Ruuskanen, S., Rainio, M.J., Gómez-Gallego, C., Selenius, O., Salminen, S., Collado, M.C., Saikkonen, K., Saloniemi, I., Helander, M., 2020. **Glyphosate-based herbicides influence antioxidants, reproductive hormones and gut microbiome but not reproduction: A long-term experiment in an avian model.** Environmental Pollution 266, 115108. <https://doi.org/10.1016/j.envpol.2020.115108>
