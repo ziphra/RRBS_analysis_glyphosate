@@ -16,4 +16,4 @@ grep "XXXX" goatools_comparisons.txt | sed 's/XXXX //' > sharedbyall.txt
 
 awk 'BEGIN{FS=" ";OFS=" "} {print $1,"#",$2,$3,$4,$5}'  sharedbyall.txt
 
-go_plot.py --go_file=sharedbyall.txt -o sharedbyall.pn
+go_plot.py --go_file=sharedbyall.txt -o sharedbyall.png
