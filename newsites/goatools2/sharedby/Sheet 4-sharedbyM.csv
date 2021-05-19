@@ -1,0 +1,12 @@
+,,,,,7,12
+GO:0009887,BP,982,D03,animal organ morphogenesis,HHIP,PBX1
+GO:0006355,BP,306,D09,regulation of transcription. DNA-templated,TLX1,"MSX2,NEUROG3,NKX2-3,PBX1,TBX18,TLX1"
+GO:0007165,BP,1654,D04,signal transduction,HHIP,SH2B2
+GO:0030183,BP,47,D07,B cell differentiation,CLCF1,NKX2-3
+GO:0008284,BP,97,D05,positive regulation of cell population proliferation,CLCF1,PBX1
+GO:0005576,CC,93,D02,extracellular region,CLCF1,PLA2G12B
+GO:0005515,MF,921,D02,protein binding,LINGO3,"BBS2,BTBD17,ESPN,LOC107321537,PACSIN1"
+GO:0008270,MF,1,D06,zinc ion binding,HHIP,"LOC107321537,MARCHF2"
+GO:0003677,MF,130,D04,DNA binding,TLX1,"MSX2,NKX2-3,PBX1,PIN4,TLX1,TSHZ2"
+GO:0003700,MF,10,D02,DNA-binding transcription factor activity,TLX1,"PBX1,TBX18,TLX1"
+GO:0000981,MF,3,D03,DNA-binding transcription factor activity. RNA polymerase II-specific,TLX1,"MSX2,NKX2-3,PBX1,TLX1"

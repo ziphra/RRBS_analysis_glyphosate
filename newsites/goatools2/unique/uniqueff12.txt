@@ -1,0 +1,121 @@
+GO:0042391 BP   132 D03  regulation of membrane potential
+GO:0001508 BP    76 D04  action potential
+GO:0043388 BP    11 D05  positive regulation of DNA binding
+GO:1904798 BP     0 D07  positive regulation of core promoter binding
+GO:0030203 BP    35 D05  glycosaminoglycan metabolic process
+GO:0001503 BP    32 D02  ossification
+GO:0001974 BP     7 D03  blood vessel remodeling
+GO:0003016 BP     5 D03  respiratory system process
+GO:0044241 BP     4 D03  lipid digestion
+GO:0032713 BP     0 D08  negative regulation of interleukin-4 production
+GO:0007507 BP   447 D04  heart development
+GO:0003007 BP   197 D04  heart morphogenesis
+GO:0030900 BP   193 D03  forebrain development
+GO:0001568 BP   168 D03  blood vessel development
+GO:0001501 BP   114 D04  skeletal system development
+GO:0043010 BP    92 D06  camera-type eye development
+GO:0007517 BP    87 D04  muscle organ development
+GO:0043583 BP    65 D05  ear development
+GO:0043588 BP    53 D04  skin development
+GO:0021549 BP    42 D03  cerebellum development
+GO:0001657 BP    37 D08  ureteric bud development
+GO:0072010 BP    33 D07  glomerular epithelium development
+GO:0048644 BP    21 D04  muscle organ morphogenesis
+GO:0048844 BP    21 D05  artery morphogenesis
+GO:0048339 BP    13 D05  paraxial mesoderm development
+GO:0021772 BP    12 D03  olfactory bulb development
+GO:0001945 BP    11 D03  lymph vessel development
+GO:0055010 BP     8 D06  ventricular cardiac muscle tissue morphogenesis
+GO:0016525 BP     4 D08  negative regulation of angiogenesis
+GO:0036342 BP     0 D03  post-anal tail morphogenesis
+GO:0032808 BP     0 D05  lacrimal gland development
+GO:0021759 BP     0 D04  globus pallidus development
+GO:1901491 BP     0 D06  negative regulation of lymphangiogenesis
+GO:1990869 BP    22 D06  cellular response to chemokine
+GO:0071364 BP     0 D06  cellular response to epidermal growth factor stimulus
+GO:0071321 BP     0 D07  cellular response to cGMP
+GO:0071320 BP     0 D07  cellular response to cAMP
+GO:0019915 BP    14 D03  lipid storage
+GO:0030001 BP   136 D06  metal ion transport
+GO:0006813 BP    46 D06  potassium ion transport
+GO:0032410 BP    44 D06  negative regulation of transporter activity
+GO:0048762 BP    79 D04  mesenchymal cell differentiation
+GO:0072148 BP    41 D04  epithelial cell fate commitment
+GO:0014031 BP    14 D04  mesenchymal cell development
+GO:0014032 BP    13 D05  neural crest cell development
+GO:0060231 BP    11 D05  mesenchymal to epithelial transition
+GO:0010718 BP     8 D06  positive regulation of epithelial to mesenchymal transition
+GO:0045198 BP     2 D06  establishment of epithelial cell apical/basal polarity
+GO:0045618 BP     0 D08  positive regulation of keratinocyte differentiation
+GO:0070098 BP    21 D07  chemokine-mediated signaling pathway
+GO:0038084 BP    12 D08  vascular endothelial growth factor signaling pathway
+GO:0048010 BP     8 D08  vascular endothelial growth factor receptor signaling pathway
+GO:0045732 BP    18 D07  positive regulation of protein catabolic process
+GO:0045619 BP    84 D07  regulation of lymphocyte differentiation
+GO:0002761 BP    31 D07  regulation of myeloid leukocyte differentiation
+GO:1901534 BP     5 D06  positive regulation of hematopoietic progenitor cell differentiation
+GO:0002829 BP     2 D06  negative regulation of type 2 immune response
+GO:1902038 BP     0 D07  positive regulation of hematopoietic stem cell differentiation
+GO:0050728 BP    27 D07  negative regulation of inflammatory response
+GO:0031398 BP    12 D10  positive regulation of protein ubiquitination
+GO:0001541 BP    23 D04  ovarian follicle development
+GO:0006689 BP     0 D09  ganglioside catabolic process
+GO:0009313 BP    42 D05  oligosaccharide catabolic process
+GO:0055085 BP   747 D04  transmembrane transport
+GO:0071805 BP    42 D08  potassium ion transmembrane transport
+GO:0035725 BP    30 D08  sodium ion transmembrane transport
+GO:0098719 BP     3 D09  sodium ion import across plasma membrane
+GO:1990573 BP     3 D09  potassium ion import across plasma membrane
+GO:0016477 BP   521 D04  cell migration
+GO:0001764 BP    22 D05  neuron migration
+GO:0021800 BP     8 D08  cerebral cortex tangential migration
+GO:0021831 BP     2 D09  embryonic olfactory bulb interneuron precursor migration
+GO:0021853 BP     0 D10  cerebral cortex GABAergic interneuron migration
+GO:0008354 BP     3 D05  germ cell migration
+GO:0035050 BP    26 D05  embryonic heart tube development
+GO:0001756 BP    16 D05  somitogenesis
+GO:0048341 BP    10 D05  paraxial mesoderm formation
+GO:0048302 BP     2 D10  regulation of isotype switching to IgG isotypes
+GO:0048294 BP     0 D11  negative regulation of isotype switching to IgE isotypes
+GO:1902257 BP     0 D10  negative regulation of apoptotic process involved in outflow tract morphogenesis
+GO:0036438 BP     1 D06  maintenance of lens transparency
+GO:0008283 BP   485 D02  cell population proliferation
+GO:0021846 BP    17 D04  cell proliferation in forebrain
+GO:0051260 BP     8 D07  protein homooligomerization
+GO:0046620 BP    19 D05  regulation of organ growth
+GO:0046622 BP     6 D06  positive regulation of organ growth
+GO:0060038 BP     4 D05  cardiac muscle cell proliferation
+GO:0097746 BP    42 D06  blood vessel diameter maintenance
+GO:0045930 BP    47 D06  negative regulation of mitotic cell cycle
+GO:0042130 BP     9 D09  negative regulation of T cell proliferation
+GO:0007411 BP    70 D04  axon guidance
+GO:0051224 BP    32 D07  negative regulation of protein transport
+GO:0050877 BP   254 D03  nervous system process
+GO:0050884 BP     4 D05  neuromuscular process controlling posture
+GO:0050885 BP     4 D05  neuromuscular process controlling balance
+GO:0007611 BP    23 D05  learning or memory
+GO:0042755 BP     8 D03  eating behavior
+GO:0007034 BP    83 D04  vacuolar transport
+GO:1903053 BP    19 D05  regulation of extracellular matrix organization
+GO:0030199 BP     3 D06  collagen fibril organization
+GO:0030425 CC    41 D05  dendrite
+GO:0045211 CC    24 D05  postsynaptic membrane
+GO:0042734 CC    15 D05  presynaptic membrane
+GO:0032809 CC     0 D03  neuronal cell body membrane
+GO:0005938 CC    75 D03  cell cortex
+GO:0008076 CC    15 D07  voltage-gated potassium channel complex
+GO:0098855 CC     0 D08  HCN channel complex
+GO:0032588 CC     0 D06  trans-Golgi network membrane
+GO:0000792 CC    14 D03  heterochromatin
+GO:0003682 MF     8 D02  chromatin binding
+GO:1990841 MF     0 D03  promoter-specific chromatin binding
+GO:0044325 MF     0 D03  ion channel binding
+GO:0050699 MF     0 D04  WW domain binding
+GO:0005249 MF    15 D09  voltage-gated potassium channel activity
+GO:0005248 MF     6 D09  voltage-gated sodium channel activity
+GO:0005222 MF     2 D10  intracellular cAMP-activated cation channel activity
+GO:0004563 MF     2 D06  beta-N-acetylhexosaminidase activity
+GO:0000976 MF    34 D07  transcription cis-regulatory region binding
+GO:0008301 MF     4 D05  DNA binding, bending
+GO:0008047 MF    52 D01  enzyme activator activity
+GO:0008134 MF    38 D03  transcription factor binding

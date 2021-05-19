@@ -1,0 +1,189 @@
+GO:0060271 BP    29 D07  cilium assembly
+GO:1905515 BP     3 D08  non-motile cilium assembly
+GO:0019222 BP  3242 D03  regulation of metabolic process
+GO:0006508 BP   249 D05  proteolysis
+GO:0030278 BP     8 D04  regulation of ossification
+GO:0001655 BP   618 D04  urogenital system development
+GO:0009791 BP   382 D02  post-embryonic development
+GO:0022612 BP    97 D04  gland morphogenesis
+GO:0048565 BP    59 D04  digestive tract development
+GO:0051216 BP    59 D04  cartilage development
+GO:0001525 BP    39 D03  angiogenesis
+GO:0021987 BP    36 D03  cerebral cortex development
+GO:0009954 BP    32 D04  proximal/distal pattern formation
+GO:0031018 BP    22 D03  endocrine pancreas development
+GO:0003197 BP    20 D05  endocardial cushion development
+GO:0072189 BP    15 D04  ureter development
+GO:0001658 BP    11 D07  branching involved in ureteric bud morphogenesis
+GO:0048854 BP     9 D04  brain morphogenesis
+GO:0021756 BP     4 D03  striatum development
+GO:0030325 BP     3 D05  adrenal gland development
+GO:0021766 BP     3 D03  hippocampus development
+GO:0048621 BP     2 D04  post-embryonic digestive tract morphogenesis
+GO:0071773 BP    29 D06  cellular response to BMP stimulus
+GO:0071281 BP     6 D06  cellular response to iron ion
+GO:0044321 BP     3 D05  response to leptin
+GO:0008104 BP   705 D03  protein localization
+GO:0033365 BP   315 D05  protein localization to organelle
+GO:0072657 BP   147 D05  protein localization to membrane
+GO:0006412 BP   231 D07  translation
+GO:0045892 BP   113 D10  negative regulation of transcription, DNA-templated
+GO:0006821 BP    10 D07  chloride transport
+GO:0050482 BP     3 D10  arachidonic acid secretion
+GO:0015937 BP     1 D11  coenzyme A biosynthetic process
+GO:0030154 BP  2407 D03  cell differentiation
+GO:0022008 BP   691 D04  neurogenesis
+GO:0048666 BP   296 D04  neuron development
+GO:0045666 BP    20 D06  positive regulation of neuron differentiation
+GO:0045665 BP    18 D06  negative regulation of neuron differentiation
+GO:0045444 BP     9 D04  fat cell differentiation
+GO:0001649 BP     9 D04  osteoblast differentiation
+GO:0001570 BP     7 D04  vasculogenesis
+GO:0003323 BP     4 D07  type B pancreatic cell development
+GO:0050873 BP     3 D05  brown fat cell differentiation
+GO:0003198 BP     3 D07  epithelial to mesenchymal transition involved in endocardial cushion formation
+GO:0045603 BP     2 D07  positive regulation of endothelial cell differentiation
+GO:0060842 BP     2 D07  arterial endothelial cell differentiation
+GO:0045669 BP     0 D06  positive regulation of osteoblast differentiation
+GO:0060930 BP     0 D07  sinoatrial node cell fate commitment
+GO:2001214 BP     0 D06  positive regulation of vasculogenesis
+GO:0060931 BP     0 D07  sinoatrial node cell development
+GO:0035556 BP   376 D05  intracellular signal transduction
+GO:0019221 BP   113 D06  cytokine-mediated signaling pathway
+GO:0030509 BP    28 D08  BMP signaling pathway
+GO:0050848 BP    16 D07  regulation of calcium-mediated signaling
+GO:0008286 BP    12 D08  insulin receptor signaling pathway
+GO:0043491 BP     3 D06  protein kinase B signaling
+GO:0060395 BP     3 D05  SMAD protein signal transduction
+GO:0033210 BP     1 D07  leptin-mediated signaling pathway
+GO:0060391 BP     0 D08  positive regulation of SMAD protein signal transduction
+GO:0038108 BP     0 D10  negative regulation of appetite by leptin-mediated signaling pathway
+GO:0006955 BP   752 D02  immune response
+GO:0050776 BP   455 D04  regulation of immune response
+GO:0043367 BP    39 D09  CD4-positive, alpha-beta T cell differentiation
+GO:0030851 BP    18 D06  granulocyte differentiation
+GO:0050851 BP    13 D09  antigen receptor-mediated signaling pathway
+GO:0030225 BP     8 D06  macrophage differentiation
+GO:0048538 BP     3 D05  thymus development
+GO:0002317 BP     3 D10  plasma cell differentiation
+GO:0048537 BP     2 D05  mucosa-associated lymphoid tissue development
+GO:0048536 BP     1 D05  spleen development
+GO:0048541 BP     1 D06  Peyer's patch development
+GO:0048535 BP     0 D05  lymph node development
+GO:0006954 BP   168 D04  inflammatory response
+GO:0032873 BP     5 D09  negative regulation of stress-activated MAPK cascade
+GO:0016567 BP    64 D09  protein ubiquitination
+GO:0006469 BP    20 D10  negative regulation of protein kinase activity
+GO:0050731 BP     7 D10  positive regulation of peptidyl-tyrosine phosphorylation
+GO:0010862 BP     0 D10  positive regulation of pathway-restricted SMAD protein phosphorylation
+GO:0030539 BP     3 D05  male genitalia development
+GO:0016042 BP   191 D04  lipid catabolic process
+GO:0006644 BP   178 D05  phospholipid metabolic process
+GO:0006641 BP    17 D07  triglyceride metabolic process
+GO:0006695 BP     6 D07  cholesterol biosynthetic process
+GO:0051792 BP     0 D09  medium-chain fatty acid biosynthetic process
+GO:0032349 BP     0 D10  positive regulation of aldosterone biosynthetic process
+GO:1900535 BP     0 D10  palmitic acid biosynthetic process
+GO:0034220 BP   536 D05  ion transmembrane transport
+GO:0050900 BP   158 D05  leukocyte migration
+GO:0060296 BP     1 D08  regulation of cilium beat frequency involved in ciliary motility
+GO:0007214 BP     1 D04  gamma-aminobutyric acid signaling pathway
+GO:0031666 BP     0 D07  positive regulation of lipopolysaccharide-mediated signaling pathway
+GO:0048568 BP   137 D04  embryonic organ development
+GO:0048706 BP    10 D05  embryonic skeletal system development
+GO:0035162 BP     8 D06  embryonic hemopoiesis
+GO:0030326 BP     6 D05  embryonic limb morphogenesis
+GO:2001234 BP    23 D08  negative regulation of apoptotic signaling pathway
+GO:0001776 BP    37 D05  leukocyte homeostasis
+GO:0045494 BP     0 D02  photoreceptor cell maintenance
+GO:0001922 BP     0 D08  B-1 B cell homeostasis
+GO:0060586 BP     0 D10  multicellular organismal iron ion homeostasis
+GO:0050679 BP    17 D06  positive regulation of epithelial cell proliferation
+GO:0001938 BP     2 D07  positive regulation of endothelial cell proliferation
+GO:0060252 BP     2 D09  positive regulation of glial cell proliferation
+GO:0045806 BP    14 D07  negative regulation of endocytosis
+GO:0048488 BP    12 D07  synaptic vesicle endocytosis
+GO:0035265 BP    68 D03  organ growth
+GO:0060736 BP     6 D04  prostate gland growth
+GO:0035264 BP     4 D03  multicellular organism growth
+GO:0040018 BP     0 D06  positive regulation of multicellular organism growth
+GO:0040015 BP     0 D06  negative regulation of multicellular organism growth
+GO:0030036 BP   165 D06  actin cytoskeleton organization
+GO:0007015 BP    80 D05  actin filament organization
+GO:0051017 BP    17 D07  actin filament bundle assembly
+GO:0007288 BP     0 D09  sperm axoneme assembly
+GO:0097320 BP     3 D06  plasma membrane tubulation
+GO:0042311 BP     9 D07  vasodilation
+GO:0014824 BP     4 D09  artery smooth muscle contraction
+GO:0043117 BP     3 D06  positive regulation of vascular permeability
+GO:0098907 BP     0 D06  regulation of SA node cell action potential
+GO:0010971 BP     1 D09  positive regulation of G2/M transition of mitotic cell cycle
+GO:2000048 BP     0 D07  negative regulation of cell-cell adhesion mediated by cadherin
+GO:0036114 BP     0 D13  medium-chain fatty-acyl-CoA catabolic process
+GO:0036116 BP     0 D13  long-chain fatty-acyl-CoA catabolic process
+GO:0043001 BP     8 D08  Golgi to plasma membrane protein transport
+GO:0051930 BP     4 D07  regulation of sensory perception of pain
+GO:0007601 BP     2 D06  visual perception
+GO:1903392 BP     0 D06  negative regulation of adherens junction organization
+GO:0030534 BP    11 D02  adult behavior
+GO:0006418 BP    43 D10  tRNA aminoacylation for protein translation
+GO:0006425 BP     1 D11  glutaminyl-tRNA aminoacylation
+GO:0006364 BP    65 D09  rRNA processing
+GO:0045047 BP    10 D08  protein targeting to ER
+GO:0006614 BP     4 D10  SRP-dependent cotranslational protein targeting to membrane
+GO:0030501 BP     1 D07  positive regulation of bone mineralization
+GO:0098833 CC     6 D02  presynaptic endocytic zone
+GO:0005902 CC     5 D05  microvillus
+GO:0001726 CC     1 D04  ruffle
+GO:0005923 CC     1 D06  bicellular tight junction
+GO:0098684 CC     0 D05  photoreceptor ribbon synapse
+GO:0032587 CC     0 D05  ruffle membrane
+GO:0032991 CC  2098 D01  protein-containing complex
+GO:0005667 CC    82 D02  transcription regulator complex
+GO:0048500 CC     3 D03  signal recognition particle
+GO:0017101 CC     0 D02  aminoacyl-tRNA synthetase multienzyme complex
+GO:0005786 CC     0 D04  signal recognition particle, endoplasmic reticulum targeting
+GO:0031410 CC   290 D06  cytoplasmic vesicle
+GO:0005783 CC   106 D05  endoplasmic reticulum
+GO:0030137 CC     7 D08  COPI-coated vesicle
+GO:0032420 CC     6 D05  stereocilium
+GO:0005730 CC    24 D05  nucleolus
+GO:0016607 CC     1 D03  nuclear speck
+GO:0005884 CC     4 D06  actin filament
+GO:0005813 CC     4 D03  centrosome
+GO:0045095 CC     0 D07  keratin filament
+GO:0001725 CC     0 D04  stress fiber
+GO:0005694 CC   192 D05  chromosome
+GO:0031514 CC    31 D05  motile cilium
+GO:0036064 CC     9 D03  ciliary basal body
+GO:0034464 CC     0 D02  BBSome
+GO:0016790 MF    41 D04  thiolester hydrolase activity
+GO:0004623 MF     2 D06  phospholipase A2 activity
+GO:0016290 MF     0 D07  palmitoyl-CoA hydrolase activity
+GO:0043021 MF    14 D03  ribonucleoprotein complex binding
+GO:0000062 MF     1 D09  fatty-acyl-CoA binding
+GO:0046982 MF     0 D04  protein heterodimerization activity
+GO:0030942 MF     0 D05  endoplasmic reticulum signal peptide binding
+GO:0070700 MF     0 D06  BMP receptor binding
+GO:0036042 MF     0 D10  long-chain fatty acyl-CoA binding
+GO:0005230 MF    20 D08  extracellular ligand-gated ion channel activity
+GO:0004888 MF   325 D03  transmembrane signaling receptor activity
+GO:0004890 MF     0 D05  GABA-A receptor activity
+GO:0004631 MF     0 D05  phosphomevalonate kinase activity
+GO:0004819 MF     0 D05  glutamine-tRNA ligase activity
+GO:0003755 MF     0 D04  peptidyl-prolyl cis-trans isomerase activity
+GO:0005525 MF     0 D08  GTP binding
+GO:0019003 MF     0 D08  GDP binding
+GO:0008312 MF     0 D05  7S RNA binding
+GO:0005543 MF    21 D03  phospholipid binding
+GO:0004252 MF     0 D05  serine-type endopeptidase activity
+GO:0008092 MF    53 D03  cytoskeletal protein binding
+GO:0003779 MF     3 D04  actin binding
+GO:0051015 MF     1 D05  actin filament binding
+GO:0005198 MF    42 D01  structural molecule activity
+GO:0001103 MF    16 D05  RNA polymerase II-specific DNA-binding transcription factor binding
+GO:0008083 MF     0 D05  growth factor activity
+GO:0035591 MF     5 D03  signaling adaptor activity
+GO:0005068 MF     0 D08  transmembrane receptor protein tyrosine kinase adaptor activity
+GO:0004860 MF     8 D03  protein kinase inhibitor activity
+GO:0003924 MF     3 D07  GTPase activity

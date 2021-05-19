@@ -1,0 +1,4 @@
+-c 4 --seed 0.05 --dist 300 -p ./bed/newfM_pv_fullM12.bed ./bed/newfM_pv_fullM12.bed
+
+date: 2021-05-18 12:33:40.142141
+version: 0.50.4

@@ -1,0 +1,11 @@
+GO:0009887 BP   982 D03  animal organ morphogenesis
+GO:0006355 BP   306 D09  regulation of transcription, DNA-templated
+GO:0007165 BP  1654 D04  signal transduction
+GO:0030183 BP    47 D07  B cell differentiation
+GO:0008284 BP    97 D05  positive regulation of cell population proliferation
+GO:0005576 CC    93 D02  extracellular region
+GO:0005515 MF   921 D02  protein binding
+GO:0008270 MF     1 D06  zinc ion binding
+GO:0003677 MF   130 D04  DNA binding
+GO:0003700 MF    10 D02  DNA-binding transcription factor activity
+GO:0000981 MF     3 D03  DNA-binding transcription factor activity, RNA polymerase II-specific

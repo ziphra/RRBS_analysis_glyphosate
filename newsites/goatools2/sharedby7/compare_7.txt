@@ -1,0 +1,144 @@
+  EXISTS: go-basic.obo
+go-basic.obo: fmt(1.2) rel(2021-05-01) 47,284 GO Terms; optional_attrs(relationship)
+  61 GO IDs READ: ./ff7genetogo.txt
+  35 GO IDs READ: ./fm7genetogo.txt
+ GoSubDag:  93 sources in 606 GOs rcnt(True). 0 alt GO IDs
+ GoSubDag: namedtuple fields: NS level depth reldepth GO alt GO_name dcnt D1 childcnt REL REL_short rel id
+ GoSubDag: relationships: {'negatively_regulates', 'regulates', 'positively_regulates', 'part_of'}
+  EXISTS: goslim_generic.obo
+goslim_generic.obo: fmt(1.2) rel(None) 247 GO Terms
+# ----------------------------------------------------------------
+# - Description of GO ID fields
+# ----------------------------------------------------------------
+# Versions:
+#    go-basic.obo: fmt(1.2) rel(2021-05-01) 47,284 GO Terms; optional_attrs(relationship)
+#    goslim_generic.obo: fmt(1.2) rel(None) 247 GO Terms
+
+# Marker keys:
+#     X -> GO is present in ff7genetogo
+#     X -> GO is present in fm7genetogo
+
+# GO Namspaces:
+#     BP -> Biological Process
+#     MF -> Molecular Function
+#     CC -> Cellular Component
+
+# Depth information:
+#     int -> number of GO descendants
+#     Dnn -> depth (maximum distance from root to node)
+
+SECTION: Misc.
+X. GO:0007399 BP  1256 D04  nervous system development
+.X GO:0009887 BP   982 D03  animal organ morphogenesis
+.X GO:0048705 BP    59 D04  skeletal system morphogenesis
+.X GO:0009953 BP    43 D04  dorsal/ventral pattern formation
+.X GO:0060441 BP    20 D07  epithelial tube branching involved in lung morphogenesis
+.X GO:0006355 BP   306 D09  regulation of transcription, DNA-templated
+X. GO:0045893 BP    99 D10  positive regulation of transcription, DNA-templated
+X. GO:0045944 BP    63 D11  positive regulation of transcription by RNA polymerase II
+X. GO:0000122 BP    33 D11  negative regulation of transcription by RNA polymerase II
+X. GO:0006783 BP    11 D07  heme biosynthetic process
+X. GO:0006264 BP     4 D08  mitochondrial DNA replication
+.X GO:0048711 BP     1 D10  positive regulation of astrocyte differentiation
+.X GO:0007165 BP  1654 D04  signal transduction
+.X GO:0007166 BP   719 D05  cell surface receptor signaling pathway
+.X GO:0009968 BP   308 D06  negative regulation of signal transduction
+X. GO:0007186 BP   174 D05  G protein-coupled receptor signaling pathway
+.X GO:0007259 BP    15 D07  receptor signaling pathway via JAK-STAT
+.X GO:0040036 BP     8 D06  regulation of fibroblast growth factor receptor signaling pathway
+.X GO:0045879 BP     3 D07  negative regulation of smoothened signaling pathway
+X. GO:0046628 BP     3 D07  positive regulation of insulin receptor signaling pathway
+.X GO:0030183 BP    47 D07  B cell differentiation
+.X GO:0002639 BP     7 D08  positive regulation of immunoglobulin production
+X. GO:0006974 BP   181 D04  cellular response to DNA damage stimulus
+X. GO:0045860 BP    34 D10  positive regulation of protein kinase activity
+.X GO:0042531 BP     0 D11  positive regulation of tyrosine phosphorylation of STAT protein
+X. GO:0045737 BP     1 D12  positive regulation of cyclin-dependent protein serine/threonine kinase activity
+X. GO:0019853 BP     4 D07  L-ascorbic acid biosynthetic process
+X. GO:0007140 BP    12 D08  male meiotic nuclear division
+X. GO:0001701 BP    42 D07  in utero embryonic development
+.X GO:0048295 BP     1 D11  positive regulation of isotype switching to IgE isotypes
+.X GO:0043524 BP     7 D08  negative regulation of neuron apoptotic process
+XX GO:0008284 BP    97 D05  positive regulation of cell population proliferation
+.X GO:0007405 BP    20 D04  neuroblast proliferation
+.X GO:0030890 BP     0 D09  positive regulation of B cell proliferation
+X. GO:0006907 BP    12 D06  pinocytosis
+X. GO:0042147 BP     6 D06  retrograde transport, endosome to Golgi
+X. GO:0000082 BP    12 D05  G1/S transition of mitotic cell cycle
+X. GO:0006886 BP   139 D06  intracellular protein transport
+X. GO:0043039 BP    47 D09  tRNA aminoacylation
+X. GO:0006419 BP     2 D11  alanyl-tRNA aminoacylation
+X. GO:0000002 BP     8 D06  mitochondrial genome maintenance
+X. GO:0043504 BP     0 D08  mitochondrial DNA repair
+X. GO:0016021 CC   232 D03  integral component of membrane
+.X GO:0005887 CC   124 D04  integral component of plasma membrane
+.X GO:0009986 CC    19 D02  cell surface
+X. GO:0070685 CC     2 D04  macropinocytic cup
+X. GO:0005737 CC  1226 D02  cytoplasm
+X. GO:0005829 CC    84 D02  cytosol
+X. GO:0048471 CC     7 D02  perinuclear region of cytoplasm
+X. GO:0031234 CC     2 D04  extrinsic component of cytoplasmic side of plasma membrane
+X. GO:0030904 CC     2 D03  retromer complex
+X. GO:0043231 CC  1289 D04  intracellular membrane-bounded organelle
+X. GO:0005739 CC    91 D05  mitochondrion
+X. GO:0005741 CC    11 D06  mitochondrial outer membrane
+X. GO:0031901 CC     7 D06  early endosome membrane
+X. GO:0031313 CC     4 D04  extrinsic component of endosome membrane
+X. GO:0097422 CC     0 D02  tubular endosome
+X. GO:0005634 CC   490 D05  nucleus
+X. GO:0005654 CC    86 D02  nucleoplasm
+.X GO:0005576 CC    93 D02  extracellular region
+.X GO:0097058 CC     0 D02  CRLF-CLCF1 complex
+.X GO:0097059 CC     0 D02  CNTFR-CLCF1 complex
+.X GO:0003824 MF  7614 D01  catalytic activity
+X. GO:0008146 MF    68 D04  sulfotransferase activity
+X. GO:0061630 MF     1 D05  ubiquitin protein ligase activity
+X. GO:0004341 MF     0 D05  gluconolactonase activity
+.X GO:0005515 MF   921 D02  protein binding
+.X GO:0005102 MF   419 D03  signaling receptor binding
+X. GO:0003676 MF   313 D03  nucleic acid binding
+X. GO:0000166 MF    60 D04  nucleotide binding
+X. GO:0046983 MF     2 D03  protein dimerization activity
+.X GO:0097108 MF     0 D03  hedgehog family protein binding
+X. GO:0020037 MF     0 D04  heme binding
+X. GO:0042803 MF     0 D04  protein homodimerization activity
+.X GO:0005127 MF     0 D05  ciliary neurotrophic factor receptor binding
+X. GO:0004930 MF   158 D04  G protein-coupled receptor activity
+X. GO:0016500 MF     9 D03  protein-hormone receptor activity
+X. GO:0004968 MF     0 D05  gonadotropin-releasing hormone receptor activity
+X. GO:0004812 MF    27 D04  aminoacyl-tRNA ligase activity
+X. GO:0004813 MF     0 D05  alanine-tRNA ligase activity
+X. GO:0005509 MF     4 D05  calcium ion binding
+XX GO:0008270 MF     1 D06  zinc ion binding
+X. GO:0005524 MF     0 D08  ATP binding
+.X GO:0003677 MF   130 D04  DNA binding
+X. GO:0008297 MF     2 D08  single-stranded DNA exodeoxyribonuclease activity
+X. GO:0035091 MF    11 D04  phosphatidylinositol binding
+X. GO:0030234 MF    82 D02  enzyme regulator activity
+X. GO:0019901 MF    15 D05  protein kinase binding
+X. GO:0034452 MF     0 D04  dynactin binding
+.X GO:0005125 MF     1 D05  cytokine activity
+X. GO:0030295 MF     7 D03  protein kinase activator activity
+XX GO:0003700 MF    10 D02  DNA-binding transcription factor activity
+.X GO:0000981 MF     3 D03  DNA-binding transcription factor activity, RNA polymerase II-specific
+# ----------------------------------------------------------------
+# - Description of GO ID fields
+# ----------------------------------------------------------------
+# Versions:
+#    go-basic.obo: fmt(1.2) rel(2021-05-01) 47,284 GO Terms; optional_attrs(relationship)
+#    goslim_generic.obo: fmt(1.2) rel(None) 247 GO Terms
+
+# Marker keys:
+#     X -> GO is present in ff7genetogo
+#     X -> GO is present in fm7genetogo
+
+# GO Namspaces:
+#     BP -> Biological Process
+#     MF -> Molecular Function
+#     CC -> Cellular Component
+
+# Depth information:
+#     int -> number of GO descendants
+#     Dnn -> depth (maximum distance from root to node)
+
+93 GO IDs in 1 sections

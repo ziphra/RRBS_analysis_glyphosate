@@ -1,0 +1,14 @@
+GO:0045893 BP    99 D10  positive regulation of transcription, DNA-templated
+GO:0045944 BP    63 D11  positive regulation of transcription by RNA polymerase II
+GO:0000122 BP    33 D11  negative regulation of transcription by RNA polymerase II
+GO:0001701 BP    42 D07  in utero embryonic development
+GO:0005829 CC    84 D02  cytosol
+GO:0048471 CC     7 D02  perinuclear region of cytoplasm
+GO:0043231 CC  1289 D04  intracellular membrane-bounded organelle
+GO:0005634 CC   490 D05  nucleus
+GO:0005654 CC    86 D02  nucleoplasm
+GO:0003676 MF   313 D03  nucleic acid binding
+GO:0046983 MF     2 D03  protein dimerization activity
+GO:0005509 MF     4 D05  calcium ion binding
+GO:0008270 MF     1 D06  zinc ion binding
+GO:0003700 MF    10 D02  DNA-binding transcription factor activity

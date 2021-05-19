@@ -1,0 +1,37 @@
+GO:0007399 BP  1256 D04  nervous system development
+GO:0006783 BP    11 D07  heme biosynthetic process
+GO:0006264 BP     4 D08  mitochondrial DNA replication
+GO:0007186 BP   174 D05  G protein-coupled receptor signaling pathway
+GO:0046628 BP     3 D07  positive regulation of insulin receptor signaling pathway
+GO:0006974 BP   181 D04  cellular response to DNA damage stimulus
+GO:0045860 BP    34 D10  positive regulation of protein kinase activity
+GO:0045737 BP     1 D12  positive regulation of cyclin-dependent protein serine/threonine kinase activity
+GO:0019853 BP     4 D07  L-ascorbic acid biosynthetic process
+GO:0007140 BP    12 D08  male meiotic nuclear division
+GO:0006907 BP    12 D06  pinocytosis
+GO:0042147 BP     6 D06  retrograde transport, endosome to Golgi
+GO:0000082 BP    12 D05  G1/S transition of mitotic cell cycle
+GO:0006886 BP   139 D06  intracellular protein transport
+GO:0006419 BP     2 D11  alanyl-tRNA aminoacylation
+GO:0000002 BP     8 D06  mitochondrial genome maintenance
+GO:0043504 BP     0 D08  mitochondrial DNA repair
+GO:0070685 CC     2 D04  macropinocytic cup
+GO:0031234 CC     2 D04  extrinsic component of cytoplasmic side of plasma membrane
+GO:0030904 CC     2 D03  retromer complex
+GO:0005739 CC    91 D05  mitochondrion
+GO:0005741 CC    11 D06  mitochondrial outer membrane
+GO:0031901 CC     7 D06  early endosome membrane
+GO:0031313 CC     4 D04  extrinsic component of endosome membrane
+GO:0097422 CC     0 D02  tubular endosome
+GO:0008146 MF    68 D04  sulfotransferase activity
+GO:0004341 MF     0 D05  gluconolactonase activity
+GO:0020037 MF     0 D04  heme binding
+GO:0004930 MF   158 D04  G protein-coupled receptor activity
+GO:0016500 MF     9 D03  protein-hormone receptor activity
+GO:0004968 MF     0 D05  gonadotropin-releasing hormone receptor activity
+GO:0004813 MF     0 D05  alanine-tRNA ligase activity
+GO:0008297 MF     2 D08  single-stranded DNA exodeoxyribonuclease activity
+GO:0035091 MF    11 D04  phosphatidylinositol binding
+GO:0030234 MF    82 D02  enzyme regulator activity
+GO:0034452 MF     0 D04  dynactin binding
+GO:0030295 MF     7 D03  protein kinase activator activity

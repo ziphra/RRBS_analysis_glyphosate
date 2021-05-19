@@ -1,0 +1,43 @@
+GO:0010468;BP;1028;D05;regulation of gene expression;TCF15;TSHZ2
+GO:0010629;BP;339;D06;negative regulation of gene expression;NDFIP1;BBS2,PLAG1
+GO:0010628;BP;193;D06;positive regulation of gene expression;ARX,FOXC1;BMP6,PLAG1
+GO:0001822;BP;524;D04;kidney development;FOXC1;BMP6
+GO:0007420;BP;415;D04;brain development;FOXC1;QARS1
+GO:0001654;BP;176;D05;eye development;FOXC1;BMP6
+GO:0009952;BP;121;D04;anterior/posterior pattern specification;TCF15;PBX1
+GO:0042475;BP;13;D05;odontogenesis of dentin-containing tooth;FOXC1;NKX2-3
+GO:0001958;BP;0;D04;endochondral ossification;FOXC1;BMP6
+GO:0006351;BP;390;D09;transcription. DNA-templated;TCEA3;PLAG1
+GO:0006355;BP;306;D09;regulation of transcription. DNA-templated;FOXC1,TCEA3;MSX2,NEUROG3,NKX2-3,PBX1,TBX18,TLX1
+GO:0045944;BP;63;D11;positive regulation of transcription by RNA polymerase II;FOXC1,TCF15;BMP6,NEUROG3,NKX2-3,PBX1,PLAG1
+GO:0000122;BP;33;D11;negative regulation of transcription by RNA polymerase II;ARX,FOXC1;BMP6,MSX2,NEUROG3
+GO:0006811;BP;929;D04;ion transport;HCN2,KCNC2;GABRA3
+GO:0007219;BP;18;D06;Notch signaling pathway;FOXC1;TMEM100
+GO:0001701;BP;42;D07;in utero embryonic development;FOXC1;TMEM100
+GO:0006879;BP;25;D10;cellular iron ion homeostasis;NDFIP1;BMP6
+GO:0042127;BP;296;D04;regulation of cell population proliferation;ARX;NKX2-3,PBX1
+GO:0016020;CC;1047;D02;membrane;HCN2,KCNC2;BBS2,GABRA3,YIPF4
+GO:0005886;CC;470;D03;plasma membrane;HCN2;TMEM100,YIPF4
+GO:0043204;CC;0;D02;perikaryon;KCNC2;TMEM100
+GO:0005829;CC;84;D02;cytosol;FOXC1,GM2A;ACOT7,MARCHF2,MSX2,PLAG1,QARS1,SRP54
+GO:0048471;CC;7;D02;perinuclear region of cytoplasm;NDFIP1;TMEM100
+GO:0043231;CC;1289;D04;intracellular membrane-bounded organelle;GM2A;
+GO:0005794;CC;46;D05;Golgi apparatus;NDFIP1;YIPF4
+GO:0005634;CC;490;D05;nucleus;FOXC1,TCEA3;NEUROG3,PBX1,SRP54,TBX18
+GO:0005654;CC;86;D02;nucleoplasm;FOXC1;ACOT7,KDM3B,PBX1,PIN4,PLAG1,QRICH1,TBX18
+GO:0090575;CC;45;D03;RNA polymerase II transcription regulator complex;TCF15;PBX1
+GO:0005515;MF;921;D02;protein binding;KCNC2;BBS2,BTBD17,ESPN,LOC107321537,PACSIN1
+GO:0046983;MF;2;D03;protein dimerization activity;TCF15;NEUROG3
+GO:0042802;MF;1;D03;identical protein binding;HCN2;PACSIN1
+GO:0005216;MF;133;D05;ion channel activity;HCN2,KCNC2;GABRA3
+GO:0005509;MF;4;D05;calcium ion binding;CABP7;PLA2G12B
+GO:0008270;MF;1;D06;zinc ion binding;TCEA3;LOC107321537,MARCHF2
+GO:0003677;MF;130;D04;DNA binding;ARX,FOXC1;MSX2,NKX2-3,PBX1,PIN4,TLX1,TSHZ2
+GO:0043565;MF;62;D05;sequence-specific DNA binding;FOXC1;MSX2,PBX1
+GO:1990837;MF;51;D06;sequence-specific double-stranded DNA binding;ARX;MSX2,NKX2-3,PBX1,TBX18
+GO:0000977;MF;14;D08;RNA polymerase II transcription regulatory region sequence-specific DNA binding;FOXC1;PBX1
+GO:0000978;MF;11;D09;RNA polymerase II cis-regulatory region sequence-specific DNA binding;ARX,FOXC1,TCF15;NEUROG3,PBX1,PLAG1
+GO:0003700;MF;10;D02;DNA-binding transcription factor activity;FOXC1;PBX1,TBX18,TLX1
+GO:0000981;MF;3;D03;DNA-binding transcription factor activity. RNA polymerase II-specific;ARX,FOXC1;MSX2,NKX2-3,PBX1,TLX1
+GO:0001227;MF;0;D04;DNA-binding transcription repressor activity. RNA polymerase II-specific;ARX;NEUROG3
+GO:0001228;MF;0;D04;DNA-binding transcription activator activity. RNA polymerase II-specific;FOXC1,TCF15;PBX1,PLAG1

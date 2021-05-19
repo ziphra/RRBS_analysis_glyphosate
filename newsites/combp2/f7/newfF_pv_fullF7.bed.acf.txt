@@ -1,0 +1,4 @@
+#lag_min	lag_max	correlation	N	p
+1	61	0.288	30486	0
+61	121	0.1682	10561	7.652e-68
+wrote: ./bed/newfF_pv_fullF7.bed.acf.txt

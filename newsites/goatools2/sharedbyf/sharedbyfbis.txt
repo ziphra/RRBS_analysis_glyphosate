@@ -1,0 +1,14 @@
+GO:0045893;BP;99;D10;positive regulation of transcription. DNA-templated;SNX5;FOXC1
+GO:0045944;BP;63;D11;positive regulation of transcription by RNA polymerase II;IRF2BPL;FOXC1,TCF15
+GO:0000122;BP;33;D11;negative regulation of transcription by RNA polymerase II;IRF2BPL;ARX,FOXC1
+GO:0001701;BP;42;D07;in utero embryonic development;RUNDC1;FOXC1
+GO:0005829;CC;84;D02;cytosol;SNX5;FOXC1,GM2A
+GO:0048471;CC;7;D02;perinuclear region of cytoplasm;SNX5;NDFIP1
+GO:0043231;CC;1289;D04;intracellular membrane-bounded organelle;SNX5;GM2A
+GO:0005634;CC;490;D05;nucleus;LOC107307715,SPDYA;FOXC1,TCEA3
+GO:0005654;CC;86;D02;nucleoplasm;IRF2BPL,SPDYA;FOXC1
+GO:0003676;MF;313;D03;nucleic acid binding;LOC107325303;TCEA3
+GO:0046983;MF;2;D03;protein dimerization activity;LOC107318989;TCF15
+GO:0005509;MF;4;D05;calcium ion binding;LOC107307715;CABP7
+GO:0008270;MF;1;D06;zinc ion binding;LOC107307715;TCEA3
+GO:0003700;MF;10;D02;DNA-binding transcription factor activity;LOC107318989;FOXC1

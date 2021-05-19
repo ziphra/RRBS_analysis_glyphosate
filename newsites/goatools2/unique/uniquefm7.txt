@@ -1,0 +1,22 @@
+GO:0009953 BP    43 D04  dorsal/ventral pattern formation
+GO:0060441 BP    20 D07  epithelial tube branching involved in lung morphogenesis
+GO:0048711 BP     1 D10  positive regulation of astrocyte differentiation
+GO:0007166 BP   719 D05  cell surface receptor signaling pathway
+GO:0009968 BP   308 D06  negative regulation of signal transduction
+GO:0007259 BP    15 D07  receptor signaling pathway via JAK-STAT
+GO:0040036 BP     8 D06  regulation of fibroblast growth factor receptor signaling pathway
+GO:0045879 BP     3 D07  negative regulation of smoothened signaling pathway
+GO:0002639 BP     7 D08  positive regulation of immunoglobulin production
+GO:0042531 BP     0 D11  positive regulation of tyrosine phosphorylation of STAT protein
+GO:0048295 BP     1 D11  positive regulation of isotype switching to IgE isotypes
+GO:0043524 BP     7 D08  negative regulation of neuron apoptotic process
+GO:0007405 BP    20 D04  neuroblast proliferation
+GO:0030890 BP     0 D09  positive regulation of B cell proliferation
+GO:0009986 CC    19 D02  cell surface
+GO:0097059 CC     0 D02  CNTFR-CLCF1 complex
+GO:0097058 CC     0 D02  CRLF-CLCF1 complex
+GO:0003824 MF  7614 D01  catalytic activity
+GO:0005102 MF   419 D03  signaling receptor binding
+GO:0097108 MF     0 D03  hedgehog family protein binding
+GO:0005127 MF     0 D05  ciliary neurotrophic factor receptor binding
+GO:0005125 MF     1 D05  cytokine activity
