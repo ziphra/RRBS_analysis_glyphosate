@@ -1,0 +1,76 @@
+ARX	aristaless related homeobox [Source:HGNC Symbol;Acc:HGNC:18060]
+CABP7	calcium binding protein 7 [Source:NCBI gene;Acc:107321093]
+FOXC1	forkhead box C1 [Source:NCBI gene;Acc:107309579]
+GM2A	GM2 ganglioside activator [Source:HGNC Symbol;Acc:HGNC:4367]
+HCN2	hyperpolarization activated cyclic nucleotide gated potassium and sodium channel 2 [Source:NCBI gene;Acc:107325430]
+KCNC2	potassium voltage-gated channel subfamily C member 2 [Source:NCBI gene;Acc:107310727]
+LOC107309236	nan
+NDFIP1	Nedd4 family interacting protein 1 [Source:NCBI gene;Acc:107320044]
+TCEA3	transcription elongation factor A3 [Source:HGNC Symbol;Acc:HGNC:11615]
+TCF15	transcription factor 15 [Source:NCBI gene;Acc:107323243]
+HS3ST2	heparan sulfate-glucosamine 3-sulfotransferase 2 [Source:NCBI gene;Acc:107320809]
+IRF2BPL	interferon regulatory factor 2 binding protein like [Source:HGNC Symbol;Acc:HGNC:14282]
+KIAA1210	KIAA1210 ortholog [Source:NCBI gene;Acc:107312929]
+LOC107307715	regucalcin [Source:NCBI gene;Acc:107307715]
+LOC107318988	putative gonadotropin-releasing hormone II receptor [Source:NCBI gene;Acc:107318988]
+LOC107318989	mesoderm posterior protein 1-like [Source:NCBI gene;Acc:107318989]
+LOC107318991	nan
+LOC107321106	nan
+LOC107325303	alanyl-tRNA editing protein Aarsd1-like [Source:NCBI gene;Acc:107325303]
+LOC116653897	nan
+MGME1	mitochondrial genome maintenance exonuclease 1 [Source:NCBI gene;Acc:107310972]
+PGRMC1	progesterone receptor membrane component 1 [Source:NCBI gene;Acc:107312941]
+RUNDC1	RUN domain containing 1 [Source:NCBI gene;Acc:107325300]
+SNX5	sorting nexin 5 [Source:NCBI gene;Acc:107310971]
+SOX17	nan
+SPDYA	speedy-RINGO cell cycle regulator family member A [Source:NCBI gene;Acc:107310871]
+ABHD11	abhydrolase domain containing 11 [Source:NCBI gene;Acc:107322633]
+ACOT7	acyl-CoA thioesterase 7 [Source:NCBI gene;Acc:107323462]
+BBS2	Bardet-Biedl syndrome 2 [Source:NCBI gene;Acc:107319174]
+BMP6	bone morphogenetic protein 6 [Source:NCBI gene;Acc:107309636]
+BTBD17	BTB domain containing 17 [Source:NCBI gene;Acc:107322271]
+CELA3B	chymotrypsin like elastase 3B [Source:NCBI gene;Acc:107323307]
+ESPN	espin [Source:NCBI gene;Acc:107323436]
+FOXL2	nan
+GABRA3	gamma-aminobutyric acid receptor subunit alpha-3-like [Source:NCBI gene;Acc:107312871]
+KDM3B	lysine demethylase 3B [Source:NCBI gene;Acc:107320032]
+KY	kyphoscoliosis peptidase [Source:NCBI gene;Acc:107317996]
+LOC107314253	nan
+LOC107314254	nan
+LOC107315039	uncharacterized LOC107315039 [Source:NCBI gene;Acc:107315039]
+LOC107319226	nan
+LOC107319878	nan
+LOC107320921	UPF0488 protein C8orf33 homolog [Source:NCBI gene;Acc:107320921]
+LOC107321537	zinc finger protein RFP-like [Source:NCBI gene;Acc:107321537]
+LOC107322710	claudin-4-like [Source:NCBI gene;Acc:107322710]
+LOC107325817	keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+LOC116653392	nan
+MARCHF2	membrane associated ring-CH-type finger 2 [Source:NCBI gene;Acc:107325520]
+MSX2	msh homeobox 2 [Source:NCBI gene;Acc:107320497]
+NCR3LG1	nan
+NEUROG3	neurogenin 3 [Source:HGNC Symbol;Acc:HGNC:13806]
+NKX2-3	NK2 homeobox 3 [Source:NCBI gene;Acc:107316033]
+PACSIN1	protein kinase C and casein kinase substrate in neurons 1 [Source:NCBI gene;Acc:107324874]
+PBX1	PBX homeobox 1 [Source:NCBI gene;Acc:107317263]
+PIN4	peptidylprolyl cis-trans isomerase, NIMA-interacting 4 [Source:NCBI gene;Acc:107312540]
+PLA2G12B	phospholipase A2 group XIIB [Source:NCBI gene;Acc:107315702]
+PLAG1	PLAG1 zinc finger [Source:NCBI gene;Acc:107310175]
+PMVK	phosphomevalonate kinase [Source:NCBI gene;Acc:107324495]
+QARS1	glutaminyl-tRNA synthetase 1 [Source:NCBI gene;Acc:107320011]
+QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+SH2B2	SH2B adaptor protein 2 [Source:NCBI gene;Acc:107322455]
+SLC6A8	solute carrier family 6 member 8 [Source:NCBI gene;Acc:107319921]
+SRP54	signal recognition particle 54 [Source:NCBI gene;Acc:107315038]
+TBX18	T-box transcription factor 18 [Source:NCBI gene;Acc:107311982]
+TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+TMEM100	transmembrane protein 100 [Source:NCBI gene;Acc:107322265]
+TRIM41	nan
+TSHZ2	teashirt zinc finger homeobox 2 [Source:NCBI gene;Acc:107323098]
+YIPF4	Yip1 domain family member 4 [Source:NCBI gene;Acc:107311326]
+CLCF1	cardiotrophin like cytokine factor 1 [Source:HGNC Symbol;Acc:HGNC:17412]
+HHIP	hedgehog interacting protein [Source:NCBI gene;Acc:107313142]
+LINGO3	leucine rich repeat and Ig domain containing 3 [Source:NCBI gene;Acc:107325579]
+LOC107313421	nan
+RAD9A	RAD9 checkpoint clamp component A [Source:NCBI gene;Acc:107314241]
+SLC25A10	solute carrier family 25 member 10 [Source:NCBI gene;Acc:107322133]
+TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]

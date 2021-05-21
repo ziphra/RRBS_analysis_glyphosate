@@ -1,0 +1,1 @@
+SLC25A10 solute carrier family 25 member 10 [Source:NCBI gene;Acc:107322133]
