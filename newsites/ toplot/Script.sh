@@ -23,5 +23,8 @@ done
 
 
 
-
+for file in *bed
+do
+sed 's/_//' $file | awk 'BEGIN {OFS="\t";FS="\t"}; {print $1"_"$2}' > R_${file}
+done
 

@@ -34,3 +34,14 @@ see gprofiler
 ## compare 
 see [goatools2](./goatools2) for results
 
+
+
+#### from bed to R friendly file 
+```
+for file in *bed
+do
+sed 's/_//' $file | awk 'BEGIN {OFS="\t";FS="\t"}; {print $1"_"$2}' > R_${file}
+done
+```
+
+
