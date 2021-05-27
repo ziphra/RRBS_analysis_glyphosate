@@ -3,15 +3,15 @@
 ## differentially methylated sites in 7 weeks females
 ![](../img/means_sigsitesff7.png)
 
-- differentially methylated sites in 7 weeks female seems to recovers at 12
-- these sites seems not to be impacted for male 
+- differentially methylated sites in 7 weeks female seem to recovers at 12
+- these sites seem not to be impacted for male 
 
 
 ## differentially methylated sites in 7 weeks males
 ![](../img/means_sigsitesfm7.png) 
 
 - almost same absolute difference between 1.M/2.M and 1.F/2.F but we're looking at differentially methylated sites in male at 7 weeks
-- These sites seems to be impacted the same way across conditions. 
+- These sites seem to be impacted the same way across conditions. 
 
 
 ## differentially methylated sites in 12 months females
