@@ -6,7 +6,7 @@ Bismark result file: single-end (SAM format)
 Output specified: strand-specific (default)
 
 
-Processed 17297717 lines in total
+Processed 17297717 lines in total.
 Total number of methylation call strings processed: 17297717
 
 Final Cytosine Methylation Report

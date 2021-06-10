@@ -71,7 +71,7 @@ and save as a tab file
 
 Don't forget to `sed -i '' 's/"//g' *.bed` before intersection. 
 
-## Sites per models and adjustments methods 
+## Differently methylated sites per models and adjustments methods 
 
 ### pipeline 7 
 

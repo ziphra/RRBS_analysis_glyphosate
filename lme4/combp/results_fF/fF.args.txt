@@ -1,0 +1,4 @@
+-c 4 --seed 0.05 --dist 300 -p fF /Users/euphrasieservant/Desktop/combp/bed/fF.bed
+
+date: 2021-03-24 09:17:22.540064
+version: 0.50.4

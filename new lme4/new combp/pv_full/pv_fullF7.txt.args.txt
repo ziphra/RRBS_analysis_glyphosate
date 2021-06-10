@@ -1,0 +1,4 @@
+-c 4 --seed 0.05 --dist 750 -p pv_fullF7.txt sorted_pv_fullF7.txt
+
+date: 2021-06-10 13:07:59.811077
+version: 0.50.4

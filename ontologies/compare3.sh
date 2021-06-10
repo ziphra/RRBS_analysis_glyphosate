@@ -9,8 +9,8 @@
 
 
 
-compare_gos.py ./7/ff7.txt ./7/fm7.txt ./12/ff12.txt ./12/fm12.txt > ./all/compare_all.txt
-grep "XXXX" ./all/compare_all.txt | sed 's/XXXX //' > ./all/sharedbyall.txt
+#compare_gos.py ./7/ff7.txt ./7/fm7.txt ./12/ff12.txt ./12/fm12.txt > ./all/compare_all.txt
+grep "XXXX" ./all/compare.txt | sed 's/XXXX //' > ./all/sharedbyall.txt
 tr -s " " < ./all/sharedbyall.txt > ./all/sharedbyallbis.txt
 sed -i '' 's/,/./' ./all/sharedbyallbis.txt
 sed -i '' 's/ /;/' ./all/sharedbyallbis.txt

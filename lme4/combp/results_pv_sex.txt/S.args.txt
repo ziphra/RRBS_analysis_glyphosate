@@ -1,0 +1,4 @@
+-c 4 --seed 0.05 --dist 300 -p S /Users/euphrasieservant/Desktop/combp/bed/S.bed
+
+date: 2021-03-24 09:34:36.773176
+version: 0.50.4

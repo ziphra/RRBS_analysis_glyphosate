@@ -1,0 +1,4 @@
+#lag_min	lag_max	correlation	N	p
+1	51	0.2247	27783	0
+51	101	0.1439	11976	1.949e-56
+wrote: S.acf.txt

@@ -1,0 +1,4 @@
+-c 4 --seed 0.05 --dist 750 -p pv_fullF12.txt sorted_pv_fullF12.txt
+
+date: 2021-06-10 13:07:10.393446
+version: 0.50.4

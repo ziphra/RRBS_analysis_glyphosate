@@ -1,6 +1,6 @@
 # goatools
 
-see <https://github.com/ tanghaibao/goatools> 
+see <https://github.com/tanghaibao/goatools> 
 
 ## Gene Ontology Enrichment Analyses (GOEA)
 ### data 
@@ -174,37 +174,37 @@ Calculating 1,038 uncorrected p-values using fisher
 
 ## word search 
 ### Key words 
-#### ROS related
 `mithocond/oxygen/heme/oxydo/tetrapyrrole`    
 We want to retrieve every GO terms that has any of these terms in either its name or its definition. 
 
-`gawk -v ORS="\n\n" 'BEGIN {RS="\n\n"} /heme/||/mitochond/||/oxygen/||/oxydo/||/tetrapyrrole/||/cytochrome/ {print}' go-basic.obo > ../keywords_search/ROS_related_obo.txt`
+- `gawk -v ORS="\n\n" 'BEGIN {IGNORECASE = 1; RS="\n\n"} /heme/||/mitochond/||/oxygen/||/oxydo/||/tetrapyrrole/||/cytochrome/ {print}' go-basic.obo > ../keywords_search/ROS_obo.txt`
 
-`grep "id: " ../keywords_search/ROS_related_obo.txt | sed 's/^....//' > ../keywords_search/GOID_ros_related.txt`
+- `grep "id: " ../keywords_search/ROS_obo.txt | sed 's/^....//' > ../keywords_search/GOID_ros.txt`
 
-After it's done for the whole `.obo`, we can do it on the study's background (the 23k sites), and count the GO terms for comparison.    
+After it's done for the whole `.obo`, we can do it on the study's background (the 23k sites), and count the GO terms for comparison.  
+  
 - Get GO id's from`cat ./data/associations_goatools.txt | awk -v FS="\t\t" '{print $2}' | tr ";" "\n" > GOIDS_23k.txt`
 - `sh Script.sh` to count ROS related GO
 
-##### Results: how many ROS related GO terms according to the keywords search:
-
-|                    | Number of GO terms | Number of ROS related GO terms |
-|--------------------|--------------------|--------------------------------|
-| .obo               | 47000              | 2940                           |
-| Study’s background | 5153               | 705                            |
+#### ROS related 
+`mithocond/oxygen/heme/oxydo/tetrapyrrole`
 
 #### Reproduction 
-testosterone/ || /steroid/ || /folliculogenesis / || /estrogen / || /reproductive hormone/ || /hormone/ || /oocyte/ || /sperm/ || /meio/ || /male/ || /female/ || /uter/ || /reproduction
+`/testosterone/ || /steroid/ || /folliculogenesis / || /estrogen / || /reproductive hormone/ || /oocyte/ || /sperm/ || /male/ || /female/ || /reproduction/`
 
-|                    | Number of GO terms | Number of reproduction related GO terms |
-|--------------------|--------------------|--------------------------------|
-| .obo               | 47000              | 2108                           |
-| Study’s background | 5153               | 837                            |
+#### acetylcholine esterase
+see <https://doi.org/10.1016/j.etap.2016.05.012>
+`/acetylcholine/ || /acetyltransferase/ || /cholinesterase/ || /cholinergic/ || /muscar/ || /nicotin/`
+
+#### testosterone 
+see <https://doi.org/10.1016/j.tiv.2011.12.009>
+
+
 
 ## Group GO terms... 
 See [article](https://doi.org/10.1038/s41598-018-28948-z)
 
-- Run `wr_sections.py file`
+- Run `wr_sections.py file`:
 
 ```
   WROTE: go-basic.obo
@@ -233,6 +233,7 @@ hdr GOs(     0 in  0 sections,  84 unused) WROTE: sections.txt
 - Now that ROS related GO terms are grouped, let's plot the terms: 
 `go_plot.py -i ROS_related.txt -o inter.png --sections=sections.txt`
 ![](./img/inter_ROS_F.png)
-- Remove terms that are out of interest. 
+- Remove (or add) terms that are out (or not) of interest in the group. 
 
 Same for other keywords.  
+

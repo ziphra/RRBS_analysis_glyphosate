@@ -1,0 +1,4 @@
+-c 4 --seed 0.05 --dist 750 -p pv_fullM1210.txt sorted_pv_fullM1210.txt
+
+date: 2021-06-10 13:09:12.212662
+version: 0.50.4
