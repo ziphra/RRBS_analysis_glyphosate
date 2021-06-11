@@ -1,0 +1,94 @@
+GO:0009749 BP    16 D07  response to glucose
+GO:0006355 BP   306 D09  regulation of transcription, DNA-templated
+GO:0045892 BP   113 D10  negative regulation of transcription, DNA-templated
+GO:0045893 BP    99 D10  positive regulation of transcription, DNA-templated
+GO:0045944 BP    63 D11  positive regulation of transcription by RNA polymerase II
+GO:0000122 BP    33 D11  negative regulation of transcription by RNA polymerase II
+GO:0008272 BP     3 D07  sulfate transport
+GO:0030855 BP   340 D04  epithelial cell differentiation
+GO:0048709 BP    11 D05  oligodendrocyte differentiation
+GO:0007165 BP  1654 D04  signal transduction
+GO:0007186 BP   174 D05  G protein-coupled receptor signaling pathway
+GO:0034128 BP     0 D09  negative regulation of MyD88-independent toll-like receptor signaling pathway
+GO:0006955 BP   752 D02  immune response
+GO:0006974 BP   181 D04  cellular response to DNA damage stimulus
+GO:0048678 BP    34 D04  response to axon injury
+GO:0030968 BP    16 D05  endoplasmic reticulum unfolded protein response
+GO:0071456 BP    14 D06  cellular response to hypoxia
+GO:0006468 BP   190 D07  protein phosphorylation
+GO:0001934 BP    50 D09  positive regulation of protein phosphorylation
+GO:0045860 BP    34 D10  positive regulation of protein kinase activity
+GO:0055085 BP   747 D04  transmembrane transport
+GO:0016055 BP   138 D07  Wnt signaling pathway
+GO:0001701 BP    42 D07  in utero embryonic development
+GO:0042981 BP   252 D06  regulation of apoptotic process
+GO:0043066 BP    91 D07  negative regulation of apoptotic process
+GO:1901214 BP    27 D05  regulation of neuron death
+GO:1901216 BP     6 D06  positive regulation of neuron death
+GO:0008284 BP    97 D05  positive regulation of cell population proliferation
+GO:0032456 BP    12 D06  endocytic recycling
+GO:0042147 BP     6 D06  retrograde transport, endosome to Golgi
+GO:0007160 BP    22 D04  cell-matrix adhesion
+GO:0010811 BP     7 D06  positive regulation of cell-substrate adhesion
+GO:0019677 BP     0 D10  NAD catabolic process
+GO:0048814 BP     3 D09  regulation of dendrite morphogenesis
+GO:0007041 BP    20 D05  lysosomal transport
+GO:0030198 BP    45 D05  extracellular matrix organization
+GO:0016020 CC  1047 D02  membrane
+GO:0005886 CC   470 D03  plasma membrane
+GO:0016021 CC   232 D03  integral component of membrane
+GO:0045202 CC   189 D03  synapse
+GO:0030425 CC    41 D05  dendrite
+GO:0005737 CC  1226 D02  cytoplasm
+GO:0005829 CC    84 D02  cytosol
+GO:0048471 CC     7 D02  perinuclear region of cytoplasm
+GO:0017053 CC    15 D03  transcription repressor complex
+GO:0043231 CC  1289 D04  intracellular membrane-bounded organelle
+GO:0005783 CC   106 D05  endoplasmic reticulum
+GO:0005739 CC    91 D05  mitochondrion
+GO:0005794 CC    46 D05  Golgi apparatus
+GO:0055037 CC    12 D08  recycling endosome
+GO:0005802 CC     1 D04  trans-Golgi network
+GO:0000938 CC     0 D03  GARP complex
+GO:1990745 CC     0 D02  EARP complex
+GO:0031315 CC     0 D04  extrinsic component of mitochondrial outer membrane
+GO:0005634 CC   490 D05  nucleus
+GO:0005654 CC    86 D02  nucleoplasm
+GO:0031965 CC    10 D04  nuclear membrane
+GO:0015630 CC   103 D06  microtubule cytoskeleton
+GO:0005874 CC    30 D06  microtubule
+GO:0031012 CC    89 D03  extracellular matrix
+GO:0005765 CC    14 D07  lysosomal membrane
+GO:0005515 MF   921 D02  protein binding
+GO:0005102 MF   419 D03  signaling receptor binding
+GO:0030247 MF    21 D03  polysaccharide binding
+GO:0003682 MF     8 D02  chromatin binding
+GO:0050840 MF     5 D02  extracellular matrix binding
+GO:0030215 MF     0 D04  semaphorin receptor binding
+GO:0008509 MF   285 D04  anion transmembrane transporter activity
+GO:0015116 MF     9 D06  sulfate transmembrane transporter activity
+GO:0008271 MF     6 D07  secondary active sulfate transmembrane transporter activity
+GO:0004930 MF   158 D04  G protein-coupled receptor activity
+GO:0004672 MF   108 D05  protein kinase activity
+GO:0004707 MF     1 D07  MAP kinase activity
+GO:0003953 MF     2 D05  NAD+ nucleosidase activity
+GO:0061809 MF     0 D06  NAD+ nucleotidase, cyclic ADP-ribose generating
+GO:0005509 MF     4 D05  calcium ion binding
+GO:0008270 MF     1 D06  zinc ion binding
+GO:0005524 MF     0 D08  ATP binding
+GO:0003677 MF   130 D04  DNA binding
+GO:0043565 MF    62 D05  sequence-specific DNA binding
+GO:1990837 MF    51 D06  sequence-specific double-stranded DNA binding
+GO:0000976 MF    34 D07  transcription cis-regulatory region binding
+GO:0000978 MF    11 D09  RNA polymerase II cis-regulatory region sequence-specific DNA binding
+GO:0019899 MF    70 D03  enzyme binding
+GO:0019901 MF    15 D05  protein kinase binding
+GO:0042826 MF     0 D04  histone deacetylase binding
+GO:0008134 MF    38 D03  transcription factor binding
+GO:0008083 MF     0 D05  growth factor activity
+GO:0035591 MF     5 D03  signaling adaptor activity
+GO:0003714 MF     2 D03  transcription corepressor activity
+GO:0005044 MF     0 D02  scavenger receptor activity
+GO:0003700 MF    10 D02  DNA-binding transcription factor activity
+GO:0000981 MF     3 D03  DNA-binding transcription factor activity, RNA polymerase II-specific
+GO:0001228 MF     0 D04  DNA-binding transcription activator activity, RNA polymerase II-specific

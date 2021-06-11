@@ -5,7 +5,7 @@
 #
 #  Created by Euphrasie Servant on 04/05/2021.
 #  
-awk 'BEGIN {OFS="\t";FS="\t"}; {print $1,$2,$3,$10,$12}' /Users/euphrasieservant/Documents/sites7/prom/prom7/intersected/fM_prom_intersect.txt  > fm7_sites.txt
+awk 'BEGIN {OFS="\t";FS="\t"}; {print $1,$2,$3,$10,$12}' ../intersected/pv_fullF710sig.bed_prom_intersect.txt  > f710_sites.txt
 
 
 for file in *sites.txt

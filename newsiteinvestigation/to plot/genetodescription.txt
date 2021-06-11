@@ -1,0 +1,133 @@
+ACOT7			acyl-CoA thioesterase 7 [Source:NCBI gene;Acc:107323462]
+ADHFE1			alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+APLN			apelin [Source:NCBI gene;Acc:107312541]
+BCORL1			BCL6 corepressor like 1 [Source:NCBI gene;Acc:107312596]
+BLOC1S3			nan
+C28H19ORF44			nan
+CALR3			calreticulin 3 [Source:NCBI gene;Acc:107325384]
+CCDC113			coiled-coil domain containing 113 [Source:NCBI gene;Acc:107319221]
+CCDC78			nan
+CCKBR			cholecystokinin B receptor [Source:NCBI gene;Acc:107308613]
+CCND1			cyclin D1 [Source:NCBI gene;Acc:107314428]
+CDCA3			nan
+CSF3			colony stimulating factor 3 [Source:NCBI gene;Acc:107325065]
+CSMD3			CUB and Sushi multiple domains 3 [Source:NCBI gene;Acc:107310480]
+DAB2IP			DAB2 interacting protein [Source:NCBI gene;Acc:107321754]
+DCUN1D3			defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+DDB1			damage specific DNA binding protein 1 [Source:NCBI gene;Acc:107314196]
+DDR2			discoidin domain receptor tyrosine kinase 2 [Source:NCBI gene;Acc:107317135]
+DIS3L2			DIS3 like 3'-5' exoribonuclease 2 [Source:NCBI gene;Acc:107318233]
+DNAJC14			nan
+EDRF1			erythroid differentiation regulatory factor 1 [Source:NCBI gene;Acc:107316242]
+ESPN			espin [Source:NCBI gene;Acc:107323436]
+FAM131A			nan
+FOXC1			forkhead box C1 [Source:NCBI gene;Acc:107309579]
+FZD2			frizzled class receptor 2 [Source:NCBI gene;Acc:107325035]
+GAS2L1			growth arrest specific 2 like 1 [Source:NCBI gene;Acc:107321347]
+GATA6			GATA binding protein 6 [Source:NCBI gene;Acc:107310091]
+GDPGP1			nan
+GM2A			GM2 ganglioside activator [Source:HGNC Symbol;Acc:HGNC:4367]
+HCN2			hyperpolarization activated cyclic nucleotide gated potassium and sodium channel 2 [Source:NCBI gene;Acc:107325430]
+HDAC3			histone deacetylase 3 [Source:NCBI gene;Acc:107320289]
+HOXA10			homeobox A10 [Source:NCBI gene;Acc:107309221]
+HOXA4			homeobox A4 [Source:NCBI gene;Acc:107309141]
+ID1			inhibitor of DNA binding 1, HLH protein [Source:NCBI gene;Acc:107323112]
+INHA			inhibin subunit alpha [Source:NCBI gene;Acc:107316906]
+INSRR			insulin receptor related receptor [Source:NCBI gene;Acc:107324417]
+IRF2BPL			interferon regulatory factor 2 binding protein like [Source:HGNC Symbol;Acc:HGNC:14282]
+ITGA3			integrin subunit alpha 3 [Source:NCBI gene;Acc:107325069]
+KCNC2			potassium voltage-gated channel subfamily C member 2 [Source:NCBI gene;Acc:107310727]
+KCNJ10			nan
+KIF12			nan
+LIF			LIF interleukin 6 family cytokine [Source:HGNC Symbol;Acc:HGNC:6596]
+LINGO1			leucine rich repeat and Ig domain containing 1 [Source:NCBI gene;Acc:107318527]
+LIX1			nan
+LOC107306395			nan
+LOC107306796			nan
+LOC107306976			nan
+LOC107307275			nan
+LOC107307618			nan
+LOC107307715			regucalcin [Source:NCBI gene;Acc:107307715]
+LOC107308614			olfactory receptor 52B2-like [Source:NCBI gene;Acc:107308614]
+LOC107308687			nan
+LOC107309394			nan
+LOC107309790			probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+LOC107310204			nan
+LOC107312613			nan
+LOC107312614			chloride intracellular channel protein 2-like [Source:NCBI gene;Acc:107312614]
+LOC107312805			nan
+LOC107315535			nan
+LOC107316278			nan
+LOC107316923			nan
+LOC107318946			nan
+LOC107318988			putative gonadotropin-releasing hormone II receptor [Source:NCBI gene;Acc:107318988]
+LOC107318989			mesoderm posterior protein 1-like [Source:NCBI gene;Acc:107318989]
+LOC107318991			nan
+LOC107319800			nan
+LOC107321562			nan
+LOC107322896			nan
+LOC107324297			nan
+LOC107324427			nan
+LOC107324998			feather keratin 1-like [Source:NCBI gene;Acc:107324999]
+LOC107325234			keratin, type I cytoskeletal 9-like [Source:NCBI gene;Acc:107325234]
+LOC107325657			nan
+LOC107325817			keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+LOC116652929			nan
+LOC116653031			nan
+LOC116653953			nan
+LOC116654150			nan
+LOC116654328			nan
+LOC116654426			nan
+LRATD1			LRAT domain containing 1 [Source:HGNC Symbol;Acc:HGNC:20743]
+LYRM1			LYR motif containing 1 [Source:NCBI gene;Acc:107321011]
+MAP6D1			MAP6 domain containing 1 [Source:NCBI gene;Acc:107317819]
+MAPK10			mitogen-activated protein kinase 10 [Source:NCBI gene;Acc:107313439]
+MOGS			mannosyl-oligosaccharide glucosidase [Source:NCBI gene;Acc:107306839]
+NAV1			neuron navigator 1 [Source:NCBI gene;Acc:107324637]
+NDRG4			NDRG family member 4 [Source:NCBI gene;Acc:107319045]
+NDUFAF3			NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NFIC			nuclear factor I C [Source:NCBI gene;Acc:107325638]
+NPRL2			NPR2 like, GATOR1 complex subunit [Source:NCBI gene;Acc:107319565]
+NR3C1			nuclear receptor subfamily 3 group C member 1 [Source:NCBI gene;Acc:107320036]
+NR6A1			nuclear receptor subfamily 6 group A member 1 [Source:NCBI gene;Acc:107321956]
+NUP50			nucleoporin 50 [Source:NCBI gene;Acc:107317542]
+PDE4C			nan
+PHACTR4			phosphatase and actin regulator 4 [Source:NCBI gene;Acc:107323940]
+PIN4			peptidylprolyl cis-trans isomerase, NIMA-interacting 4 [Source:NCBI gene;Acc:107312540]
+PLAG1			PLAG1 zinc finger [Source:NCBI gene;Acc:107310175]
+PLEKHG5			pleckstrin homology and RhoGEF domain containing G5 [Source:NCBI gene;Acc:107323439]
+POLG			DNA polymerase gamma, catalytic subunit [Source:NCBI gene;Acc:107318822]
+POLRMT			RNA polymerase mitochondrial [Source:NCBI gene;Acc:107325425]
+PROB1			nan
+PTPRS			protein tyrosine phosphatase receptor type S [Source:NCBI gene;Acc:107325507]
+QRICH1			glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+SARM1			sterile alpha and TIR motif containing 1 [Source:NCBI gene;Acc:107322466]
+SEBOX			nan
+SEL1L			SEL1L adaptor subunit of ERAD E3 ubiquitin ligase [Source:NCBI gene;Acc:107315110]
+SEMA3B			semaphorin 3B [Source:NCBI gene;Acc:107319646]
+SEMA4B			semaphorin 4B [Source:NCBI gene;Acc:107318998]
+SGMS2			sphingomyelin synthase 2 [Source:NCBI gene;Acc:107313258]
+SIX2			SIX homeobox 2 [Source:NCBI gene;Acc:107311197]
+SKIDA1			nan
+SLC25A10			nan
+SLC25A28			solute carrier family 25 member 28 [Source:NCBI gene;Acc:107316105]
+SLC26A11			solute carrier family 26 member 11 [Source:NCBI gene;Acc:107322086]
+SLC2A11			solute carrier family 2 member 11 [Source:NCBI gene;Acc:107321284]
+SLC6A8			nan
+SOX17			nan
+SPDYA			speedy-RINGO cell cycle regulator family member A [Source:NCBI gene;Acc:107310871]
+TADA3			transcriptional adaptor 3 [Source:NCBI gene;Acc:107319802]
+TBL2			transducin beta like 2 [Source:NCBI gene;Acc:107322686]
+TEKT5			tektin 5 [Source:NCBI gene;Acc:107320855]
+TIMM17A			translocase of inner mitochondrial membrane 17A [Source:NCBI gene;Acc:107324717]
+TLX1			T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+TLX3			T cell leukemia homeobox 3 [Source:NCBI gene;Acc:107320303]
+TOP2A			DNA topoisomerase II alpha [Source:NCBI gene;Acc:107325246]
+TPM2			nan
+TRNAL-CAG			nan
+TTLL6			nan
+USP5			ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+VPS53			VPS53 subunit of GARP complex [Source:NCBI gene;Acc:107322558]
+VTN			vitronectin [Source:NCBI gene;Acc:107322472]
+XCR1			X-C motif chemokine receptor 1 [Source:HGNC Symbol;Acc:HGNC:1625]
+ZC3H11A			nan

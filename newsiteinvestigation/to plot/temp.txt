@@ -1,0 +1,1 @@
+XCR1 X-C motif chemokine receptor 1 [Source:HGNC Symbol;Acc:HGNC:1625]

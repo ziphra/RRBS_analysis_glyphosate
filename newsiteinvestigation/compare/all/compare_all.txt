@@ -1,0 +1,814 @@
+  EXISTS: go-basic.obo
+go-basic.obo: fmt(1.2) rel(2021-05-01) 47,284 GO Terms; optional_attrs(relationship)
+  176 GO IDs READ: ff7genetogo.txt
+  202 GO IDs READ: fm7genetogo.txt
+  479 GO IDs READ: ff12genetogo.txt
+  107 GO IDs READ: fm12genetogo.txt
+ GoSubDag: 757 sources in 2468 GOs rcnt(True). 3 alt GO IDs
+ GoSubDag: namedtuple fields: NS level depth reldepth GO alt GO_name dcnt D1 childcnt REL REL_short rel id
+ GoSubDag: relationships: {'negatively_regulates', 'positively_regulates', 'part_of', 'regulates'}
+  EXISTS: goslim_generic.obo
+goslim_generic.obo: fmt(1.2) rel(None) 247 GO Terms
+# ----------------------------------------------------------------
+# - Description of GO ID fields
+# ----------------------------------------------------------------
+# Versions:
+#    go-basic.obo: fmt(1.2) rel(2021-05-01) 47,284 GO Terms; optional_attrs(relationship)
+#    goslim_generic.obo: fmt(1.2) rel(None) 247 GO Terms
+
+# Marker keys:
+#     X -> GO is present in ff7genetogo
+#     X -> GO is present in fm7genetogo
+#     X -> GO is present in ff12genetogo
+#     X -> GO is present in fm12genetogo
+
+# GO Namspaces:
+#     BP -> Biological Process
+#     MF -> Molecular Function
+#     CC -> Cellular Component
+
+# Depth information:
+#     int -> number of GO descendants
+#     Dnn -> depth (maximum distance from root to node)
+
+SECTION: Misc.
+..X. GO:0060271 BP    29 D07  cilium assembly
+..X. GO:0042391 BP   132 D03  regulation of membrane potential
+..X. GO:0001508 BP    76 D04  action potential
+..X. GO:0051099 BP    48 D04  positive regulation of binding
+..X. GO:0032092 BP    17 D05  positive regulation of protein binding
+..X. GO:0043388 BP    11 D05  positive regulation of DNA binding
+.X.. GO:0043087 BP     9 D05  regulation of GTPase activity
+.XX. GO:0031647 BP     4 D03  regulation of protein stability
+..X. GO:1903025 BP     2 D06  regulation of RNA polymerase II regulatory region sequence-specific DNA binding
+.X.. GO:0034260 BP     0 D06  negative regulation of GTPase activity
+..X. GO:1904798 BP     0 D07  positive regulation of core promoter binding
+XX.. GO:0010468 BP  1028 D05  regulation of gene expression
+..XX GO:0010629 BP   339 D06  negative regulation of gene expression
+.XXX GO:0010628 BP   193 D06  positive regulation of gene expression
+..X. GO:0016311 BP    73 D05  dephosphorylation
+..X. GO:0030203 BP    35 D05  glycosaminoglycan metabolic process
+..X. GO:0033673 BP    30 D09  negative regulation of kinase activity
+..X. GO:0001503 BP    32 D02  ossification
+..X. GO:0034103 BP    26 D04  regulation of tissue remodeling
+.X.. GO:0007585 BP     9 D02  respiratory gaseous exchange by respiratory system
+.X.. GO:0030278 BP     8 D04  regulation of ossification
+..X. GO:0001974 BP     7 D03  blood vessel remodeling
+..X. GO:0097205 BP     7 D04  renal filtration
+X... GO:1901390 BP     3 D09  positive regulation of transforming growth factor beta activation
+X... GO:0032912 BP     1 D09  negative regulation of transforming growth factor beta2 production
+X... GO:0032911 BP     1 D09  negative regulation of transforming growth factor beta1 production
+..X. GO:0032688 BP     0 D09  negative regulation of interferon-beta production
+..X. GO:0032687 BP     0 D09  negative regulation of interferon-alpha production
+..XX GO:0019827 BP    31 D03  stem cell population maintenance
+.X.. GO:0007275 BP  5250 D03  multicellular organism development
+X... GO:0007399 BP  1256 D04  nervous system development
+.X.. GO:0007417 BP   554 D04  central nervous system development
+.XX. GO:0001822 BP   524 D04  kidney development
+..X. GO:0007507 BP   447 D04  heart development
+X... GO:0035239 BP   431 D03  tube morphogenesis
+..X. GO:0007420 BP   415 D04  brain development
+.XX. GO:0072006 BP   323 D03  nephron development
+..X. GO:0048732 BP   231 D04  gland development
+..X. GO:0003007 BP   197 D04  heart morphogenesis
+..X. GO:0001654 BP   176 D05  eye development
+..X. GO:0001568 BP   168 D03  blood vessel development
+.X.. GO:0001656 BP   167 D05  metanephros development
+.X.. GO:0072028 BP   136 D03  nephron morphogenesis
+.X.. GO:0009952 BP   121 D04  anterior/posterior pattern specification
+.XX. GO:0001501 BP   114 D04  skeletal system development
+.X.. GO:0035148 BP   101 D03  tube formation
+...X GO:0022612 BP    97 D04  gland morphogenesis
+..X. GO:0043010 BP    92 D06  camera-type eye development
+X... GO:0048645 BP    85 D03  animal organ formation
+X... GO:0048738 BP    83 D06  cardiac muscle tissue development
+..X. GO:0030324 BP    80 D04  lung development
+..X. GO:0048565 BP    59 D04  digestive tract development
+..X. GO:0043588 BP    53 D04  skin development
+..X. GO:0021510 BP    46 D04  spinal cord development
+.X.. GO:0009948 BP    45 D04  anterior/posterior axis specification
+..X. GO:0021549 BP    42 D03  cerebellum development
+..X. GO:0001657 BP    37 D08  ureteric bud development
+..X. GO:0021987 BP    36 D03  cerebral cortex development
+X... GO:0098773 BP    33 D05  skin epidermis development
+..X. GO:0072010 BP    33 D07  glomerular epithelium development
+.X.. GO:0009954 BP    32 D04  proximal/distal pattern formation
+X... GO:0031016 BP    30 D04  pancreas development
+..X. GO:0048644 BP    21 D04  muscle organ morphogenesis
+..X. GO:0048844 BP    21 D05  artery morphogenesis
+..X. GO:0003151 BP    20 D03  outflow tract morphogenesis
+..X. GO:0060976 BP    18 D04  coronary vasculature development
+X... GO:0001889 BP    15 D05  liver development
+..X. GO:0042475 BP    13 D05  odontogenesis of dentin-containing tooth
+..X. GO:0001945 BP    11 D03  lymph vessel development
+.X.. GO:0072038 BP    11 D05  mesenchymal stem cell maintenance involved in nephron morphogenesis
+..X. GO:0055010 BP     8 D06  ventricular cardiac muscle tissue morphogenesis
+..X. GO:0048286 BP     6 D03  lung alveolus development
+..X. GO:0060412 BP     6 D04  ventricular septum morphogenesis
+.XX. GO:0016525 BP     4 D08  negative regulation of angiogenesis
+..X. GO:0021766 BP     3 D03  hippocampus development
+X... GO:0045766 BP     3 D07  positive regulation of angiogenesis
+X... GO:0060430 BP     2 D03  lung saccule development
+.X.. GO:0090189 BP     2 D06  regulation of branching involved in ureteric bud morphogenesis
+X... GO:0060749 BP     1 D03  mammary gland alveolus development
+..X. GO:0060463 BP     1 D03  lung lobe morphogenesis
+..X. GO:0022038 BP     1 D03  corpus callosum development
+..X. GO:0060022 BP     0 D03  hard palate development
+..X. GO:0032808 BP     0 D05  lacrimal gland development
+..X. GO:0060426 BP     0 D05  lung vasculature development
+X... GO:0097421 BP     0 D06  liver regeneration
+..X. GO:0001958 BP     0 D04  endochondral ossification
+X... GO:0003148 BP     0 D04  outflow tract septum morphogenesis
+..X. GO:1901491 BP     0 D06  negative regulation of lymphangiogenesis
+..X. GO:0003150 BP     0 D05  muscular septum morphogenesis
+..X. GO:0003149 BP     0 D03  membranous septum morphogenesis
+X... GO:0071310 BP   772 D04  cellular response to organic substance
+..X. GO:0034097 BP   185 D04  response to cytokine
+..X. GO:0071345 BP   145 D05  cellular response to cytokine stimulus
+X... GO:0070848 BP   143 D04  response to growth factor
+..X. GO:0071383 BP    43 D06  cellular response to steroid hormone stimulus
+X... GO:0042493 BP    37 D03  response to drug
+X... GO:0071773 BP    29 D06  cellular response to BMP stimulus
+..X. GO:0071560 BP    23 D06  cellular response to transforming growth factor beta stimulus
+..X. GO:1990869 BP    22 D06  cellular response to chemokine
+.X.. GO:0035924 BP    20 D06  cellular response to vascular endothelial growth factor stimulus
+X.X. GO:0009749 BP    16 D07  response to glucose
+..X. GO:0071385 BP     8 D08  cellular response to glucocorticoid stimulus
+.X.. GO:0010332 BP     7 D05  response to gamma radiation
+.X.. GO:0071356 BP     6 D06  cellular response to tumor necrosis factor
+.X.. GO:0071347 BP     4 D06  cellular response to interleukin-1
+..X. GO:0071469 BP     4 D06  cellular response to alkaline pH
+X... GO:0044321 BP     3 D05  response to leptin
+X... GO:0071371 BP     3 D06  cellular response to gonadotropin stimulus
+X... GO:0032526 BP     1 D05  response to retinoic acid
+X... GO:0043627 BP     1 D05  response to estrogen
+X... GO:0070141 BP     1 D06  response to UV-A
+.X.. GO:0010225 BP     1 D06  response to UV-C
+..X. GO:0071364 BP     0 D06  cellular response to epidermal growth factor stimulus
+..X. GO:0071321 BP     0 D07  cellular response to cGMP
+..X. GO:0071320 BP     0 D07  cellular response to cAMP
+..X. GO:0071549 BP     0 D09  cellular response to dexamethasone stimulus
+..X. GO:0019915 BP    14 D03  lipid storage
+..X. GO:1903078 BP     4 D08  positive regulation of protein localization to plasma membrane
+..X. GO:1900182 BP     3 D07  positive regulation of protein localization to nucleus
+..XX GO:0006351 BP   390 D09  transcription, DNA-templated
+XXXX GO:0006355 BP   306 D09  regulation of transcription, DNA-templated
+X... GO:0006357 BP   159 D10  regulation of transcription by RNA polymerase II
+..X. GO:0006260 BP   143 D06  DNA replication
+..X. GO:0006261 BP   137 D07  DNA-dependent DNA replication
+XXXX GO:0045892 BP   113 D10  negative regulation of transcription, DNA-templated
+XXXX GO:0045893 BP    99 D10  positive regulation of transcription, DNA-templated
+XXXX GO:0045944 BP    63 D11  positive regulation of transcription by RNA polymerase II
+XXXX GO:0000122 BP    33 D11  negative regulation of transcription by RNA polymerase II
+..X. GO:0006390 BP     6 D10  mitochondrial transcription
+..X. GO:0006264 BP     4 D08  mitochondrial DNA replication
+..X. GO:0051091 BP     4 D11  positive regulation of DNA-binding transcription factor activity
+X... GO:0042541 BP     3 D06  hemoglobin biosynthetic process
+.X.. GO:0032088 BP     1 D12  negative regulation of NF-kappaB transcription factor activity
+..X. GO:1902895 BP     0 D12  positive regulation of pri-miRNA transcription by RNA polymerase II
+..X. GO:0006811 BP   929 D04  ion transport
+..X. GO:0046907 BP   426 D04  intracellular transport
+..X. GO:0006813 BP    46 D06  potassium ion transport
+..X. GO:0001696 BP     9 D06  gastric acid secretion
+X... GO:0007595 BP     5 D06  lactation
+X.X. GO:0008272 BP     3 D07  sulfate transport
+...X GO:0015937 BP     1 D11  coenzyme A biosynthetic process
+..X. GO:0045595 BP   751 D04  regulation of cell differentiation
+..X. GO:0022008 BP   691 D04  neurogenesis
+.X.. GO:0030182 BP   497 D04  neuron differentiation
+X.X. GO:0030855 BP   340 D04  epithelial cell differentiation
+..X. GO:0048666 BP   296 D04  neuron development
+.X.. GO:0045596 BP   268 D05  negative regulation of cell differentiation
+.X.. GO:0001708 BP   107 D03  cell fate specification
+..X. GO:0048863 BP    80 D04  stem cell differentiation
+..X. GO:0048762 BP    79 D04  mesenchymal cell differentiation
+X... GO:0055007 BP    46 D06  cardiac muscle cell differentiation
+X... GO:0051145 BP    40 D05  smooth muscle cell differentiation
+X... GO:0030857 BP    28 D06  negative regulation of epithelial cell differentiation
+.X.. GO:0002062 BP    24 D04  chondrocyte differentiation
+.X.. GO:0045665 BP    18 D06  negative regulation of neuron differentiation
+.X.. GO:0048665 BP    15 D04  neuron fate specification
+..X. GO:0010977 BP    15 D08  negative regulation of neuron projection development
+..X. GO:0014031 BP    14 D04  mesenchymal cell development
+..X. GO:0014032 BP    13 D05  neural crest cell development
+X.X. GO:0048709 BP    11 D05  oligodendrocyte differentiation
+.X.. GO:0032330 BP    10 D06  regulation of chondrocyte differentiation
+.X.. GO:0010976 BP    10 D08  positive regulation of neuron projection development
+X... GO:0045444 BP     9 D04  fat cell differentiation
+X... GO:0060947 BP     8 D07  cardiac vascular smooth muscle cell differentiation
+..X. GO:0010718 BP     8 D06  positive regulation of epithelial to mesenchymal transition
+..X. GO:0060119 BP     8 D05  inner ear receptor cell development
+X... GO:0060575 BP     7 D06  intestinal epithelial cell differentiation
+X... GO:0003309 BP     6 D08  type B pancreatic cell differentiation
+.X.. GO:0010719 BP     6 D06  negative regulation of epithelial to mesenchymal transition
+...X GO:0050773 BP     6 D08  regulation of dendrite development
+X... GO:0003310 BP     5 D08  pancreatic A cell differentiation
+.X.. GO:0003337 BP     4 D06  mesenchymal to epithelial transition involved in metanephros morphogenesis
+.X.. GO:0072161 BP     2 D06  mesenchymal cell differentiation involved in kidney development
+X... GO:0001949 BP     1 D06  sebaceous gland cell differentiation
+X... GO:0051891 BP     1 D07  positive regulation of cardioblast differentiation
+..X. GO:0048711 BP     1 D10  positive regulation of astrocyte differentiation
+..X. GO:0072307 BP     1 D08  regulation of metanephric nephron tubule epithelial cell differentiation
+..X. GO:0061000 BP     1 D05  negative regulation of dendritic spine development
+..X. GO:0045669 BP     0 D06  positive regulation of osteoblast differentiation
+..X. GO:0045618 BP     0 D08  positive regulation of keratinocyte differentiation
+..X. GO:0090557 BP     0 D07  establishment of endothelial intestinal barrier
+X... GO:0060486 BP     0 D06  club cell differentiation
+X... GO:0060510 BP     0 D07  type II pneumocyte differentiation
+.X.. GO:1900006 BP     0 D09  positive regulation of dendrite development
+..X. GO:0072108 BP     0 D08  positive regulation of mesenchymal to epithelial transition involved in metanephros morphogenesis
+XXX. GO:0007165 BP  1654 D04  signal transduction
+..X. GO:0007166 BP   719 D05  cell surface receptor signaling pathway
+X.X. GO:0007186 BP   174 D05  G protein-coupled receptor signaling pathway
+..X. GO:0007169 BP   159 D07  transmembrane receptor protein tyrosine kinase signaling pathway
+..X. GO:0070098 BP    21 D07  chemokine-mediated signaling pathway
+..X. GO:0007219 BP    18 D06  Notch signaling pathway
+.XX. GO:0043410 BP    17 D08  positive regulation of MAPK cascade
+..X. GO:0007200 BP    14 D06  phospholipase C-activating G protein-coupled receptor signaling pathway
+..X. GO:0038084 BP    12 D08  vascular endothelial growth factor signaling pathway
+..X. GO:0030510 BP     9 D07  regulation of BMP signaling pathway
+..X. GO:0048010 BP     8 D08  vascular endothelial growth factor receptor signaling pathway
+..X. GO:0017015 BP     6 D07  regulation of transforming growth factor beta receptor signaling pathway
+.X.. GO:0043122 BP     5 D07  regulation of I-kappaB kinase/NF-kappaB signaling
+..X. GO:0043402 BP     3 D07  glucocorticoid mediated signaling pathway
+..X. GO:0042921 BP     3 D09  glucocorticoid receptor signaling pathway
+..X. GO:0032008 BP     2 D08  positive regulation of TOR signaling
+..X. GO:0032007 BP     2 D08  negative regulation of TOR signaling
+..X. GO:0010642 BP     2 D07  negative regulation of platelet-derived growth factor receptor signaling pathway
+..X. GO:0040037 BP     2 D07  negative regulation of fibroblast growth factor receptor signaling pathway
+..X. GO:0038188 BP     1 D06  cholecystokinin signaling pathway
+..X. GO:0048861 BP     1 D07  leukemia inhibitory factor signaling pathway
+.X.. GO:0043124 BP     1 D08  negative regulation of I-kappaB kinase/NF-kappaB signaling
+..X. GO:0070374 BP     1 D09  positive regulation of ERK1 and ERK2 cascade
+.X.. GO:0038026 BP     0 D06  reelin-mediated signaling pathway
+..X. GO:0060183 BP     0 D06  apelin receptor signaling pathway
+..X. GO:0051897 BP     0 D08  positive regulation of protein kinase B signaling
+..X. GO:0038063 BP     0 D08  collagen-activated tyrosine kinase receptor signaling pathway
+X.X. GO:0034128 BP     0 D09  negative regulation of MyD88-independent toll-like receptor signaling pathway
+.XX. GO:0070373 BP     0 D09  negative regulation of ERK1 and ERK2 cascade
+.X.. GO:0036324 BP     0 D09  vascular endothelial growth factor receptor-2 signaling pathway
+..X. GO:0034164 BP     0 D09  negative regulation of toll-like receptor 9 signaling pathway
+.X.. GO:0034144 BP     0 D09  negative regulation of toll-like receptor 4 signaling pathway
+.X.. GO:0014067 BP     0 D08  negative regulation of phosphatidylinositol 3-kinase signaling
+.X.. GO:1900747 BP     0 D07  negative regulation of vascular endothelial growth factor signaling pathway
+..X. GO:0014068 BP     0 D08  positive regulation of phosphatidylinositol 3-kinase signaling
+..X. GO:0035024 BP     0 D10  negative regulation of Rho protein signal transduction
+.X.. GO:0030948 BP     0 D07  negative regulation of vascular endothelial growth factor receptor signaling pathway
+.X.. GO:0044257 BP   106 D06  cellular protein catabolic process
+..X. GO:0010498 BP    49 D07  proteasomal protein catabolic process
+.XX. GO:0006511 BP    41 D08  ubiquitin-dependent protein catabolic process
+..X. GO:0043161 BP    31 D09  proteasome-mediated ubiquitin-dependent protein catabolic process
+.XX. GO:0045732 BP    18 D07  positive regulation of protein catabolic process
+.X.. GO:1903363 BP    13 D08  negative regulation of cellular protein catabolic process
+.X.. GO:1901800 BP     7 D10  positive regulation of proteasomal protein catabolic process
+.X.. GO:0032436 BP     5 D11  positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+X.X. GO:0006955 BP   752 D02  immune response
+...X GO:0002244 BP    25 D04  hematopoietic progenitor cell differentiation
+..X. GO:0045639 BP    14 D07  positive regulation of myeloid cell differentiation
+..X. GO:1901534 BP     5 D06  positive regulation of hematopoietic progenitor cell differentiation
+..X. GO:0045651 BP     1 D09  positive regulation of macrophage differentiation
+..X. GO:1902038 BP     0 D07  positive regulation of hematopoietic stem cell differentiation
+X.XX GO:0006974 BP   181 D04  cellular response to DNA damage stimulus
+.XXX GO:0034976 BP    64 D04  response to endoplasmic reticulum stress
+X.X. GO:0048678 BP    34 D04  response to axon injury
+..X. GO:0036503 BP    17 D08  ERAD pathway
+XXXX GO:0030968 BP    16 D05  endoplasmic reticulum unfolded protein response
+X.X. GO:0071456 BP    14 D06  cellular response to hypoxia
+.X.X GO:0140467 BP     7 D04  integrated stress response signaling
+..X. GO:0071498 BP     7 D04  cellular response to fluid shear stress
+..X. GO:0048681 BP     6 D10  negative regulation of axon regeneration
+..X. GO:0034198 BP     5 D07  cellular response to amino acid starvation
+X... GO:0014898 BP     3 D07  cardiac muscle hypertrophy in response to stress
+..X. GO:0042149 BP     3 D07  cellular response to glucose starvation
+.X.X GO:0036499 BP     3 D06  PERK-mediated unfolded protein response
+.X.. GO:1900744 BP     2 D09  regulation of p38MAPK cascade
+..X. GO:0046329 BP     1 D10  negative regulation of JNK cascade
+.X.. GO:0046330 BP     0 D10  positive regulation of JNK cascade
+X.X. GO:0006468 BP   190 D07  protein phosphorylation
+.X.. GO:0001932 BP   132 D08  regulation of protein phosphorylation
+..X. GO:0016567 BP    64 D09  protein ubiquitination
+X.X. GO:0001934 BP    50 D09  positive regulation of protein phosphorylation
+.X.. GO:0001933 BP    44 D09  negative regulation of protein phosphorylation
+..X. GO:0006470 BP    34 D07  protein dephosphorylation
+X.X. GO:0045860 BP    34 D10  positive regulation of protein kinase activity
+..X. GO:0006476 BP    29 D08  protein deacetylation
+..X. GO:0018108 BP    29 D09  peptidyl-tyrosine phosphorylation
+.X.. GO:0016579 BP    27 D09  protein deubiquitination
+..X. GO:0046777 BP    15 D08  protein autophosphorylation
+.X.. GO:0071902 BP    13 D11  positive regulation of protein serine/threonine kinase activity
+.X.. GO:0071901 BP     9 D11  negative regulation of protein serine/threonine kinase activity
+..X. GO:0050731 BP     7 D10  positive regulation of peptidyl-tyrosine phosphorylation
+.X.. GO:0090043 BP     5 D09  regulation of tubulin deacetylation
+.X.. GO:0007252 BP     3 D08  I-kappaB phosphorylation
+..X. GO:0007260 BP     3 D10  tyrosine phosphorylation of STAT protein
+..X. GO:0035335 BP     2 D08  peptidyl-tyrosine dephosphorylation
+.X.. GO:0071108 BP     2 D10  protein K48-linked deubiquitination
+.X.. GO:2000434 BP     2 D09  regulation of protein neddylation
+.X.. GO:0043407 BP     2 D12  negative regulation of MAP kinase activity
+.X.. GO:0043507 BP     2 D13  positive regulation of JUN kinase activity
+..X. GO:0033138 BP     1 D10  positive regulation of peptidyl-serine phosphorylation
+.X.. GO:0000185 BP     1 D13  activation of MAPKKK activity
+.X.. GO:2000436 BP     0 D10  positive regulation of protein neddylation
+.X.. GO:2000435 BP     0 D10  negative regulation of protein neddylation
+..X. GO:0033141 BP     0 D11  positive regulation of peptidyl-serine phosphorylation of STAT protein
+..X. GO:0042531 BP     0 D11  positive regulation of tyrosine phosphorylation of STAT protein
+.X.. GO:0007257 BP     0 D14  activation of JUN kinase activity
+..X. GO:0001541 BP    23 D04  ovarian follicle development
+XX.. GO:0008584 BP    13 D05  male gonad development
+.X.. GO:0060065 BP     2 D04  uterus development
+X... GO:0002759 BP    35 D06  regulation of antimicrobial humoral response
+.X.. GO:0071222 BP     5 D06  cellular response to lipopolysaccharide
+X... GO:0006644 BP   178 D05  phospholipid metabolic process
+..X. GO:0006641 BP    17 D07  triglyceride metabolic process
+.X.. GO:0046513 BP    14 D08  ceramide biosynthetic process
+.X.. GO:0043553 BP     1 D11  negative regulation of phosphatidylinositol 3-kinase activity
+.X.. GO:1905373 BP     0 D08  ceramide phosphoethanolamine biosynthetic process
+.X.. GO:0006686 BP     0 D08  sphingomyelin biosynthetic process
+..X. GO:0006689 BP     0 D09  ganglioside catabolic process
+...X GO:0051792 BP     0 D09  medium-chain fatty acid biosynthetic process
+...X GO:1900535 BP     0 D10  palmitic acid biosynthetic process
+.X.. GO:0071158 BP   436 D04  regulation of cell cycle
+X... GO:0051726 BP   436 D04  regulation of cell cycle
+.X.. GO:0010564 BP   406 D05  regulation of cell cycle process
+..X. GO:0045835 BP     9 D08  negative regulation of meiotic nuclear division
+X... GO:0000320 BP     1 D03  re-entry into mitotic cell cycle
+X... GO:0045737 BP     1 D12  positive regulation of cyclin-dependent protein serine/threonine kinase activity
+.X.. GO:0070317 BP     0 D07  negative regulation of G0 to G1 transition
+..X. GO:0005975 BP   756 D03  carbohydrate metabolic process
+..X. GO:0009311 BP   133 D04  oligosaccharide metabolic process
+..X. GO:0009313 BP    42 D05  oligosaccharide catabolic process
+X... GO:0019853 BP     4 D07  L-ascorbic acid biosynthetic process
+..X. GO:0045722 BP     0 D09  positive regulation of gluconeogenesis
+X.X. GO:0055085 BP   747 D04  transmembrane transport
+..X. GO:0071805 BP    42 D08  potassium ion transmembrane transport
+..X. GO:0035725 BP    30 D08  sodium ion transmembrane transport
+..X. GO:0098719 BP     3 D09  sodium ion import across plasma membrane
+..X. GO:1990573 BP     3 D09  potassium ion import across plasma membrane
+..X. GO:1902476 BP     0 D08  chloride transmembrane transport
+..X. GO:0048870 BP   570 D03  cell motility
+.XX. GO:0016477 BP   521 D04  cell migration
+..X. GO:0006935 BP   235 D03  chemotaxis
+.XX. GO:0001764 BP    22 D05  neuron migration
+..X. GO:0060973 BP    19 D05  cell migration involved in heart development
+.X.. GO:0021814 BP    11 D04  cell motility involved in cerebral cortex radial glia guided migration
+.X.. GO:0010633 BP     7 D08  negative regulation of epithelial cell migration
+.X.. GO:0010596 BP     4 D09  negative regulation of endothelial cell migration
+.X.. GO:0021819 BP     3 D03  layer formation in cerebral cortex
+..X. GO:0014912 BP     2 D08  negative regulation of smooth muscle cell migration
+.X.. GO:2001224 BP     2 D08  positive regulation of neuron migration
+..X. GO:0010763 BP     1 D08  positive regulation of fibroblast migration
+..X. GO:0007267 BP   697 D03  cell-cell signaling
+X.X. GO:0016055 BP   138 D07  Wnt signaling pathway
+..X. GO:0050804 BP   112 D06  modulation of chemical synaptic transmission
+..X. GO:0030111 BP    69 D06  regulation of Wnt signaling pathway
+..X. GO:0060070 BP    53 D08  canonical Wnt signaling pathway
+..X. GO:0046888 BP    38 D08  negative regulation of hormone secretion
+.X.. GO:0090090 BP     8 D08  negative regulation of canonical Wnt signaling pathway
+..X. GO:0051702 BP   106 D03  biological process involved in interaction with symbiont
+.X.. GO:0043966 BP    25 D12  histone H3 acetylation
+..X. GO:0016575 BP    17 D09  histone deacetylation
+...X GO:0030261 BP    14 D08  chromosome condensation
+.X.. GO:0031063 BP     8 D09  regulation of histone deacetylation
+...X GO:1905463 BP     1 D08  negative regulation of DNA duplex unwinding
+..X. GO:0035518 BP     1 D12  histone H2A monoubiquitination
+..X. GO:1901676 BP     0 D12  positive regulation of histone H3-K27 acetylation
+X... GO:0007276 BP   237 D03  gamete generation
+.X.. GO:0007338 BP    42 D03  single fertilization
+.X.. GO:0007283 BP    38 D05  spermatogenesis
+X... GO:0007140 BP    12 D08  male meiotic nuclear division
+...X GO:0007143 BP    10 D08  female meiotic nuclear division
+..X. GO:0007566 BP     4 D02  embryo implantation
+..X. GO:0060135 BP     4 D03  maternal process involved in female pregnancy
+..X. GO:0008354 BP     3 D05  germ cell migration
+..X. GO:0046697 BP     0 D04  decidualization
+..X. GO:0048333 BP    56 D04  mesodermal cell differentiation
+X.X. GO:0001701 BP    42 D07  in utero embryonic development
+..X. GO:0035050 BP    26 D05  embryonic heart tube development
+.X.. GO:0007501 BP    22 D04  mesodermal cell fate specification
+..X. GO:0001756 BP    16 D05  somitogenesis
+..X. GO:0048341 BP    10 D05  paraxial mesoderm formation
+X... GO:0035987 BP     9 D04  endodermal cell differentiation
+.X.. GO:0030326 BP     6 D05  embryonic limb morphogenesis
+.X.. GO:0048704 BP     5 D05  embryonic skeletal system morphogenesis
+.X.. GO:0048557 BP     2 D05  embryonic digestive tract morphogenesis
+.X.. GO:0048701 BP     2 D06  embryonic cranial skeleton morphogenesis
+..X. GO:0090179 BP     2 D10  planar cell polarity pathway involved in neural tube closure
+.X.. GO:0042474 BP     0 D04  middle ear morphogenesis
+..X. GO:0090103 BP     0 D04  cochlea morphogenesis
+..X. GO:0060707 BP     0 D05  trophoblast giant cell differentiation
+..X. GO:0060708 BP     0 D05  spongiotrophoblast differentiation
+X... GO:0007493 BP     0 D04  endodermal cell fate determination
+...X GO:0006259 BP   513 D06  DNA metabolic process
+..X. GO:0006281 BP   130 D07  DNA repair
+...X GO:0006266 BP    15 D07  DNA ligation
+..X. GO:0070914 BP     2 D08  UV-damage excision repair
+...X GO:0006265 BP     0 D07  DNA topological change
+..X. GO:0006287 BP     0 D07  base-excision repair, gap-filling
+X.X. GO:0042981 BP   252 D06  regulation of apoptotic process
+X.X. GO:0043066 BP    91 D07  negative regulation of apoptotic process
+.X.X GO:0043065 BP    80 D07  positive regulation of apoptotic process
+X.X. GO:1901214 BP    27 D05  regulation of neuron death
+.X.. GO:2001235 BP    15 D08  positive regulation of apoptotic signaling pathway
+.X.. GO:0008625 BP     8 D07  extrinsic apoptotic signaling pathway via death domain receptors
+X.X. GO:1901216 BP     6 D06  positive regulation of neuron death
+.X.X GO:0070059 BP     6 D07  intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress
+...X GO:0030263 BP     0 D09  apoptotic chromosome condensation
+..X. GO:1902257 BP     0 D10  negative regulation of apoptotic process involved in outflow tract morphogenesis
+..X. GO:0007204 BP    42 D11  positive regulation of cytosolic calcium ion concentration
+..X. GO:0051209 BP    22 D14  release of sequestered calcium ion into cytosol
+..X. GO:0045851 BP    13 D09  pH reduction
+..X. GO:0010880 BP     4 D10  regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum
+..X. GO:0036438 BP     1 D06  maintenance of lens transparency
+..X. GO:0060315 BP     0 D11  negative regulation of ryanodine-sensitive calcium-release channel activity
+.XX. GO:0008283 BP   485 D02  cell population proliferation
+X... GO:0042127 BP   296 D04  regulation of cell population proliferation
+X.X. GO:0008284 BP    97 D05  positive regulation of cell population proliferation
+.XXX GO:0008285 BP    88 D05  negative regulation of cell population proliferation
+.X.. GO:0050680 BP    15 D06  negative regulation of epithelial cell proliferation
+X... GO:0033598 BP     6 D04  mammary gland epithelial cell proliferation
+.X.. GO:0097168 BP     5 D04  mesenchymal stem cell proliferation
+..X. GO:0035988 BP     2 D03  chondrocyte proliferation
+.X.. GO:0048147 BP     2 D06  negative regulation of fibroblast proliferation
+..X. GO:0048146 BP     2 D06  positive regulation of fibroblast proliferation
+...X GO:0060252 BP     2 D09  positive regulation of glial cell proliferation
+..X. GO:0048662 BP     1 D06  negative regulation of smooth muscle cell proliferation
+.X.. GO:0072137 BP     0 D04  condensed mesenchymal cell proliferation
+X... GO:1904003 BP     0 D06  negative regulation of sebum secreting cell proliferation
+.X.. GO:1902732 BP     0 D06  positive regulation of chondrocyte proliferation
+..X. GO:1904706 BP     0 D07  negative regulation of vascular associated smooth muscle cell proliferation
+X... GO:0110024 BP     0 D07  positive regulation of cardiac muscle myoblast proliferation
+..X. GO:1905564 BP     0 D08  positive regulation of vascular endothelial cell proliferation
+X... GO:0033601 BP     0 D07  positive regulation of mammary gland epithelial cell proliferation
+..X. GO:0048278 BP    16 D05  vesicle docking
+X.X. GO:0032456 BP    12 D06  endocytic recycling
+X.X. GO:0042147 BP     6 D06  retrograde transport, endosome to Golgi
+..X. GO:2001135 BP     6 D06  regulation of endocytic recycling
+..X. GO:1904022 BP     0 D10  positive regulation of G protein-coupled receptor internalization
+.X.. GO:0043254 BP   156 D05  regulation of protein-containing complex assembly
+.X.. GO:0031334 BP    55 D06  positive regulation of protein-containing complex assembly
+..X. GO:0051260 BP     8 D07  protein homooligomerization
+..X. GO:0006749 BP     7 D06  glutathione metabolic process
+...X GO:0035265 BP    68 D03  organ growth
+..X. GO:0003416 BP    23 D05  endochondral bone growth
+.X.. GO:0030308 BP    21 D06  negative regulation of cell growth
+..X. GO:0046620 BP    19 D05  regulation of organ growth
+...X GO:0060736 BP     6 D04  prostate gland growth
+...X GO:0035264 BP     4 D03  multicellular organism growth
+..X. GO:0060038 BP     4 D05  cardiac muscle cell proliferation
+X... GO:0060045 BP     1 D09  positive regulation of cardiac muscle cell proliferation
+..X. GO:0000226 BP   184 D06  microtubule cytoskeleton organization
+..X. GO:0051225 BP    29 D08  spindle assembly
+...X GO:0051017 BP    17 D07  actin filament bundle assembly
+..X. GO:0030838 BP    12 D11  positive regulation of actin filament polymerization
+..X. GO:0031532 BP     5 D07  actin cytoskeleton reorganization
+..X. GO:2000251 BP     0 D09  positive regulation of actin cytoskeleton reorganization
+...X GO:0030034 BP     0 D09  microvillar actin bundle assembly
+..X. GO:0045070 BP     1 D06  positive regulation of viral genome replication
+..X. GO:1902188 BP     1 D06  positive regulation of viral release from host cell
+..X. GO:0046726 BP     0 D06  positive regulation by virus of viral protein levels in host cell
+...X GO:0045870 BP     0 D07  positive regulation of single stranded viral RNA replication via double stranded DNA intermediate
+..X. GO:0097746 BP    42 D06  blood vessel diameter maintenance
+.X.X GO:0000278 BP   318 D03  mitotic cell cycle
+..X. GO:0045930 BP    47 D06  negative regulation of mitotic cell cycle
+..X. GO:1901990 BP    36 D07  regulation of mitotic cell cycle phase transition
+X... GO:0000082 BP    12 D05  G1/S transition of mitotic cell cycle
+X... GO:2000045 BP     8 D08  regulation of G1/S transition of mitotic cell cycle
+.X.. GO:2000134 BP     5 D09  negative regulation of G1/S transition of mitotic cell cycle
+X... GO:0010971 BP     1 D09  positive regulation of G2/M transition of mitotic cell cycle
+X... GO:0031571 BP     1 D12  mitotic G1 DNA damage checkpoint signaling
+..X. GO:0007155 BP   308 D02  cell adhesion
+X.X. GO:0007160 BP    22 D04  cell-matrix adhesion
+X.X. GO:0010811 BP     7 D06  positive regulation of cell-substrate adhesion
+..X. GO:0033630 BP     1 D06  positive regulation of cell adhesion mediated by integrin
+...X GO:0000291 BP    10 D10  nuclear-transcribed mRNA catabolic process, exonucleolytic
+...X GO:0010587 BP     3 D09  miRNA catabolic process
+...X GO:0034427 BP     1 D11  nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5'
+X.X. GO:0019677 BP     0 D10  NAD catabolic process
+...X GO:0036114 BP     0 D13  medium-chain fatty-acyl-CoA catabolic process
+...X GO:0036116 BP     0 D13  long-chain fatty-acyl-CoA catabolic process
+..X. GO:0000902 BP   292 D03  cell morphogenesis
+.X.. GO:0048812 BP   155 D08  neuron projection morphogenesis
+X.X. GO:0048814 BP     3 D09  regulation of dendrite morphogenesis
+..X. GO:0048671 BP     3 D10  negative regulation of collateral sprouting
+..X. GO:0030517 BP     2 D10  negative regulation of axon extension
+..X. GO:0009306 BP    60 D06  protein secretion
+..X. GO:0030970 BP     4 D08  retrograde protein transport, ER to cytosol
+..X. GO:0050877 BP   254 D03  nervous system process
+..X. GO:0050885 BP     4 D05  neuromuscular process controlling balance
+..X. GO:0007608 BP     1 D06  sensory perception of smell
+.X.. GO:0002087 BP     0 D06  regulation of respiratory gaseous exchange by nervous system process
+...X GO:0007059 BP   236 D02  chromosome segregation
+...X GO:0040016 BP     0 D03  embryonic cleavage
+..X. GO:0050808 BP   139 D05  synapse organization
+..X. GO:0097062 BP     3 D08  dendritic spine maintenance
+..X. GO:0099560 BP     1 D05  synaptic membrane adhesion
+..X. GO:0099151 BP     0 D08  regulation of postsynaptic density assembly
+.X.. GO:0090129 BP     1 D07  positive regulation of synapse maturation
+..X. GO:0007611 BP    23 D05  learning or memory
+..X. GO:0007613 BP     4 D06  memory
+..X. GO:0035640 BP     1 D02  exploration behavior
+..X. GO:0008542 BP     0 D08  visual learning
+...X GO:0051306 BP    17 D04  mitotic sister chromatid separation
+.X.. GO:0032981 BP     0 D08  mitochondrial respiratory chain complex I assembly
+..XX GO:0006364 BP    65 D09  rRNA processing
+..XX GO:0042752 BP    21 D03  regulation of circadian rhythm
+X.X. GO:0007041 BP    20 D05  lysosomal transport
+.X.. GO:0006606 BP     5 D08  protein import into nucleus
+..X. GO:0042307 BP     0 D09  positive regulation of protein import into nucleus
+..X. GO:0030150 BP     0 D08  protein import into mitochondrial matrix
+X.X. GO:0030198 BP    45 D05  extracellular matrix organization
+..X. GO:0030199 BP     3 D06  collagen fibril organization
+..X. GO:0090091 BP     0 D07  positive regulation of extracellular matrix disassembly
+..X. GO:0031214 BP    30 D04  biomineral tissue development
+.XX. GO:0030500 BP     5 D06  regulation of bone mineralization
+..X. GO:0006457 BP    22 D02  protein folding
+X.X. GO:0016020 CC  1047 D02  membrane
+..X. GO:0071944 CC   727 D02  cell periphery
+XXXX GO:0005886 CC   470 D03  plasma membrane
+X.X. GO:0016021 CC   232 D03  integral component of membrane
+X.X. GO:0045202 CC   189 D03  synapse
+.XX. GO:0005887 CC   124 D04  integral component of plasma membrane
+.X.. GO:0030424 CC    59 D05  axon
+..X. GO:0097060 CC    47 D04  synaptic membrane
+X.X. GO:0030425 CC    41 D05  dendrite
+..X. GO:0031253 CC    25 D04  cell projection membrane
+..X. GO:0045211 CC    24 D05  postsynaptic membrane
+..X. GO:0009986 CC    19 D02  cell surface
+..X. GO:0042734 CC    15 D05  presynaptic membrane
+..X. GO:0009897 CC     9 D03  external side of plasma membrane
+..X. GO:0060076 CC     7 D04  excitatory synapse
+.X.. GO:0043025 CC     5 D03  neuronal cell body
+...X GO:0005902 CC     5 D05  microvillus
+..X. GO:0098978 CC     3 D04  glutamatergic synapse
+..X. GO:0099056 CC     2 D06  integral component of presynaptic membrane
+.X.. GO:0030496 CC     1 D02  midbody
+X... GO:0005923 CC     1 D06  bicellular tight junction
+..X. GO:0098685 CC     0 D04  Schaffer collateral - CA1 synapse
+..X. GO:0043204 CC     0 D02  perikaryon
+.XX. GO:0032809 CC     0 D03  neuronal cell body membrane
+.X.. GO:0044300 CC     0 D06  cerebellar mossy fiber
+.X.. GO:1990032 CC     0 D06  parallel fiber
+..X. GO:0031527 CC     0 D05  filopodium membrane
+..X. GO:0016323 CC     0 D04  basolateral plasma membrane
+.X.. GO:0044301 CC     0 D06  climbing fiber
+XXXX GO:0005737 CC  1226 D02  cytoplasm
+X.XX GO:0005829 CC    84 D02  cytosol
+XXX. GO:0048471 CC     7 D02  perinuclear region of cytoplasm
+..XX GO:0032991 CC  2098 D01  protein-containing complex
+...X GO:1990904 CC   111 D02  ribonucleoprotein complex
+..X. GO:0043235 CC   108 D02  receptor complex
+XX.. GO:0005667 CC    82 D02  transcription regulator complex
+X... GO:0000307 CC    26 D07  cyclin-dependent protein kinase holoenzyme complex
+..X. GO:0008305 CC    24 D05  integrin complex
+X.X. GO:0017053 CC    15 D03  transcription repressor complex
+..X. GO:0008076 CC    15 D07  voltage-gated potassium channel complex
+..X. GO:0080008 CC     3 D06  Cul4-RING E3 ubiquitin ligase complex
+...X GO:0009330 CC     2 D02  DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) complex
+..X. GO:0031465 CC     1 D07  Cul4B-RING E3 ubiquitin ligase complex
+.X.. GO:1990597 CC     0 D02  AIP1-IRE1 complex
+..X. GO:1990130 CC     0 D02  GATOR1 complex
+X... GO:0034673 CC     0 D04  inhibin-betaglycan-ActRII complex
+..X. GO:0034667 CC     0 D06  integrin alpha3-beta1 complex
+..X. GO:0031464 CC     0 D07  Cul4A-RING E3 ubiquitin ligase complex
+..X. GO:0098855 CC     0 D08  HCN channel complex
+X.X. GO:0043231 CC  1289 D04  intracellular membrane-bounded organelle
+X.X. GO:0005783 CC   106 D05  endoplasmic reticulum
+XXXX GO:0005739 CC    91 D05  mitochondrion
+XXX. GO:0005794 CC    46 D05  Golgi apparatus
+.XX. GO:0005743 CC    36 D05  mitochondrial inner membrane
+.X.. GO:0030139 CC    35 D07  endocytic vesicle
+..X. GO:0005759 CC    21 D05  mitochondrial matrix
+X.X. GO:0055037 CC    12 D08  recycling endosome
+..X. GO:0005788 CC     9 D05  endoplasmic reticulum lumen
+...X GO:0032420 CC     6 D05  stereocilium
+.X.. GO:0030173 CC     6 D05  integral component of Golgi membrane
+..X. GO:0031305 CC     3 D06  integral component of mitochondrial inner membrane
+X.X. GO:0005802 CC     1 D04  trans-Golgi network
+..X. GO:0042645 CC     1 D05  mitochondrial nucleoid
+...X GO:0000932 CC     1 D07  P-body
+..X. GO:0005744 CC     1 D04  TIM23 mitochondrial import inner membrane translocase complex
+X.X. GO:0000938 CC     0 D03  GARP complex
+..X. GO:0005760 CC     0 D06  gamma DNA polymerase complex
+..X. GO:0036513 CC     0 D03  Derlin-1 retrotranslocation complex
+X.X. GO:0031315 CC     0 D04  extrinsic component of mitochondrial outer membrane
+X.X. GO:1990745 CC     0 D02  EARP complex
+..X. GO:0000839 CC     0 D08  Hrd1p ubiquitin ligase ERAD-L complex
+XXXX GO:0005634 CC   490 D05  nucleus
+XXXX GO:0005654 CC    86 D02  nucleoplasm
+..X. GO:0005635 CC    29 D04  nuclear envelope
+..XX GO:0005730 CC    24 D05  nucleolus
+X... GO:0016604 CC    14 D02  nuclear body
+..X. GO:0000118 CC    13 D03  histone deacetylase complex
+X.X. GO:0031965 CC    10 D04  nuclear membrane
+..X. GO:0005643 CC     9 D03  nuclear pore
+..XX GO:0016607 CC     1 D03  nuclear speck
+...X GO:0001650 CC     0 D02  fibrillar center
+.X.. GO:0030914 CC     0 D08  STAGA complex
+.X.. GO:0033276 CC     0 D08  transcription factor TFTC complex
+.X.. GO:0005671 CC     0 D08  Ada2/Gcn5/Ada3 transcription activator complex
+..X. GO:0005856 CC   263 D05  cytoskeleton
+X.X. GO:0015630 CC   103 D06  microtubule cytoskeleton
+..X. GO:0015629 CC    73 D06  actin cytoskeleton
+X.X. GO:0005874 CC    30 D06  microtubule
+.XX. GO:0072686 CC     8 D06  mitotic spindle
+..X. GO:0005882 CC     5 D06  intermediate filament
+...X GO:0005813 CC     4 D03  centrosome
+...X GO:0005814 CC     0 D05  centriole
+.X.X GO:0045095 CC     0 D07  keratin filament
+..X. GO:0034451 CC     0 D02  centriolar satellite
+..XX GO:0005694 CC   192 D05  chromosome
+...X GO:0000228 CC    50 D06  nuclear chromosome
+...X GO:0000793 CC    35 D06  condensed chromosome
+...X GO:0000775 CC    23 D03  chromosome, centromeric region
+..X. GO:0000792 CC    14 D03  heterochromatin
+..X. GO:0036064 CC     9 D03  ciliary basal body
+..X. GO:0036126 CC     8 D07  sperm flagellum
+..X. GO:0005576 CC    93 D02  extracellular region
+X... GO:0043512 CC     0 D03  inhibin A complex
+X.X. GO:0031012 CC    89 D03  extracellular matrix
+X.X. GO:0005765 CC    14 D07  lysosomal membrane
+...X GO:0016790 MF    41 D04  thiolester hydrolase activity
+..X. GO:0033558 MF    13 D04  protein deacetylase activity
+X... GO:0061630 MF     1 D05  ubiquitin protein ligase activity
+.X.. GO:0002950 MF     0 D05  ceramide phosphoethanolamine synthase activity
+.X.. GO:0033188 MF     0 D05  sphingomyelin synthase activity
+.X.. GO:0047493 MF     0 D05  ceramide cholinephosphotransferase activity
+X... GO:0004341 MF     0 D05  gluconolactonase activity
+...X GO:0016290 MF     0 D07  palmitoyl-CoA hydrolase activity
+.X.X GO:0016491 MF  2428 D02  oxidoreductase activity
+.X.X GO:0016616 MF   417 D04  oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+XXXX GO:0005515 MF   921 D02  protein binding
+X.X. GO:0005102 MF   419 D03  signaling receptor binding
+..X. GO:0003676 MF   313 D03  nucleic acid binding
+.XX. GO:0044877 MF   116 D02  protein-containing complex binding
+.X.. GO:0019904 MF    79 D03  protein domain specific binding
+X.X. GO:0030247 MF    21 D03  polysaccharide binding
+..X. GO:0017046 MF    13 D04  peptide hormone binding
+X.XX GO:0003682 MF     8 D02  chromatin binding
+X.X. GO:0050840 MF     5 D02  extracellular matrix binding
+..X. GO:0051219 MF     5 D03  phosphoprotein binding
+..X. GO:0031369 MF     3 D03  translation initiation factor binding
+..X. GO:0005518 MF     2 D03  collagen binding
+X..X GO:0046983 MF     2 D03  protein dimerization activity
+.XX. GO:0043548 MF     2 D03  phosphatidylinositol 3-kinase binding
+.X.X GO:0051287 MF     2 D05  NAD binding
+X... GO:0070064 MF     1 D03  proline-rich region binding
+.XX. GO:0042802 MF     1 D03  identical protein binding
+.X.. GO:0005123 MF     1 D06  death receptor binding
+...X GO:0000062 MF     1 D09  fatty-acyl-CoA binding
+..X. GO:0044325 MF     0 D03  ion channel binding
+..X. GO:0030332 MF     0 D03  cyclin binding
+..X. GO:0043560 MF     0 D03  insulin receptor substrate binding
+.X.. GO:0071889 MF     0 D03  14-3-3 protein binding
+...X GO:0008022 MF     0 D03  protein C-terminus binding
+..X. GO:0005516 MF     0 D03  calmodulin binding
+.XX. GO:0097602 MF     0 D03  cullin family protein binding
+..X. GO:1990841 MF     0 D03  promoter-specific chromatin binding
+..X. GO:0051879 MF     0 D04  Hsp90 protein binding
+..X. GO:0035374 MF     0 D04  chondroitin sulfate binding
+.X.. GO:0017124 MF     0 D04  SH3 domain binding
+..X. GO:0008201 MF     0 D04  heparin binding
+..XX GO:0046982 MF     0 D04  protein heterodimerization activity
+.X.. GO:0036312 MF     0 D04  phosphatidylinositol 3-kinase regulatory subunit binding
+XX.X GO:0042803 MF     0 D04  protein homodimerization activity
+X.X. GO:0030215 MF     0 D04  semaphorin receptor binding
+..X. GO:0030165 MF     0 D04  PDZ domain binding
+..X. GO:0071987 MF     0 D04  WD40-repeat domain binding
+..X. GO:0005130 MF     0 D05  granulocyte colony-stimulating factor receptor binding
+..X. GO:0005146 MF     0 D05  leukemia inhibitory factor receptor binding
+.X.. GO:0043184 MF     0 D06  vascular endothelial growth factor receptor 2 binding
+..X. GO:0031704 MF     0 D06  apelin receptor binding
+..X. GO:0031741 MF     0 D07  type B gastrin/cholecystokinin receptor binding
+...X GO:0036042 MF     0 D10  long-chain fatty acyl-CoA binding
+..X. GO:0022857 MF   993 D02  transmembrane transporter activity
+X.X. GO:0008509 MF   285 D04  anion transmembrane transporter activity
+..X. GO:0005216 MF   133 D05  ion channel activity
+..X. GO:0005249 MF    15 D09  voltage-gated potassium channel activity
+..X. GO:0005254 MF    12 D07  chloride channel activity
+X.X. GO:0015116 MF     9 D06  sulfate transmembrane transporter activity
+X.X. GO:0008271 MF     6 D07  secondary active sulfate transmembrane transporter activity
+..X. GO:0005248 MF     6 D09  voltage-gated sodium channel activity
+..X. GO:0008320 MF     3 D04  protein transmembrane transporter activity
+..X. GO:0005222 MF     2 D10  intracellular cAMP-activated cation channel activity
+..X. GO:0004888 MF   325 D03  transmembrane signaling receptor activity
+X.X. GO:0004930 MF   158 D04  G protein-coupled receptor activity
+X... GO:0016500 MF     9 D03  protein-hormone receptor activity
+..X. GO:0004950 MF     9 D07  chemokine receptor activity
+..X. GO:0004984 MF     1 D04  olfactory receptor activity
+..X. GO:0004883 MF     1 D04  glucocorticoid receptor activity
+..X. GO:0042813 MF     0 D04  Wnt-activated receptor activity
+X... GO:0004968 MF     0 D05  gonadotropin-releasing hormone receptor activity
+..X. GO:0004951 MF     0 D06  cholecystokinin receptor activity
+..X. GO:0015054 MF     0 D06  gastrin receptor activity
+X... GO:0016301 MF   352 D04  kinase activity
+X.X. GO:0004672 MF   108 D05  protein kinase activity
+..X. GO:0004713 MF    23 D06  protein tyrosine kinase activity
+..X. GO:0004714 MF    19 D07  transmembrane receptor protein tyrosine kinase activity
+X.X. GO:0004707 MF     1 D07  MAP kinase activity
+..X. GO:0038062 MF     0 D08  protein tyrosine kinase collagen receptor activity
+X.X. GO:0003953 MF     2 D05  NAD+ nucleosidase activity
+..X. GO:0004563 MF     2 D06  beta-N-acetylhexosaminidase activity
+..X. GO:0004573 MF     0 D06  mannosyl-oligosaccharide glucosidase activity
+X.X. GO:0061809 MF     0 D06  NAD+ nucleotidase, cyclic ADP-ribose generating
+..X. GO:0004407 MF    10 D05  histone deacetylase activity
+..XX GO:0003755 MF     0 D04  peptidyl-prolyl cis-trans isomerase activity
+...X GO:0008094 MF    27 D03  ATPase, acting on DNA
+...X GO:0003918 MF     1 D04  DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
+..X. GO:0016791 MF   180 D05  phosphatase activity
+..X. GO:0004721 MF    33 D06  phosphoprotein phosphatase activity
+..X. GO:0004725 MF     6 D07  protein tyrosine phosphatase activity
+.X.X GO:0046872 MF    30 D04  metal ion binding
+X.X. GO:0005509 MF     4 D05  calcium ion binding
+XXX. GO:0008270 MF     1 D06  zinc ion binding
+...X GO:0000287 MF     0 D05  magnesium ion binding
+X.XX GO:0005524 MF     0 D08  ATP binding
+...X GO:0003723 MF   172 D04  RNA binding
+...X GO:0008266 MF     0 D07  poly(U) RNA binding
+XXXX GO:0003677 MF   130 D04  DNA binding
+XXX. GO:0043565 MF    62 D05  sequence-specific DNA binding
+XXXX GO:1990837 MF    51 D06  sequence-specific double-stranded DNA binding
+X.X. GO:0000976 MF    34 D07  transcription cis-regulatory region binding
+..X. GO:0000977 MF    14 D08  RNA polymerase II transcription regulatory region sequence-specific DNA binding
+XXXX GO:0000978 MF    11 D09  RNA polymerase II cis-regulatory region sequence-specific DNA binding
+..X. GO:0003684 MF     8 D05  damaged DNA binding
+..XX GO:0008301 MF     4 D05  DNA binding, bending
+..X. GO:0001046 MF     3 D08  core promoter sequence-specific DNA binding
+..X. GO:0003899 MF     9 D07  DNA-directed 5'-3' RNA polymerase activity
+..X. GO:0003887 MF     0 D06  DNA-directed DNA polymerase activity
+...X GO:0004540 MF    48 D05  ribonuclease activity
+..X. GO:0008408 MF     8 D06  3'-5' exonuclease activity
+...X GO:0000175 MF     3 D08  3'-5'-exoribonuclease activity
+..X. GO:0005496 MF    23 D03  steroid binding
+..X. GO:1990239 MF     6 D04  steroid hormone binding
+.X.. GO:0070273 MF     0 D06  phosphatidylinositol-4-phosphate binding
+.X.. GO:0032266 MF     0 D06  phosphatidylinositol-3-phosphate binding
+X... GO:0030234 MF    82 D02  enzyme regulator activity
+.X.. GO:0004843 MF     0 D07  thiol-dependent deubiquitinase
+X.XX GO:0019899 MF    70 D03  enzyme binding
+.X.. GO:0019900 MF    17 D04  kinase binding
+XXX. GO:0019901 MF    15 D05  protein kinase binding
+..X. GO:0002020 MF     2 D04  protease binding
+XXXX GO:0042826 MF     0 D04  histone deacetylase binding
+..X. GO:0008157 MF     0 D06  protein phosphatase 1 binding
+.X.. GO:0031435 MF     0 D06  mitogen-activated protein kinase kinase kinase binding
+.X.. GO:0051721 MF     0 D06  protein phosphatase 2A binding
+.X.. GO:0031434 MF     0 D06  mitogen-activated protein kinase kinase binding
+...X GO:0005080 MF     0 D06  protein kinase C binding
+..XX GO:0003779 MF     3 D04  actin binding
+..X. GO:0008017 MF     3 D05  microtubule binding
+...X GO:0051015 MF     1 D05  actin filament binding
+..X. GO:0008047 MF    52 D01  enzyme activator activity
+.XX. GO:0005096 MF     1 D05  GTPase activator activity
+.X.. GO:0005085 MF     0 D06  guanyl-nucleotide exchange factor activity
+..X. GO:0005198 MF    42 D01  structural molecule activity
+..X. GO:0005200 MF     3 D02  structural constituent of cytoskeleton
+XXX. GO:0008134 MF    38 D03  transcription factor binding
+X... GO:0001103 MF    16 D05  RNA polymerase II-specific DNA-binding transcription factor binding
+.X.. GO:0016922 MF    10 D06  nuclear receptor binding
+..X. GO:0001226 MF     0 D05  transcription corepressor binding
+..X. GO:0051059 MF     0 D06  NF-kappaB binding
+..X. GO:0005179 MF    19 D05  hormone activity
+..X. GO:0005125 MF     1 D05  cytokine activity
+X.X. GO:0008083 MF     0 D05  growth factor activity
+..X. GO:0030674 MF    33 D02  protein-macromolecule adaptor activity
+XXX. GO:0035591 MF     5 D03  signaling adaptor activity
+..X. GO:0008093 MF     3 D03  cytoskeletal anchor activity
+X... GO:0030295 MF     7 D03  protein kinase activator activity
+X... GO:0016538 MF     2 D03  cyclin-dependent protein serine/threonine kinase regulator activity
+..X. GO:0004602 MF     0 D05  glutathione peroxidase activity
+X.X. GO:0003714 MF     2 D03  transcription corepressor activity
+.X.. GO:0003713 MF     1 D03  transcription coactivator activity
+.X.. GO:0030374 MF     0 D04  nuclear receptor coactivator activity
+X.X. GO:0005044 MF     0 D02  scavenger receptor activity
+XXXX GO:0003700 MF    10 D02  DNA-binding transcription factor activity
+XXXX GO:0000981 MF     3 D03  DNA-binding transcription factor activity, RNA polymerase II-specific
+..X. GO:0001227 MF     0 D04  DNA-binding transcription repressor activity, RNA polymerase II-specific
+..X. GO:0004879 MF     0 D04  nuclear receptor activity
+XXXX GO:0001228 MF     0 D04  DNA-binding transcription activator activity, RNA polymerase II-specific
+..X. GO:0019888 MF     7 D01  protein phosphatase regulator activity
+.X.X GO:0043130 MF     1 D04  ubiquitin binding
+..X. GO:0044183 MF     0 D01  protein folding chaperone
+..X. GO:0051082 MF     0 D03  unfolded protein binding
+# ----------------------------------------------------------------
+# - Description of GO ID fields
+# ----------------------------------------------------------------
+# Versions:
+#    go-basic.obo: fmt(1.2) rel(2021-05-01) 47,284 GO Terms; optional_attrs(relationship)
+#    goslim_generic.obo: fmt(1.2) rel(None) 247 GO Terms
+
+# Marker keys:
+#     X -> GO is present in ff7genetogo
+#     X -> GO is present in fm7genetogo
+#     X -> GO is present in ff12genetogo
+#     X -> GO is present in fm12genetogo
+
+# GO Namspaces:
+#     BP -> Biological Process
+#     MF -> Molecular Function
+#     CC -> Cellular Component
+
+# Depth information:
+#     int -> number of GO descendants
+#     Dnn -> depth (maximum distance from root to node)
+
+757 GO IDs in 1 sections

@@ -1,0 +1,330 @@
+NC029516.1_3840253	-	LOC107316278	nan
+NC029516.1_3840263	-	LOC107316278	nan
+NC029516.1_3840274	-	LOC107316278	nan
+NC029516.1_3840293	-	LOC107316278	nan
+NC029516.1_3840349	-	LOC107316278	nan
+NC029516.1_3840433	-	LOC107316278	nan
+NC029516.1_3840457	-	LOC107316278	nan
+NC029516.1_69544118	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544118	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544132	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544132	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544141	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544141	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544145	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544145	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544148	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544148	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544178	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544178	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544179	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544179	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544193	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544193	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544194	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544194	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544201	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544201	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544202	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544202	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544210	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544210	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544251	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544251	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544251	-	CDCA3	nan
+NC029516.1_69544259	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544259	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544259	-	CDCA3	nan
+NC029516.1_69544262	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544262	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544262	-	CDCA3	nan
+NC029516.1_69544265	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544265	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544265	-	CDCA3	nan
+NC029516.1_69544271	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544271	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544271	-	CDCA3	nan
+NC029516.1_69544272	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544272	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544272	-	CDCA3	nan
+NC029516.1_69544283	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544283	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544283	-	CDCA3	nan
+NC029516.1_69544284	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544284	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544284	-	CDCA3	nan
+NC029516.1_69544307	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544307	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544307	-	CDCA3	nan
+NC029516.1_69544308	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544308	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544308	-	CDCA3	nan
+NC029516.1_69544316	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544316	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544316	-	CDCA3	nan
+NC029516.1_69544317	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544317	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544317	-	CDCA3	nan
+NC029516.1_69544331	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544331	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544331	-	CDCA3	nan
+NC029516.1_69544332	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544332	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544332	-	CDCA3	nan
+NC029516.1_69544341	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544341	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544341	-	CDCA3	nan
+NC029516.1_69544342	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544342	+	USP5	ubiquitin specific peptidase 5 [Source:NCBI gene;Acc:107318630]
+NC029516.1_69544342	-	CDCA3	nan
+NC029517.1_29898475	-	HOXA10	homeobox A10 [Source:NCBI gene;Acc:107309221]
+NC029517.1_29898476	-	HOXA10	homeobox A10 [Source:NCBI gene;Acc:107309221]
+NC029517.1_29898508	-	HOXA10	homeobox A10 [Source:NCBI gene;Acc:107309221]
+NC029517.1_72373160	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373160	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373160	-	LOC116652929	nan
+NC029517.1_72373167	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373167	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373167	-	LOC116652929	nan
+NC029517.1_72373179	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373179	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373179	-	LOC116652929	nan
+NC029517.1_72373181	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373181	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373181	-	LOC116652929	nan
+NC029517.1_72373186	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373186	+	LOC107309790	probable 2-ketogluconate reductase [Source:NCBI gene;Acc:107309790]
+NC029517.1_72373186	-	LOC116652929	nan
+NC029517.1_104232698	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232698	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232698	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232761	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232761	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232761	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232766	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232766	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232766	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232782	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232782	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232782	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232783	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232783	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232783	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232805	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232805	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232805	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232806	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232806	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232806	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232824	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232824	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232824	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232825	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232825	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232825	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232833	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232833	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232833	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232842	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232842	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232842	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232843	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232843	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232843	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232849	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232849	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029517.1_104232849	+	ADHFE1	alcohol dehydrogenase iron containing 1 [Source:NCBI gene;Acc:107310256]
+NC029518.1_23087339	-	SIX2	SIX homeobox 2 [Source:NCBI gene;Acc:107311197]
+NC029518.1_23087340	-	SIX2	SIX homeobox 2 [Source:NCBI gene;Acc:107311197]
+NC029518.1_23087355	-	SIX2	SIX homeobox 2 [Source:NCBI gene;Acc:107311197]
+NC029518.1_23087356	-	SIX2	SIX homeobox 2 [Source:NCBI gene;Acc:107311197]
+NC029518.1_23087372	-	SIX2	SIX homeobox 2 [Source:NCBI gene;Acc:107311197]
+NC029518.1_23087376	-	SIX2	SIX homeobox 2 [Source:NCBI gene;Acc:107311197]
+NC029518.1_23087377	-	SIX2	SIX homeobox 2 [Source:NCBI gene;Acc:107311197]
+NC029519.1_33648131	-	SGMS2	sphingomyelin synthase 2 [Source:NCBI gene;Acc:107313258]
+NC029519.1_33648140	-	SGMS2	sphingomyelin synthase 2 [Source:NCBI gene;Acc:107313258]
+NC029521.1_19272061	+	SLC25A28	solute carrier family 25 member 28 [Source:NCBI gene;Acc:107316105]
+NC029521.1_19272063	+	SLC25A28	solute carrier family 25 member 28 [Source:NCBI gene;Acc:107316105]
+NC029521.1_20167839	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167839	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167868	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167868	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167876	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167876	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167897	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167897	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167913	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167913	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167959	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167959	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167974	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167974	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167980	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20167980	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168045	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168045	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168047	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168047	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168051	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168051	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168055	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168055	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168065	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168065	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168073	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168073	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168082	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168082	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168158	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029521.1_20168158	-	TLX1	T cell leukemia homeobox 1 [Source:NCBI gene;Acc:107315946]
+NC029522.1_24529143	-	LOC107316923	nan
+NC029522.1_24529144	-	LOC107316923	nan
+NC029522.1_24529147	-	LOC107316923	nan
+NC029522.1_24529148	-	LOC107316923	nan
+NC029522.1_24529151	-	LOC107316923	nan
+NC029522.1_24529174	-	LOC107316923	nan
+NC029522.1_24529178	-	LOC107316923	nan
+NC029522.1_24529179	-	LOC107316923	nan
+NC029522.1_24529189	-	LOC107316923	nan
+NC029522.1_24529194	-	LOC107316923	nan
+NC029522.1_24529200	-	LOC107316923	nan
+NC029522.1_24529203	-	LOC107316923	nan
+NC029522.1_24529206	-	LOC107316923	nan
+NC029522.1_24529220	-	LOC107316923	nan
+NC029522.1_24529234	-	LOC107316923	nan
+NC029522.1_24529301	-	LOC107316923	nan
+NC029522.1_24529330	-	LOC107316923	nan
+NC029522.1_24529337	-	LOC107316923	nan
+NC029522.1_24529355	-	LOC107316923	nan
+NC029522.1_24529373	-	LOC107316923	nan
+NC029522.1_24529381	-	LOC107316923	nan
+NC029522.1_24529386	-	LOC107316923	nan
+NC029522.1_24529390	-	LOC107316923	nan
+NC029522.1_24529396	-	LOC107316923	nan
+NC029524.1_13928765	+	FAM131A	nan
+NC029524.1_13928765	+	FAM131A	nan
+NC029524.1_13928765	+	FAM131A	nan
+NC029527.1_9006702	+	LOC107319800	nan
+NC029527.1_9006702	+	LOC107319800	nan
+NC029527.1_9006702	+	LOC107319800	nan
+NC029527.1_9006702	+	LOC107319800	nan
+NC029527.1_9006702	+	LOC107319800	nan
+NC029527.1_9006702	-	TADA3	transcriptional adaptor 3 [Source:NCBI gene;Acc:107319802]
+NC029527.1_9006728	+	LOC107319800	nan
+NC029527.1_9006728	+	LOC107319800	nan
+NC029527.1_9006728	+	LOC107319800	nan
+NC029527.1_9006728	+	LOC107319800	nan
+NC029527.1_9006728	+	LOC107319800	nan
+NC029527.1_9006728	-	TADA3	transcriptional adaptor 3 [Source:NCBI gene;Acc:107319802]
+NC029527.1_9006734	+	LOC107319800	nan
+NC029527.1_9006734	+	LOC107319800	nan
+NC029527.1_9006734	+	LOC107319800	nan
+NC029527.1_9006734	+	LOC107319800	nan
+NC029527.1_9006734	+	LOC107319800	nan
+NC029527.1_9006734	-	TADA3	transcriptional adaptor 3 [Source:NCBI gene;Acc:107319802]
+NC029527.1_9121011	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121011	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121011	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121050	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121050	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121050	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121096	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121096	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121096	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121099	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121099	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121099	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121105	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121105	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9121105	+	QRICH1	glutamine rich 1 [Source:NCBI gene;Acc:107319828]
+NC029527.1_9165887	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029527.1_9165887	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029527.1_9165896	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029527.1_9165896	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029527.1_9165897	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029527.1_9165897	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029527.1_9165898	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029527.1_9165898	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029527.1_9165899	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029527.1_9165899	-	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3 [Source:NCBI gene;Acc:107319832]
+NC029528.1_13548414	+	TLX3	T cell leukemia homeobox 3 [Source:NCBI gene;Acc:107320303]
+NC029528.1_13548421	+	TLX3	T cell leukemia homeobox 3 [Source:NCBI gene;Acc:107320303]
+NC029528.1_13548652	+	TLX3	T cell leukemia homeobox 3 [Source:NCBI gene;Acc:107320303]
+NC029529.1_12712009	+	LYRM1	LYR motif containing 1 [Source:NCBI gene;Acc:107321011]
+NC029529.1_12712009	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712009	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712009	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712017	+	LYRM1	LYR motif containing 1 [Source:NCBI gene;Acc:107321011]
+NC029529.1_12712017	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712017	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712017	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712033	+	LYRM1	LYR motif containing 1 [Source:NCBI gene;Acc:107321011]
+NC029529.1_12712033	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712033	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712033	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712052	+	LYRM1	LYR motif containing 1 [Source:NCBI gene;Acc:107321011]
+NC029529.1_12712052	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712052	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029529.1_12712052	-	DCUN1D3	defective in cullin neddylation 1 domain containing 3 [Source:NCBI gene;Acc:107321008]
+NC029532.1_7045840	+	DAB2IP	DAB2 interacting protein [Source:NCBI gene;Acc:107321754]
+NC029532.1_7045897	+	DAB2IP	DAB2 interacting protein [Source:NCBI gene;Acc:107321754]
+NC029532.1_7045901	+	DAB2IP	DAB2 interacting protein [Source:NCBI gene;Acc:107321754]
+NC029532.1_7045936	+	DAB2IP	DAB2 interacting protein [Source:NCBI gene;Acc:107321754]
+NC029533.1_4494492	-	SLC25A10	nan
+NC029533.1_4494492	-	SLC25A10	nan
+NC029533.1_4494514	-	SLC25A10	nan
+NC029533.1_4494514	-	SLC25A10	nan
+NC029533.1_4494626	-	SLC25A10	nan
+NC029533.1_4494626	-	SLC25A10	nan
+NC029533.1_4494646	-	SLC25A10	nan
+NC029533.1_4494646	-	SLC25A10	nan
+NC029533.1_4494662	-	SLC25A10	nan
+NC029533.1_4494662	-	SLC25A10	nan
+NC029533.1_4494668	-	SLC25A10	nan
+NC029533.1_4494668	-	SLC25A10	nan
+NC029533.1_4494685	-	SLC25A10	nan
+NC029533.1_4494685	-	SLC25A10	nan
+NC029536.1_468512	+	PLEKHG5	pleckstrin homology and RhoGEF domain containing G5 [Source:NCBI gene;Acc:107323439]
+NC029538.1_9432	-	BLOC1S3	nan
+NC029538.1_9432	-	BLOC1S3	nan
+NC029538.1_9432	-	BLOC1S3	nan
+NC029539.1_5026005	-	LOC107324297	nan
+NC029541.1_850960	+	ZC3H11A
+NC029541.1_850977	+	ZC3H11A
+NC029541.1_851024	+	ZC3H11A
+NC029541.1_851049	+	ZC3H11A
+NC029541.1_851067	+	ZC3H11A
+NC029541.1_851094	+	ZC3H11A
+NC029541.1_851123	+	ZC3H11A
+NC029541.1_851128	+	ZC3H11A
+NC029541.1_851129	+	ZC3H11A
+NC029541.1_851202	+	ZC3H11A
+NC029541.1_851203	+	ZC3H11A
+NC029544.1_1215824	+	LOC107325817	keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+NC029544.1_1215833	+	LOC107325817	keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+NC029544.1_1215872	+	LOC107325817	keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+NC029544.1_1215875	+	LOC107325817	keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+NC029544.1_1215885	+	LOC107325817	keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+NC029544.1_1215902	+	LOC107325817	keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+NC029544.1_1215959	+	LOC107325817	keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+NC029544.1_1215971	+	LOC107325817	keratin, type II cytoskeletal 5-like [Source:NCBI gene;Acc:107325817]
+NW015439354.1_45	+	LOC107306796	nan
+NW015439354.1_76	+	LOC107306796	nan
+NW015439354.1_98	+	LOC107306796	nan
+NW015439354.1_189	+	LOC107306796	nan
+NW015439354.1_192	+	LOC107306796	nan
+NW015439354.1_201	+	LOC107306796	nan
+NW015439354.1_206	+	LOC107306796	nan
+NW015439354.1_215	+	LOC107306796	nan
+NW015439354.1_220	+	LOC107306796	nan
+NW015439354.1_222	+	LOC107306796	nan
+NW015439354.1_230	+	LOC107306796	nan
+NW015440078.1_20042	+	LOC107307618	nan
+NW015440078.1_20042	+	LOC107307618	nan
+NW015440078.1_20042	+	LOC107307618	nan
+NW015440078.1_20048	+	LOC107307618	nan
+NW015440078.1_20048	+	LOC107307618	nan
+NW015440078.1_20048	+	LOC107307618	nan
+NW015440078.1_20054	+	LOC107307618	nan
+NW015440078.1_20054	+	LOC107307618	nan
+NW015440078.1_20054	+	LOC107307618	nan

@@ -1,0 +1,40 @@
+GO:0010629;BP;339;D06;negative regulation of gene expression;APLN;PLAG1
+GO:0010628;BP;193;D06;positive regulation of gene expression;FOXC1,LIF;PLAG1
+GO:0019827;BP;31;D03;stem cell population maintenance;LIF;DIS3L2
+GO:0006351;BP;390;D09;transcription. DNA-templated;POLRMT;PLAG1
+GO:0006355;BP;306;D09;regulation of transcription. DNA-templated;FOXC1,NR3C1;NFIC,TLX1
+GO:0045892;BP;113;D10;negative regulation of transcription. DNA-templated;HDAC3,NR3C1;ID1
+GO:0045893;BP;99;D10;positive regulation of transcription. DNA-templated;EDRF1,FOXC1,FZD2;QRICH1
+GO:0045944;BP;63;D11;positive regulation of transcription by RNA polymerase II;CSF3,FOXC1,HDAC3,LIF,NR3C1;NFIC,PLAG1,TOP2A
+GO:0000122;BP;33;D11;negative regulation of transcription by RNA polymerase II;FOXC1,HDAC3,NR3C1;NFIC
+GO:0006974;BP;181;D04;cellular response to DNA damage stimulus;DDB1;TOP2A
+GO:0034976;BP;64;D04;response to endoplasmic reticulum stress;SEL1L;QRICH1
+GO:0030968;BP;16;D05;endoplasmic reticulum unfolded protein response;TBL2;QRICH1
+GO:0008285;BP;88;D05;negative regulation of cell population proliferation;LIF;DIS3L2
+GO:0006364;BP;65;D09;rRNA processing;PIN4;PIN4
+GO:0042752;BP;21;D03;regulation of circadian rhythm;DDB1;TOP2A
+GO:0005886;CC;470;D03;plasma membrane;BCORL1,DDR2,FZD2,HCN2,HDAC3,ITGA3,LOC107312614,PTPRS,SLC26A11;CSMD3
+GO:0005737;CC;1226;D02;cytoplasm;DDB1,FZD2,HDAC3,LOC107312614,NDRG4,NR3C1,SARM1;DIS3L2,ID1,TOP2A
+GO:0005829;CC;84;D02;cytosol;FOXC1,GM2A,HDAC3,LIF,LOC107312614,NR3C1,PTPRS,VPS53;ACOT7,PLAG1
+GO:0032991;CC;2098;D01;protein-containing complex;CCDC113,DDB1,NR3C1,POLG,POLRMT;TOP2A
+GO:0005739;CC;91;D05;mitochondrion;POLG,POLRMT,SARM1,TIMM17A;ADHFE1,SLC25A28
+GO:0005634;CC;490;D05;nucleus;DDB1,FOXC1,HDAC3,NR3C1;ID1,NFIC,QRICH1,TOP2A
+GO:0005654;CC;86;D02;nucleoplasm;BCORL1,DDB1,FOXC1,HDAC3,LOC107312614,NR3C1,NUP50,PIN4,SLC26A11,TIMM17A;ACOT7,NFIC,PIN4,PLAG1,QRICH1,TOP2A
+GO:0005730;CC;24;D05;nucleolus;PIN4;PIN4,TOP2A
+GO:0016607;CC;1;D03;nuclear speck;NR3C1;PLAG1
+GO:0005694;CC;192;D05;chromosome;PIN4;PIN4
+GO:0005515;MF;921;D02;protein binding;BCORL1,CALR3,DDB1,EDRF1,FZD2,GAS2L1,INSRR,KCNC2,LOC107312614,POLRMT,PTPRS,SARM1,SEL1L,SEMA3B,TBL2;ESPN,LINGO1
+GO:0003682;MF;8;D02;chromatin binding;HDAC3,POLG;TOP2A
+GO:0046982;MF;0;D04;protein heterodimerization activity;ITGA3;TOP2A
+GO:0003755;MF;0;D04;peptidyl-prolyl cis-trans isomerase activity;PIN4;PIN4
+GO:0005524;MF;0;D08;ATP binding;DDR2,INSRR,MAPK10;TOP2A
+GO:0003677;MF;130;D04;DNA binding;FOXC1,NR3C1,PIN4,POLG,POLRMT;PIN4,QRICH1,TLX1,TOP2A
+GO:1990837;MF;51;D06;sequence-specific double-stranded DNA binding;NR3C1;NFIC
+GO:0000978;MF;11;D09;RNA polymerase II cis-regulatory region sequence-specific DNA binding;FOXC1,NR3C1;NFIC,PLAG1
+GO:0008301;MF;4;D05;DNA binding. bending;FOXC1;TOP2A
+GO:0019899;MF;70;D03;enzyme binding;CSF3,HDAC3;TOP2A
+GO:0042826;MF;0;D04;histone deacetylase binding;HDAC3;TOP2A
+GO:0003779;MF;3;D04;actin binding;PHACTR4;ESPN
+GO:0003700;MF;10;D02;DNA-binding transcription factor activity;FOXC1,NR3C1;NFIC,TLX1
+GO:0000981;MF;3;D03;DNA-binding transcription factor activity. RNA polymerase II-specific;FOXC1;TLX1
+GO:0001228;MF;0;D04;DNA-binding transcription activator activity. RNA polymerase II-specific;FOXC1,NR3C1;NFIC,PLAG1

@@ -1,0 +1,34 @@
+GO:0010628;BP;193;D06;positive regulation of gene expression;TADA3;PLAG1
+GO:0006355;BP;306;D09;regulation of transcription. DNA-templated;SIX2,TLX1,TLX3;NFIC,TLX1
+GO:0045892;BP;113;D10;negative regulation of transcription. DNA-templated;DAB2IP;ID1
+GO:0045893;BP;99;D10;positive regulation of transcription. DNA-templated;QRICH1,TADA3;QRICH1
+GO:0045944;BP;63;D11;positive regulation of transcription by RNA polymerase II;DAB2IP,HOXA10,SIX2;NFIC,PLAG1,TOP2A
+GO:0000122;BP;33;D11;negative regulation of transcription by RNA polymerase II;DAB2IP;NFIC
+GO:0034976;BP;64;D04;response to endoplasmic reticulum stress;QRICH1;QRICH1
+GO:0030968;BP;16;D05;endoplasmic reticulum unfolded protein response;QRICH1;QRICH1
+GO:0140467;BP;7;D04;integrated stress response signaling;QRICH1;QRICH1
+GO:0036499;BP;3;D06;PERK-mediated unfolded protein response;QRICH1;QRICH1
+GO:0043065;BP;80;D07;positive regulation of apoptotic process;DAB2IP,DCUN1D3,QRICH1;QRICH1,TOP2A
+GO:0070059;BP;6;D07;intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress;DAB2IP,QRICH1;QRICH1
+GO:0008285;BP;88;D05;negative regulation of cell population proliferation;DAB2IP;DIS3L2
+GO:0000278;BP;318;D03;mitotic cell cycle;TADA3;DIS3L2
+GO:0005886;CC;470;D03;plasma membrane;DAB2IP,DCUN1D3,SGMS2;CSMD3
+GO:0005737;CC;1226;D02;cytoplasm;DAB2IP,DCUN1D3,HOXA10;DIS3L2,ID1,TOP2A
+GO:0005739;CC;91;D05;mitochondrion;ADHFE1,SLC25A28;ADHFE1,SLC25A28
+GO:0005634;CC;490;D05;nucleus;DCUN1D3,HOXA10,NDUFAF3,QRICH1,SIX2,TADA3,TLX3;ID1,NFIC,QRICH1,TOP2A
+GO:0005654;CC;86;D02;nucleoplasm;HOXA10,LYRM1,QRICH1,TADA3,TLX3;ACOT7,NFIC,PIN4,PLAG1,QRICH1,TOP2A
+GO:0045095;CC;0;D07;keratin filament;LOC107325817;LOC107325817
+GO:0016491;MF;2428;D02;oxidoreductase activity;ADHFE1;ADHFE1
+GO:0016616;MF;417;D04;oxidoreductase activity. acting on the CH-OH group of donors; NAD or NADP as acceptor,LOC107309790;LOC107309790
+GO:0005515;MF;921;D02;protein binding;USP5;ESPN,LINGO1
+GO:0051287;MF;2;D05;NAD binding;LOC107309790;LOC107309790
+GO:0042803;MF;0;D04;protein homodimerization activity;DAB2IP;ACOT7,TOP2A
+GO:0046872;MF;30;D04;metal ion binding;ADHFE1;ADHFE1
+GO:0003677;MF;130;D04;DNA binding;HOXA10,QRICH1,SIX2,TLX1,TLX3;PIN4,QRICH1,TLX1,TOP2A
+GO:1990837;MF;51;D06;sequence-specific double-stranded DNA binding;HOXA10,SIX2,TLX3;NFIC
+GO:0000978;MF;11;D09;RNA polymerase II cis-regulatory region sequence-specific DNA binding;HOXA10,SIX2;NFIC,PLAG1
+GO:0042826;MF;0;D04;histone deacetylase binding;HOXA10;TOP2A
+GO:0003700;MF;10;D02;DNA-binding transcription factor activity;SIX2,TLX1,TLX3;NFIC,TLX1
+GO:0000981;MF;3;D03;DNA-binding transcription factor activity. RNA polymerase II-specific;SIX2,TLX1,TLX3;TLX1
+GO:0001228;MF;0;D04;DNA-binding transcription activator activity. RNA polymerase II-specific;HOXA10,SIX2;NFIC,PLAG1
+GO:0043130;MF;1;D04;ubiquitin binding;USP5;TOP2A

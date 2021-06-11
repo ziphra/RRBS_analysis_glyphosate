@@ -1,0 +1,94 @@
+GO:0009749;BP;16;D07;response to glucose;SARM1;SARM1
+GO:0006355;BP;306;D09;regulation of transcription. DNA-templated;GATA6,HOXA4,NR6A1;FOXC1,NR3C1
+GO:0045892;BP;113;D10;negative regulation of transcription. DNA-templated;GATA6;HDAC3,NR3C1
+GO:0045893;BP;99;D10;positive regulation of transcription. DNA-templated;GATA6;EDRF1,FOXC1,FZD2
+GO:0045944;BP;63;D11;positive regulation of transcription by RNA polymerase II;GATA6,IRF2BPL,NR6A1;CSF3,FOXC1,HDAC3,LIF,NR3C1
+GO:0000122;BP;33;D11;negative regulation of transcription by RNA polymerase II;CCND1,GATA6,IRF2BPL,NR6A1;FOXC1,HDAC3,NR3C1
+GO:0008272;BP;3;D07;sulfate transport;SLC26A11;SLC26A11
+GO:0030855;BP;340;D04;epithelial cell differentiation;GATA6;FZD2
+GO:0048709;BP;11;D05;oligodendrocyte differentiation;VTN;VTN
+GO:0007165;BP;1654;D04;signal transduction;SARM1;APLN,SARM1
+GO:0007186;BP;174;D05;G protein-coupled receptor signaling pathway;LOC107318988;CCKBR,LOC107308614,XCR1
+GO:0034128;BP;0;D09;negative regulation of MyD88-independent toll-like receptor signaling pathway;SARM1;SARM1
+GO:0006955;BP;752;D02;immune response;VTN;CSF3,LIF,VTN
+GO:0006974;BP;181;D04;cellular response to DNA damage stimulus;CCND1,SPDYA;DDB1
+GO:0048678;BP;34;D04;response to axon injury;SARM1;SARM1
+GO:0030968;BP;16;D05;endoplasmic reticulum unfolded protein response;CCND1;TBL2
+GO:0071456;BP;14;D06;cellular response to hypoxia;GATA6;TBL2
+GO:0006468;BP;190;D07;protein phosphorylation;CCND1,MAPK10;DDR2,INSRR,MAPK10
+GO:0001934;BP;50;D09;positive regulation of protein phosphorylation;CCND1;HDAC3
+GO:0045860;BP;34;D10;positive regulation of protein kinase activity;SPDYA;DDR2
+GO:0055085;BP;747;D04;transmembrane transport;SLC26A11;HCN2,KCNC2,SLC26A11,SLC2A11
+GO:0016055;BP;138;D07;Wnt signaling pathway;CCND1;DDB1,FZD2
+GO:0001701;BP;42;D07;in utero embryonic development;GATA6;FOXC1
+GO:0042981;BP;252;D06;regulation of apoptotic process;SARM1;SARM1
+GO:0043066;BP;91;D07;negative regulation of apoptotic process;GATA6;DDB1
+GO:1901214;BP;27;D05;regulation of neuron death;SARM1;SARM1
+GO:1901216;BP;6;D06;positive regulation of neuron death;SARM1;SARM1
+GO:0008284;BP;97;D05;positive regulation of cell population proliferation;SPDYA;CCKBR,DDR2,LIF
+GO:0032456;BP;12;D06;endocytic recycling;VPS53;VPS53
+GO:0042147;BP;6;D06;retrograde transport. endosome to Golgi;VPS53;VPS53
+GO:0007160;BP;22;D04;cell-matrix adhesion;VTN;VTN
+GO:0010811;BP;7;D06;positive regulation of cell-substrate adhesion;VTN;VTN
+GO:0019677;BP;0;D10;NAD catabolic process;SARM1;SARM1
+GO:0048814;BP;3;D09;regulation of dendrite morphogenesis;SARM1;SARM1
+GO:0007041;BP;20;D05;lysosomal transport;VPS53;VPS53
+GO:0030198;BP;45;D05;extracellular matrix organization;VTN;VTN
+GO:0016020;CC;1047;D02;membrane;SEMA4B,SLC26A11,VPS53;CCKBR,DDR2,FZD2,HCN2,INSRR,KCNC2,SLC26A11,SLC2A11,VPS53
+GO:0005886;CC;470;D03;plasma membrane;SEMA4B,SLC26A11;BCORL1,DDR2,FZD2,HCN2,HDAC3,ITGA3,LOC107312614,PTPRS,SLC26A11
+GO:0016021;CC;232;D03;integral component of membrane;LOC107318988,SLC26A11;CCKBR,FZD2,INSRR,LOC107308614,SLC26A11,SLC2A11,XCR1
+GO:0045202;CC;189;D03;synapse;SARM1,SEMA4B;ITGA3,SARM1
+GO:0030425;CC;41;D05;dendrite;SARM1;KCNC2,SARM1
+GO:0005737;CC;1226;D02;cytoplasm;CCND1,LOC107307715,SARM1;DDB1,FZD2,HDAC3,LOC107312614,NDRG4,NR3C1,SARM1
+GO:0005829;CC;84;D02;cytosol;VPS53;FOXC1,GM2A,HDAC3,LIF,LOC107312614,NR3C1,PTPRS,VPS53
+GO:0048471;CC;7;D02;perinuclear region of cytoplasm;VPS53;VPS53
+GO:0017053;CC;15;D03;transcription repressor complex;CCND1;HDAC3
+GO:0043231;CC;1289;D04;intracellular membrane-bounded organelle;SLC26A11,VPS53;GM2A,SLC26A11,VPS53
+GO:0005783;CC;106;D05;endoplasmic reticulum;SLC26A11;CALR3,MOGS,SEL1L,SLC26A11,TBL2
+GO:0005739;CC;91;D05;mitochondrion;SARM1;POLG,POLRMT,SARM1,TIMM17A
+GO:0005794;CC;46;D05;Golgi apparatus;SLC26A11,VPS53;HDAC3,SLC26A11,VPS53
+GO:0055037;CC;12;D08;recycling endosome;VPS53;VPS53
+GO:0005802;CC;1;D04;trans-Golgi network;VPS53;VPS53
+GO:0000938;CC;0;D03;GARP complex;VPS53;VPS53
+GO:1990745;CC;0;D02;EARP complex;VPS53;VPS53
+GO:0031315;CC;0;D04;extrinsic component of mitochondrial outer membrane;SARM1;SARM1
+GO:0005634;CC;490;D05;nucleus;CCND1,GATA6,LOC107307715,SPDYA;DDB1,FOXC1,HDAC3,NR3C1
+GO:0005654;CC;86;D02;nucleoplasm;CCND1,GATA6,IRF2BPL,SLC26A11,SPDYA;BCORL1,DDB1,FOXC1,HDAC3,LOC107312614,NR3C1,NUP50,PIN4,SLC26A11,TIMM17A
+GO:0031965;CC;10;D04;nuclear membrane;GATA6;NUP50
+GO:0015630;CC;103;D06;microtubule cytoskeleton;SARM1;SARM1
+GO:0005874;CC;30;D06;microtubule;SARM1;MAP6D1,SARM1
+GO:0031012;CC;89;D03;extracellular matrix;VTN;VTN
+GO:0005765;CC;14;D07;lysosomal membrane;SLC26A11;NPRL2,SLC26A11
+GO:0005515;MF;921;D02;protein binding;SARM1,SEMA4B;BCORL1,CALR3,DDB1,EDRF1,FZD2,GAS2L1,INSRR,KCNC2,LOC107312614,POLRMT,PTPRS,SARM1,SEL1L,SEMA3B,TBL2
+GO:0005102;MF;419;D03;signaling receptor binding;INHA;LIF
+GO:0030247;MF;21;D03;polysaccharide binding;VTN;VTN
+GO:0003682;MF;8;D02;chromatin binding;GATA6;HDAC3,POLG
+GO:0050840;MF;5;D02;extracellular matrix binding;VTN
+GO:0030215;MF;0;D04;semaphorin receptor binding;SEMA4B;SEMA3B
+GO:0008509;MF;285;D04;anion transmembrane transporter activity;SLC26A11;SLC26A11
+GO:0015116;MF;9;D06;sulfate transmembrane transporter activity;SLC26A11;SLC26A11
+GO:0008271;MF;6;D07;secondary active sulfate transmembrane transporter activity;SLC26A11;SLC26A11
+GO:0004930;MF;158;D04;G protein-coupled receptor activity;LOC107318988;CCKBR,LOC107308614,XCR1
+GO:0004672;MF;108;D05;protein kinase activity;CCND1,MAPK10;DDR2,INSRR,MAPK10,NPRL2
+GO:0004707;MF;1;D07;MAP kinase activity;MAPK10;MAPK10
+GO:0003953;MF;2;D05;NAD+ nucleosidase activity;SARM1;SARM1
+GO:0061809;MF;0;D06;NAD+ nucleotidase. cyclic ADP-ribose generating;SARM1;SARM1
+GO:0005509;MF;4;D05;calcium ion binding;LOC107307715;CALR3
+GO:0008270;MF;1;D06;zinc ion binding;GATA6,LOC107307715,NR6A1;NR3C1
+GO:0005524;MF;0;D08;ATP binding;MAPK10;DDR2,INSRR,MAPK10
+GO:0003677;MF;130;D04;DNA binding;GATA6,HOXA4;FOXC1,NR3C1,PIN4,POLG,POLRMT
+GO:0043565;MF;62;D05;sequence-specific DNA binding;GATA6,NR6A1;FOXC1,NR3C1,POLRMT
+GO:1990837;MF;51;D06;sequence-specific double-stranded DNA binding;GATA6,HOXA4,NR6A1;NR3C1
+GO:0000976;MF;34;D07;transcription cis-regulatory region binding;GATA6;FOXC1
+GO:0000978;MF;11;D09;RNA polymerase II cis-regulatory region sequence-specific DNA binding;GATA6,NR6A1;FOXC1,NR3C1
+GO:0019899;MF;70;D03;enzyme binding;CCND1;CSF3,HDAC3
+GO:0019901;MF;15;D05;protein kinase binding;CCND1,GATA6,SPDYA;NR3C1,TBL2
+GO:0042826;MF;0;D04;histone deacetylase binding;CCND1;HDAC3
+GO:0008134;MF;38;D03;transcription factor binding;CCND1,GATA6;FOXC1,HDAC3
+GO:0008083;MF;0;D05;growth factor activity;INHA;LIF
+GO:0035591;MF;5;D03;signaling adaptor activity;SARM1;SARM1
+GO:0003714;MF;2;D03;transcription corepressor activity;CCND1;HDAC3
+GO:0005044;MF;0;D02;scavenger receptor activity;VTN;VTN
+GO:0003700;MF;10;D02;DNA-binding transcription factor activity;GATA6,LOC107318989,NR6A1;FOXC1,NR3C1
+GO:0000981;MF;3;D03;DNA-binding transcription factor activity. RNA polymerase II-specific;GATA6,HOXA4;FOXC1
+GO:0001228;MF;0;D04;DNA-binding transcription activator activity. RNA polymerase II-specific;NR6A1;FOXC1,NR3C1
