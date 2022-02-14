@@ -243,7 +243,7 @@ Coordinates of differentially methylated sites were crossed with Japanese quail'
 ![gp_glyphm12](./img/GM12.png)
 
 ### GOs comparison
-see Table 
+see [table here](./table/compare_all_tred.pdf).
 
 
 ## Some stats 
