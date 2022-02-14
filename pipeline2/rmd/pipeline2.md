@@ -491,7 +491,7 @@ promoters and their genes’ ids.
 
 ### GOs comparison
 
-see Table
+see [table here](./table/compare_all_tred.pdf).
 
 ## Some stats
 
